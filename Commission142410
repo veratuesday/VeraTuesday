@@ -1,0 +1,447 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* BACKGROUND IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/Wp8fmf2B/2.png') !important;
+}
+
+/* CURSOR */
+* {
+	cursor: url('https://i.postimg.cc/kG7jWW6F/Image-To-Stl-com-cursor-1.png'), progress !important;
+}
+
+/* HEADING */
+h1 {
+	font-family: 'Libre Baskerville';
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	color: #faf5d4;
+}
+
+/* TEXT */
+* {
+	font-family: 'Libertinus Serif';
+	color: #e9c077;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none;
+}
+
+#header.container .navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #80430dab;
+	color: #e9c077 !important;
+}
+
+#header .navbar-main .nav-link .fa {
+	color: white;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #5d1412cc;
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #490801db;
+}
+
+li.breadcrumb-item a {
+	color: #faf5d4 !important;
+}
+
+li.breadcrumb-item.active {
+	color: #e9c077 !important;
+}
+
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677";
+	color: #e9c07794;
+	font-size: 14px !important;
+	position: absolute;
+	right: 6%;
+	z-index: 100;
+}
+
+/* SIDEBAR */
+#sidebar {
+	background-color: #300703de;
+}
+
+#sidebar .card {
+	background-color: #5d1412;
+	border-radius: 20px;
+	border-bottom: solid 5px #270502;
+	margin-top: 15px;
+}
+
+div.card span {
+	color: #faf5d4;
+}
+
+#quest-widget.card small {
+	color: #faf5d4 !important;
+}
+
+#quest-widget.card .text-center.mb-0.mt-2 small {
+	color: #e9c077 !important;
+}
+
+img[alt='Wolf Headshot'] {
+	border-radius: 100px;
+	border: solid 3px #faf5d4;
+}
+
+div.w-50.pl-2.small.d-flex.flex-column.justify-content-center .mb-3 {
+	color: #faf5d4;
+}
+
+#sidebar #card-user a {
+	color: #faf5d4;
+}
+
+#sidebar #card-user h3 a {
+	color: #ccad7e;
+}
+
+.progress {
+	color: #faf5d4 !important;
+}
+
+.bg-warning {
+	color: #cba156 !important;
+}
+
+#sidebar .bg-danger {
+	color: #712b29;
+}
+
+#sidebar .bg-info {
+	color: #a6d1f4;
+}
+
+#sidebar .bg-success {
+	color: #6e700a;
+}
+
+ul.bookmarks a {
+	color: #faf5d4;
+}
+
+h4.card-title a {
+	color: #faf5d4;
+}
+
+.s-chat-sidebar #chatMessageContainer {
+	border: none;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	background-color: #2f0c0d;
+	border: none;
+}
+
+.s-chat-sidebar #chatMessagePinned.s-chat-message__pinned {
+	background-color: #233c65;
+}
+
+#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
+	background-color: #233c65;
+	box-shadow: none;
+}
+
+.s-chat-sidebar #chatMessageList .s-chat-message_content {
+	color: #faf5d4 !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background-color: #2f0c0d;
+}
+
+.s-chat-message:nth-child(2n) {
+	background-color: #1f0506;
+}
+
+#fra_chatContainer #txtChatInput {
+	background-color: #2f0c0d;
+	border: none;
+}
+
+.btn-primary,
+.btn-success {
+	background-color: #6e700a;
+}
+
+#sidebar .card.d-none.d-lg-inline-block b,
+strong {
+	color: #faf5d4;
+}
+
+/* MAIN */
+#main {
+	background-color: #300703de;
+}
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+	color: #e9c077;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	color: #e9c077;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	color: #faf5d4;
+	background-color: #6e700a85;
+	border-radius: 100px;
+	border: none;
+	;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+.alert-danger {
+	background: none;
+	border: dashed 3px #853a38;
+	border-radius: 100px;
+	margin: 0;
+	padding-bottom: 15px !important;
+}
+
+.alert-danger a {
+	color: #faf5d4;
+}
+
+.alert-info {
+	background-color: #e9c07785;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	padding-bottom: 10px;
+}
+.table {
+	background: none !important;
+	border: none !important;
+}
+
+/* LEAD AND FEATURED WOLF */
+th.pt-1.pb-1 {
+	background-color: #3a0706;
+	font-size: 25px !important;
+	border-radius: 15px 15px 0 0;
+}
+
+#lblPackLeaderTitle {
+	color: #faf5d4;
+}
+
+.table.table-striped.border-none.mt-3.mb-0 tr {
+	background: none !important;
+	border: none;
+}
+
+td.row {
+	background-color: #5d1412;
+	margin: 0;
+	border-radius: 0 0 15px 15px;
+}
+
+div.col-xl-3.col-sm-7.text-center {
+	margin-top: 20px !important;
+	background-color: transparent !important;
+}
+
+.border-none .card-img-top,
+.table .form-row img {
+	border-radius: 30px;
+	border: solid 3px #e9c077;
+	margin-top: 10px !important
+}
+
+.border-none .card {
+	background-color: transparent !important;
+}
+
+.card-body.pt-1.pb-1 {
+	display: none;
+}
+
+.table th a {
+	color: #faf5d4;
+}
+
+.featured-wolf img {
+	width: 160.25px !important;
+	height: 160.25px !important;
+	border-radius: 30px;
+	border: solid 3px #e9c077;
+}
+
+#lblFeaturedWolfTitle {
+	font-size: 20px;
+	color: #faf5d4;
+	font-weight: lighter;
+}
+
+.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	font-size: 17px;
+	color: #faf5d4;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+	display: none;
+}
+
+.col-xl-6.col-sm-12.order-xl-9.order-12 td {
+	background-color: #5d1412;
+	text-align: center;
+}
+
+.col-xl-6.col-sm-12.order-xl-9.order-12 td.b {
+	text-align: right;
+}
+
+.fa-circle:before {
+	color: #6e700a;
+}
+
+.col-xl-6.col-sm-12.order-xl-9.order-12 a {
+	color: #faf5d4;
+}
+
+/* DEN CARDS */
+#denCards .card {
+	background: none;
+	border-radius: 150px;
+}
+
+#denCards .card-img-top {
+	border-radius: 15px !important;
+}
+
+#denCards .card-header {
+	border-radius: 0 0 15px 15px !important;
+	background-color: #27000096;
+}
+
+#denCards b,
+strong {
+	color: #faf5d4;
+}
+
+/* TABLE ROWS */
+th.top {
+	border-radius: 15px 15px 0 0;
+	background-color: #80430d;
+}
+
+.table th.top a {
+	color: #e9c077;
+}
+
+tr.subheader.font-weight-bold {
+	background-color: #5d1412 !important;
+}
+
+.table div.text-break a {
+	color: #faf5d4 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background: #300703;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+	background-color: #80430d;
+}
+
+.table tr.pup,
+.table tr.pup:nth-of-type(odd) {
+	background: #92531c;
+}
+
+.table td.bottom {
+	background-color: #80430d;
+	border-radius: 0 0 20px 20px;
+}
+
+.table .form-control {
+	border-radius: 50px;
+	border: none;
+	background-color: #5d1412 !important;
+	color: #e9c077;
+}
+
+.btn-success {
+	background-color: #9e702b;
+	border: none;
+	border-radius: 10px;
+}
+
+/* WOLF PROFILES */
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	border: solid 2px #e9c077 !important;
+	border-radius: 100px;
+}
+
+.p-2 {
+	height: 50px;
+	width: 50px;
+	padding: 0 !important;
+	margin: 5px 5px 5px 8px;
+}
+
+.progress {
+	background-color: #102139 !important;
+}
+
+.bg-warning,
+.bg-warning .btn-link,
+.bg-warning .card-title {
+	background-color: #b7c8d2 !important;
+}
+
+.bg-success {
+	background-color: #b7c8d2 !important;
+}
+
+.bg-primary {
+	background-color: #8aa1af !important;
+}
+
+.bg-danger {
+	background-color: #688496 !important;
+}
+
+.bg-info {
+	background-color: #4b697c !important;
+}
+
+/* CAVE MATS */
+#main .card {
+	background: none;
+}
+
+#main .card-body {
+	background-color: #85eaff59;
+	border-radius: 100px;
+	border: solid 2px #ffffff80;
+}
