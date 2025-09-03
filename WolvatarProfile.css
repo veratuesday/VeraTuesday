@@ -1,0 +1,646 @@
+/* ---------- FONTS ----------*/
+@font-face {
+	font-family: "Toruksc";
+	src: url("https://chef-duck.github.io/ducky/Toruksc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Papyrus';
+	src: url("https://chef-duck.github.io/ducky/papyrus.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Toruksc';
+	font-style: normal;
+	font-weight: lighter;
+	color: white;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Papyrus';
+	font-style: normal;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: 'Papyrus';
+	font-style: normal;
+}
+
+h3,
+h4 {
+	font-size: 21px;
+	font-family: 'Papyrus';
+	font-style: normal;
+}
+/* ---------- CURSOR ---------- */
+* {
+	cursor: url('https://i.ibb.co/wNfSbfsB/Image-To-Stl-com-cursor-6.png'), progress !important;
+}
+
+/* ---------- BODY ---------- */
+body {
+	background: url("https://i.postimg.cc/rm32CKRR/38-Mtns-Pano-Right-Side-v01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+/* ---------- LEAD & FEATURED WOLF ---------- */
+img,
+.form-control,
+.note-btn {
+	border-radius: 0px;
+}
+
+.card-body.pt-1.pb-1 {
+	display: none;
+}
+
+div.col-xl-3.col-sm-7.text-center {
+	margin-top: 30px !important;
+}
+
+.border-none .card {
+	background-color: transparent !important;
+}
+
+.border-none .card-img-top {
+	border-radius: 70px;
+	border: double 8px #00e2ffa8;
+}
+
+.featured-wolf img {
+	border-radius: 70px;
+	border: double 8px #00e2ffa8;
+	width: 172.25px !important;
+	height: 172.25px;
+}
+
+.featured-wolf b {
+	display: flex;
+	align-self: center !important;
+	line-height: 1;
+	font-size: 0 !important;
+}
+
+.btn.btn-link.btn-sm.text-danger {
+	display: none;
+}
+
+.featured-wolf::before {
+	content: "Tsahík";
+	font-size: 20px;
+}
+
+.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	font-size: 17px;
+}
+
+.pt-1.pb-1 {
+	font-size: 0 !important;
+	background-color: #08001cb3;
+	border-radius: 20px 20px 0 0;
+}
+
+.pt-1.pb-1 a {
+	font-size: 30px !important;
+}
+
+th.pt-1.pb-1::before {
+	content: "Olo'eyktan";
+	font-size: 40px !important;
+	font-family: 'Papyrus', sans-serif;
+	padding: 10px;
+}
+
+td.row {
+	background-color: #0505275c;
+	border-radius: 0 0 20px 20px;
+}
+
+tr {
+	background-color: transparent !important;
+}
+
+/* ---------- MAIN ---------- */
+#main {
+	background-color: rgba(7, 25, 43, .4) !important;
+}
+
+#main .card {
+	border-radius: 0px;
+}
+
+.card-header {
+	border: none;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-shadow: 1px 1px 10px #fff, 1px 1px 5px #ccc;
+	text-decoration: none;
+}
+
+td a:hover {
+	color: white;
+	text-shadow: 1px 1px 10px #fff, 1px 1px 5px #ccc;
+	text-decoration: none;
+}
+
+.progress {
+	background-color: rgba(7, 25, 43, .4) !important;
+}
+
+.bg-success {
+	background-color: #7e7fdc !important;
+}
+
+.table {
+	border-radius: 20px;
+	box-shadow: 0 0 10px #00dcff;
+}
+
+/* ---------- SIDEBAR ---------- */
+#sidebar {
+	background-color: rgba(7, 25, 43, .4) !important;
+}
+
+#sidebar .card-body {
+	border-radius: 6px;
+	box-shadow: 0 0 10px #00dcff;
+}
+
+#sidebar #card-user a img {
+	border: solid 3px #00e2ffc4;
+}
+
+.px-3 .card-title {
+	margin-left: 10px !important;
+}
+
+.fa-plus:before {
+	margin-right: 15px;
+}
+
+.fa-minus:before {
+	margin-right: 15px;
+}
+
+.s-chat-sidebar #chatMessageList,
+.s-chat-sidebar #chatMessageContainer {
+	height: 380px;
+	border-color: #ccc;
+	color: white;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgba(7, 25, 43, .7);
+}
+
+.s-chat-message:nth-child(even) {
+	background: rgba(3, 134, 181, .2);
+	color: white;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	background: rgba(7, 25, 43, .7);
+	color: white;
+}
+
+#fra_chatContainer #txtChatInput {
+	background: rgba(7, 25, 43, .7);
+	color: white;
+	border: 1px solid #ccc;
+}
+
+#sidebar .progress-energy,
+.bg-warning {
+	background-color: #7e7fdc !important;
+}
+
+#sidebar .bg-danger,
+.bg-primary {
+	background-color: #c0a1ee !important;
+}
+
+#sidebar .bg-info,
+.bg-danger {
+	background-color: #2abdc7 !important;
+}
+
+#sidebar .bg-success,
+.bg-info {
+	background-color: #2851c4 !important;
+}
+
+#sidebar .multi-column {
+	padding-top: 15px;
+}
+
+#sidebar .card {
+	background-color: rgba(0, 23, 34, .56);
+	border-radius: 5px;
+	border: none;
+}
+
+.card-body .w-50:first-child div {
+	border: none !important;
+}
+
+.w-50 > a img {
+	transition: .5s ease;
+	border-radius: 20px;
+	border: 2px solid #ffffff5c;
+}
+
+.w-50 div a img {
+	border-radius: 10px;
+	border: 2px solid #ffffff5c;
+}
+
+img[src$="melvinmouse.png"] {
+	content: url('https://i.ibb.co/zhg5kHd3/Woodsprite-Back-Bling-Fortnite.png')
+}
+
+/* ---------- ALERTS & BUTTONS ---------- */
+.alert {
+	background: none;
+	border: none;
+	color: inherit;
+	text-align: center;
+}
+
+.btn-success {
+	background-color: #00d5ff78;
+	border: none;
+}
+
+#main .card {
+	background: none;
+}
+
+.btn.btn-warning {
+	color: white;
+	background-color: #4a2f84d4;
+	border: none;
+}
+
+/* ---------- TABLE & ROW ---------- */
+td.row {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	margin: 0px !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background: rgba(3, 134, 181, .2);
+}
+
+.table tr.pup,
+.table tr.pup:nth-of-type(odd) {
+	background: rgba(3, 134, 181, .2);
+}
+
+.table td.bottom {
+	background-color: #050527db;
+	border-radius: 0 0 20px 20px;
+}
+
+.table {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.table th a {
+	color: #fff;
+}
+
+.table .subheader {
+	background-color: rgba(11, 10, 58, .6) !important;
+}
+
+.table.table-striped th.top {
+	background-color: #08001cb3;
+	border-radius: 20px 20px 0 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: #1711665c;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+	background-color: #08073c61;
+}
+
+.form-control {
+	background-color: #140131d1 !important;
+	border: none;
+}
+
+.table .form-control {
+	border-radius: 100px;
+}
+
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top img {
+	filter: saturate(.5);
+	border-radius: 100px;
+	border: double #00e2ffde !important;
+	margin: 5px;
+}
+
+.p-2 {
+	padding: 0 !important;
+}
+
+.table tr.pup,
+.table tr.pup:nth-of-type(even) {
+	background-color: rgba(3, 134, 181, .2)
+}
+
+/* ---------- WOLF CARDS ---------- */
+.col-4 {
+	background: none;
+}
+
+.bg-light,
+.btn-light {
+	border-radius: 20px;
+	background-color: #3535b64f !important;
+}
+
+.rounded-right,
+.rounded-top {
+	border-radius: 20px 20px 0 0 !important;
+	background-color: #3535b64f !important;
+}
+
+.rounded-bottom,
+.rounded-left {
+	border-radius: 100px;
+	border: double 4px #00e2ffde;
+}
+
+.rounded-bottom,
+.rounded-right {
+	border-radius: 100px 100px 40px 40px !important;
+}
+
+.pl-3,
+.px-3 {
+	padding: 0 !important;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar-status {
+	background-color: rgba(7, 25, 43, .4) !important;
+}
+
+nav.navbar-main,
+.breadcrumb-nav {
+	background-color: rgba(42, 189, 199, .4) !important;
+}
+
+.breadcrumb-item.active {
+	color: #00eaffd4;
+}
+
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677 & #181724";
+	color: #03cce0;
+	font-size: 14px !important;
+	position: absolute;
+	right: 6%;
+	z-index: 100;
+}
+
+.nav-tabs {
+	justify-content: center;
+	border: none;
+	margin-top: -5px;
+}
+
+.nav-tabs .nav-link {
+	background-color: #1c5e804a;
+	border-radius: 10px;
+	border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: #00d5ff59;
+}
+
+/* ---------- DEN CARDS ---------- */
+#denCards .card {
+	border-radius: 20px;
+	box-shadow: 0 0 10px #00dcff;
+}
+
+#denCards .card-header {
+	border-radius: 0 0 20px 20px;
+}
+
+img[src$="packdynasty.png"] {
+	content: url('https://i.ibb.co/B2qYM4Bp/IMG-7504.jpg" alt="IMG-7504')!important;
+	border-radius: 20px;
+}
+
+img[src$="packoverview.png"] {
+	content: url('https://i.ibb.co/yBFNBztz/IMG-7506.jpg')!important;
+	border-radius: 20px;
+}
+
+img[src$="breeding.png"] {
+	content: url('https://i.ibb.co/prR50RZF/IMG-7512.jpg')!important;
+	border-radius: 20px;
+}
+
+img[src$="pupsitting.png"] {
+	content: url('https://i.ibb.co/VWWTZH2D/IMG-7509.jpg')!important;
+	border-radius: 20px;
+}
+
+img[src$="nesting.png"] {
+	content: url('https://i.ibb.co/23YTHH3C/IMG-7511.jpg')!important;
+	height: 150.92px;
+	border-radius: 20px;
+}
+
+img[src$="socializing.png"] {
+	content: url('https://i.ibb.co/JW6WyBtq/IMG-7510.jpg')!important;
+	border-radius: 20px;
+}
+
+img[alt="Pack Dynasty"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Dynasty"] + .card-header b::before {
+	content: "Vitraya Ramunong - Tree of Souls" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Pack Overview"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Overview"] + .card-header b::before {
+	content: "Na’vi - The People" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Breeding"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Breeding"] + .card-header b::before {
+	content: "Muntxa - Mated Pairs" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Pupsitting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pupsitting"] + .card-header b::before {
+	content: "Uniltaron - Rite of Passage" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Nesting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Nesting"] + .card-header b::before {
+	content: "Iknimaya - The Trial" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Socializing"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Socializing"] + .card-header b::before {
+	content: "Tsaheylu - The Bond" !important;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+/* ---------- CAVE MATS ---------- */
+#main .card.mb-3 {
+	background: none;
+}
+
+.card.mb-3 .card-body {
+	background-color: #00719ea3;
+	border-radius: 500px;
+}
+
+hr.flowers {
+	background: none;
+	content: url('https://i.postimg.cc/L5YfwZbk/image.png');
+	height: 150px !important;
+	width: 600px !important;
+	opacity: .75;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+#fraHTMLInputBar {
+	background-color: #0c001e;
+}
+
+.btn.btn-htmlinput {
+	background-color: #046b9a;
+	border: none;
+}
+
+#footer {
+	background-color: rgba(7, 25, 43, .4);
+}
+
+/*PROFILE*/
+.table th {
+	background-color: #0b0231c9;
+	border-radius: 20px 20px 0 0;
+}
+
+.table .left {
+	background: none;
+}
+
+.user-tag {
+	border-radius: 50px;
+	border: double 8px #00e2ffc4;
+	margin-right: 40px;
+}
+
+.text-success {
+	color: #00e2ff !important;
+}
+
+.form-row .col-12.col-md-6.mb-2 .mr-2,
+.mx-2 {
+	border-radius: 100px;
+	border: solid 3px #00e2ffc4;
+}
+
+.custom-control hr {
+	display: none;
+}
+
+/* FOG */
+.fog {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url("https://files.catbox.moe/oktmwo.gif") repeat;
+	background-size: cover;
+	opacity: 0.5;
+	/* adjust fog thickness */
+	mix-blend-mode: screen;
+	/* makes black transparent */
+	animation: drift 120s linear infinite;
+	/* slow drifting */
+	z-index: 999;
+}
+
+/* FOG HTML */
+/*<div class="fog"></div>*/
