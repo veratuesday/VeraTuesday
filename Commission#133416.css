@@ -1,0 +1,569 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Rock+Salt&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Rock+Salt&family=Special+Elite&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* BACKGROUND IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/nhfxxMKk/46975-Picsart-Ai-Image-Enhancer-1.jpg') !important;
+}
+
+/* CURSOR */
+* {
+	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
+}
+
+/* HEADING */
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+
+/* TEXT */
+* {
+	font-family: 'Special Elite';
+	font-weight: lighter;
+	color: #d2d2df;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none;
+}
+
+#header.container .navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #2a76b329;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #398bcc29;
+}
+
+.icon-beetle-gold,
+.icon-gold-cone {
+	filter: saturate(.25);
+}
+
+.icon-beetle-silver,
+.icon-silver-cone {
+	filter: saturate(.25);
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #459ce229;
+}
+
+.breadcrumb-item.active {
+	color: #ccad7e;
+}
+
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677";
+	color: #ccad7e9e;
+	font-size: 14px !important;
+	position: absolute;
+	right: 6%;
+	z-index: 100;
+}
+
+/* SIDEBAR */
+#sidebar {
+	background-color: #55b4ff29;
+}
+
+#sidebar .card {
+	background-color: #00fffc1c;
+	border-radius: 45px;
+	border: solid 1px #fff;
+	margin-top: 15px;
+	box-shadow: 0 0 10px #fff;
+}
+
+img[alt='Wolf Headshot'] {
+	border-radius: 100px;
+	border: solid 3px #fff;
+}
+
+#sidebar #card-user h3 a {
+	color: #ccad7e;
+}
+
+#sidebar .bg-danger {
+	background-color: #8aa1af !important;
+}
+
+#sidebar .bg-info {
+	background-color: #688496 !important;
+}
+
+#sidebar .bg-success {
+	background-color: #4b697c !important;
+}
+
+/* MAIN */
+#main {
+	background-color: #55b4ff29;
+}
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+	color: #ccad7e;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	color: #ccad7e;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	background-color: transparent;
+	border-radius: 100px;
+	border: solid 2px #00ffd078;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.alert-danger {
+	background: none;
+	border: dotted 3px #ffffff6e;
+	border-radius: 100px;
+	margin: 0;
+	padding-bottom: 5px !important;
+}
+
+.alert-info {
+	background: none;
+	text-align: center;
+	border: solid 2px #ffffffc2;
+	border-radius: 100px;
+	padding-bottom: 5px;
+}
+.table {
+	background: none !important;
+	border: none !important;
+}
+
+/* LEAD AND FEATURED WOLF */
+th.pt-1.pb-1 {
+	background-color: #02385fa6;
+	font-size: 25px !important;
+	border-radius: 15px 15px 0 0;
+}
+
+tr {
+	background: none;
+	border: none;
+}
+
+td.row {
+	background-color: #52d6e44d;
+	margin: 0;
+	border-radius: 0 0 15px 15px;
+}
+
+div.col-xl-3.col-sm-7.text-center {
+	margin-top: 20px !important;
+	background-color: transparent !important;
+}
+
+.border-none .card-img-top,
+.table .form-row img {
+	border-radius: 100px;
+	border: solid 5px #ccad7e;
+}
+
+.border-none .card {
+	background-color: transparent !important;
+}
+
+.card-body.pt-1.pb-1 {
+	display: none;
+}
+
+.table th a {
+	color: #d2d2df;
+}
+
+.featured-wolf img {
+	width: 160.25px !important;
+	height: 160.25px !important;
+	border-radius: 100px;
+	border: solid 5px #ccad7e;
+}
+
+#lblFeaturedWolfTitle {
+	font-size: 20px;
+	color: white;
+	font-weight: lighter;
+}
+
+.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	font-size: 17px;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+	display: none;
+}
+
+.col-xl-6.col-sm-12.order-xl-9.order-12 td {
+	background-color: #1d5b78;
+}
+
+/* DEN CARDS */
+#denCards .card {
+	background: none;
+	border-radius: 150px;
+}
+
+#denCards .card-header {
+	border-radius: 0 0 15px 15px;
+}
+
+img[src$="packdynasty.png"] {
+	content: url('https://i.postimg.cc/289sjGpr/Moon-Phases-Postcard-Pack-image-6-5316751.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[src$="packoverview.png"] {
+	content: url('https://i.postimg.cc/zvXQ8b0y/Moon-Phases-Postcard-Pack-image-9-798711.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[src$="breeding.png"] {
+	content: url('https://i.postimg.cc/R0KyRzWZ/Moon-Phases-Postcard-Pack-image-5-447371.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[src$="pupsitting.png"] {
+	content: url('https://i.postimg.cc/SxwHCKNP/Moon-Phases-Postcard-Pack-image-7-678460.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[src$="nesting.png"] {
+	content: url('https://i.postimg.cc/XYZTr53F/Moon-Phases-Postcard-Pack-image-8-444861.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[src$="socializing.png"] {
+	content: url('https://i.postimg.cc/nz1WyYY8/Moon-Phases-Postcard-Pack-image-6-531675.jpg')!important;
+	border-radius: 15px;
+	opacity: 0.7;
+}
+
+img[alt="Pack Dynasty"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Dynasty"] + .card-header b::before {
+	content: "Pack Dynasty\AWaning Crescent - Release and let go" !important;
+	white-space: pre-wrap;
+	font-size: 13px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Pack Overview"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Overview"] + .card-header b::before {
+	content: "Pack Overview\AWaning Gibbous - Introspect" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Breeding"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Breeding"] + .card-header b::before {
+	content: "Breeding\AWaxing Crescent - Set intentions" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Pupsitting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pupsitting"] + .card-header b::before {
+	content: "Pupsitting\AWaxing Gibbous - Refine and hone" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Nesting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Nesting"] + .card-header b::before {
+	content: "Nesting\A Full Moon - Harvest" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Socializing"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Socializing"] + .card-header b::before {
+	content: "Socializing\A First Quarter - Taking Action" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+/* TABLE ROWS */
+th.top {
+	border-radius: 15px 15px 0 0;
+	background-color: #0f2037;
+	color: #dcbc6c;
+	font-weight: bold !important;
+}
+
+tr.subheader.font-weight-bold {
+	background-color: #093452 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background: #022b4761;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+	background-color: rgba(2, 95, 129, .2);
+}
+
+.table tr.pup,
+.table tr.pup:nth-of-type(odd) {
+	background: rgba(3, 134, 181, .2);
+}
+
+.table td.bottom {
+	background-color: #0f2037;
+	border-radius: 0 0 20px 20px;
+}
+
+.table .form-control {
+	border-radius: 50px;
+	border: none;
+	background-color: #1d3c58 !important;
+}
+
+.btn-success {
+	background-color: #597e9a;
+	border: none;
+	border-radius: 10px;
+}
+
+/* WOLF PROFILES */
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	border: double 5px #b8c8d1 !important;
+	border-radius: 100px;
+	margin: 5px;
+}
+
+.p-2 {
+	height: 50px;
+	width: 50px;
+	padding: 0 !important;
+	margin: 5px 5px 5px 8px;
+}
+
+.progress {
+	background-color: #102139 !important;
+}
+
+.bg-warning,
+.bg-warning .btn-link,
+.bg-warning .card-title {
+	background-color: #b7c8d2 !important;
+}
+
+.bg-success {
+	background-color: #b7c8d2 !important;
+}
+
+.bg-primary {
+	background-color: #8aa1af !important;
+}
+
+.bg-danger {
+	background-color: #688496 !important;
+}
+
+.bg-info {
+	background-color: #4b697c !important;
+}
+
+/* CAVE MATS */
+#main .card {
+	background: none;
+}
+
+#main .card-body {
+	background-color: #85eaff59;
+	border-radius: 100px;
+	border: solid 2px #ffffff80;
+}
+
+/* DEN OPTIONS */
+hr.flowers {
+	background: none;
+	content: url('https://i.postimg.cc/cLCkHKYY/0-4627-moon-phases-tumblr-transparent-moon-phases-drawing.png');
+	height: 150px;
+	margin-top: 5px !important;
+	opacity: 0.6;
+}
+
+.h2,
+h2 {
+	color: #ccad7e;
+}
+
+input.form-control,
+input.form-control:focus,
+select.form-control,
+select.form-control:focus,
+textarea.form-control,
+textarea.form-control:focus {
+	background-color: #0e2941 !important;
+	border: none;
+}
+#fraHTMLInputBar {
+	background-color: #021229;
+}
+
+.btn.btn-htmlinput {
+	background-color: #153d61;
+	border: none;
+}
+
+hr {
+	border: none !important;
+}
+
+.row.mt-3 .card.text-center .card-header {
+	background: none !important;
+	border: none;
+}
+
+.row.mt-3 .card.text-center .card-body {
+	background: none !important;
+	border: none !important;
+}
+
+.btn-warning {
+	background-color: #597e9a;
+	border-radius: 10px;
+	border: none;
+}
+
+#footer {
+	background: none;
+}
+
+.justify-content-center {
+	background-color: #55b4ff29;
+}
+
+/* PROFILE */
+.table .left {
+	background-color: transparent;
+}
+
+.text-success {
+	color: #ad873b !important;
+}
+
+.table.mt-3 img {
+	border-radius: 15px;
+	border: solid 4px #ad873b;
+}
+
+table.table th {
+	background-color: #0f2037;
+	border-radius: 20px 20px 0 0;
+	color: #dcbc6c;
+	font-weight: bold !important;
+}
+
+
+
+div.form-row .col-3 .p-2 {
+	width: 100px !important;
+	border-radius: 5px !important;
+	font-size: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.card.bg-light.border {
+	border: none !important;
+	background: none;
+}
+
+div.card.bg-light.border .card-body {
+	border-radius: 50px !important;
+	background-color: #387b94 !important;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+
+/* FOG */
+.fog {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url("https://files.catbox.moe/oktmwo.gif") repeat;
+	background-size: cover;
+	opacity: 0.6;
+	/* adjust fog thickness */
+	mix-blend-mode: screen;
+	/* makes black transparent */
+	animation: drift 120s linear infinite;
+	/* slow drifting */
+	z-index: 999;
+}
+
+/* FOG HTML */
+/*<div class="fog"></div>*/
