@@ -595,7 +595,7 @@ hr.flowers {
 
 /*PROFILE*/
 .table th {
-	background-color: #0b0231c9;
+	background-color: #022431c9;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -621,6 +621,34 @@ hr.flowers {
 
 .custom-control hr {
 	display: none;
+}
+
+.table .form-control {
+	background-color: #022431c9 !important;
+}
+
+.card.bg-light.border .card-body {
+	background-color: #00ffc32e;
+}
+
+#fraHTMLInputBar {
+	background-color: #001118;
+}
+
+.btn.btn-htmlinput {
+	background-color: #182a2b;
+}
+
+textarea[data-htmlbar="true"] {
+	background-color: #02242d !important;
+}
+
+.form-control.file.search {
+	background-color: #022431c9 !important;
+}
+
+.progress .progress-bar.bg-success {
+	background-color: teal !important;
 }
 
 /* FOG */
