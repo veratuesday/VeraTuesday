@@ -461,8 +461,8 @@ tr {
 	background: none;
 }
 
-#main .card-body {
-	background-color: #975624e0;
+#main .card.mb-3 .card-body {
+	background-color: #975624e0 !important;
 	border-radius: 100px;
 	border: none;
 }
@@ -517,6 +517,7 @@ textarea.form-control {
 }
 
 .btn-info {
+	color: #faf5d4 !important;
 	background-color: #43668c;
 	border-radius: 10px;
 }
@@ -539,4 +540,60 @@ span.copyright a {
 
 #footer nav .nav-item .nav-link {
 	color: #faf5d4;
+}
+
+/* PROFILE */
+img.user-tag {
+	border-radius: 50px;
+	border: none;
+}
+
+.table .left {
+	background: none;
+}
+
+.table td.right {
+	color: #faf5d4;
+}
+
+.table td.right a {
+	color: #db8c46;
+}
+
+.table td.right span.text-success {
+	color: #999b16 !important;
+}
+
+.form-row a {
+	color: #faf5d4;
+}
+
+td.bottom a {
+	color: #faf5d4;
+}
+
+.table th {
+	background-color: #3A0706;
+	border-radius: 20px 20px 0 0;
+	color: #faf5d4;
+	font-size: 20px;
+}
+
+div.container-fluid.p-0 a {
+	color: #faf5d4;
+}
+
+.form-row .p-2 {
+	border-radius: 50px !important;
+	padding-top: 15px !important;
+	width: 120px;
+}
+
+.card.bg-light.border {
+	background: none !important;
+	border: none !important;
+}
+
+.card-body {
+	background: none !important;
 }
