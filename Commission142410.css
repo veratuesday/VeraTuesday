@@ -9,7 +9,7 @@ body {
 
 /* CURSOR */
 * {
-	cursor: url('https://i.postimg.cc/kG7jWW6F/Image-To-Stl-com-cursor-1.png'), progress !important;
+	cursor: url('https://i.postimg.cc/2yghKXZm/Image-To-Stl-com-cursor-9.png'), progress !important;
 }
 
 /* HEADING */
@@ -33,7 +33,7 @@ h1 {
 }
 
 #header.container .navbar.navbar-main.navbar-dark.navbar-expand-lg {
-	background-color: #80430dab;
+	background-color: #80430d;
 	color: #e9c077 !important;
 }
 
@@ -42,11 +42,11 @@ h1 {
 }
 
 #header.container .navbar.navbar-status.navbar-expand {
-	background-color: #5d1412cc;
+	background-color: #5d1412;
 }
 
 #header.container .breadcrumb-nav {
-	background-color: #490801db;
+	background-color: #490801;
 }
 
 li.breadcrumb-item a {
@@ -68,7 +68,7 @@ li.breadcrumb-item.active {
 
 /* SIDEBAR */
 #sidebar {
-	background-color: #300703de;
+	background-color: #30070396;
 }
 
 #sidebar .card {
@@ -76,6 +76,11 @@ li.breadcrumb-item.active {
 	border-radius: 20px;
 	border-bottom: solid 5px #270502;
 	margin-top: 15px;
+}
+
+.pl-2,
+.px-2 {
+	background: none !important;
 }
 
 div.card span {
@@ -108,7 +113,8 @@ div.w-50.pl-2.small.d-flex.flex-column.justify-content-center .mb-3 {
 }
 
 .progress {
-	color: #faf5d4 !important;
+	color: #3a0706 !important;
+	border: none;
 }
 
 .bg-warning {
@@ -124,7 +130,7 @@ div.w-50.pl-2.small.d-flex.flex-column.justify-content-center .mb-3 {
 }
 
 #sidebar .bg-success {
-	color: #6e700a;
+	color: #6e700a !important;
 }
 
 ul.bookmarks a {
@@ -182,7 +188,7 @@ strong {
 
 /* MAIN */
 #main {
-	background-color: #300703de;
+	background-color: #30070396;
 }
 
 .nav.nav-tabs {
@@ -205,7 +211,7 @@ strong {
 /* ALERTS AND BUTTONS */
 .alert-success {
 	color: #faf5d4;
-	background-color: #6e700a85;
+	background-color: #9a661bcc;
 	border-radius: 100px;
 	border: none;
 	;
@@ -226,7 +232,7 @@ strong {
 }
 
 .alert-info {
-	background-color: #e9c07785;
+	background-color: #80430dc7;
 	text-align: center;
 	border: none;
 	border-radius: 100px;
@@ -236,6 +242,8 @@ strong {
 	background: none !important;
 	border: none !important;
 }
+
+
 
 /* LEAD AND FEATURED WOLF */
 th.pt-1.pb-1 {
@@ -346,11 +354,14 @@ strong {
 /* TABLE ROWS */
 th.top {
 	border-radius: 15px 15px 0 0;
-	background-color: #80430d;
+	background-color: #3a0706;
+	color: #faf5d4;
+	font-size: 20px
 }
 
 .table th.top a {
-	color: #e9c077;
+	color: #e9c077 !important;
+	font-size: 17px;
 }
 
 tr.subheader.font-weight-bold {
@@ -361,12 +372,16 @@ tr.subheader.font-weight-bold {
 	color: #faf5d4 !important;
 }
 
+tr {
+	border: none !important;
+}
+
 .table-striped tbody tr:nth-of-type(odd) {
-	background: #300703;
+	background: #6d2018de;
 }
 
 .table-striped tbody tr:nth-of-type(even) {
-	background-color: #80430d;
+	background-color: #80430dd4;
 }
 
 .table tr.pup,
@@ -375,7 +390,7 @@ tr.subheader.font-weight-bold {
 }
 
 .table td.bottom {
-	background-color: #80430d;
+	background-color: #3a0706;
 	border-radius: 0 0 20px 20px;
 }
 
@@ -387,9 +402,10 @@ tr.subheader.font-weight-bold {
 }
 
 .btn-success {
-	background-color: #9e702b;
+	background-color: #80430d;
 	border: none;
 	border-radius: 10px;
+	color: #e9c077;
 }
 
 /* WOLF PROFILES */
@@ -400,39 +416,44 @@ tr.subheader.font-weight-bold {
 .border-top {
 	border: solid 2px #e9c077 !important;
 	border-radius: 100px;
+	margin: 3px;
 }
 
 .p-2 {
 	height: 50px;
 	width: 50px;
 	padding: 0 !important;
-	margin: 5px 5px 5px 8px;
+	margin: 5px 5px 5px 5px;
 }
 
 .progress {
-	background-color: #102139 !important;
+	background-color: #faf5d4cf !important;
 }
 
 .bg-warning,
 .bg-warning .btn-link,
 .bg-warning .card-title {
-	background-color: #b7c8d2 !important;
+	background-color: #cba156 !important;
 }
 
 .bg-success {
-	background-color: #b7c8d2 !important;
+	background-color: #6e700a !important;
 }
 
 .bg-primary {
-	background-color: #8aa1af !important;
+	background-color: #6e700a !important;
 }
 
 .bg-danger {
-	background-color: #688496 !important;
+	background-color: #861f1c !important;
 }
 
 .bg-info {
-	background-color: #4b697c !important;
+	background-color: #50799e !important;
+}
+
+.table div.progress-bar.bg-success {
+	background-color: #cba156 !important;
 }
 
 /* CAVE MATS */
@@ -441,7 +462,81 @@ tr.subheader.font-weight-bold {
 }
 
 #main .card-body {
-	background-color: #85eaff59;
+	background-color: #975624e0;
 	border-radius: 100px;
-	border: solid 2px #ffffff80;
+	border: none;
+}
+
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+	color: #faf5d4;
+}
+
+
+
+/* DEN OPTIONS */
+input.form-control,
+input.form-control:focus,
+select.form-control,
+select.form-control:focus,
+textarea.form-control,
+textarea.form-control:focus {
+	background-color: #5d1412;
+	border: none;
+	color: #faf5d4;
+	border-radius: 100px;
+}
+
+.custom-control hr {
+	display: none;
+}
+
+select.form-control[multiple],
+select.form-control[size],
+textarea.form-control {
+	border-radius: 0 0 0 20px !important;
+}
+
+.bg-bar-input {
+	background-color: #3a0706;
+	border: none;
+	border-radius: 0 20px 0 0;
+}
+
+.btn.btn-htmlinput {
+	background-color: #682a03;
+	border: none;
+}
+
+.text-td-bottom {
+	color: #faf5d4;
+}
+
+.btn-info {
+	background-color: #43668c;
+	border-radius: 10px;
+}
+
+.btn-warning {
+	border-radius: 10px;
+}
+
+p.text-center i {
+	color: #faf5d4 !important;
+}
+
+.justify-content-center {
+	background-color: #3a0706;
+}
+
+span.copyright a {
+	color: #faf5d4 !important;
+}
+
+#footer nav .nav-item .nav-link {
+	color: #faf5d4;
 }
