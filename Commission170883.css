@@ -1,0 +1,473 @@
+/* FONTS */
+@font-face {
+	font-family: 'Ice Caps';
+	src: url('https://veratuesday.github.io/VeraTuesday/IceCaps-7rLD.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Plymouthrock';
+	src: url('https://veratuesday.github.io/VeraTuesday/PlymouthrockSnowdusted-8aXA.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Brafesuit';
+	src: url('https://veratuesday.github.io/VeraTuesday/Brafesuit.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'French Notez';
+	src: url('https://veratuesday.github.io/VeraTuesday/French Notez.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* BACKGROUND IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/x8GCcXQX/cb0av60o00s61.jpg') !important;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* CURSOR */
+/* HEADER */
+h1 {
+	font-family: 'Ice Caps';
+	font-size: 90px;
+	text-align: center;
+	color: #c5deff;
+}
+
+/* TEXT */
+* {
+	font-family: 'French Notez';
+	color: #e0e1dd;
+}
+
+a {
+	font-family: 'French Notez';
+	color: #e0e1dd;
+	transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+	text-shadow: 0 0 10px #9be2ff, /* Green glow */
+	0 0 20px #9be2ff,
+	0 0 30px #9be2ff;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none !important;
+}
+
+#header.container .navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #0d1b2a8c;
+	border: none !important;
+}
+
+#header .navbar-main .nav-link {
+	color: #e0e1dd;
+}
+
+#header .navbar-main .nav-link .fa {
+	color: #c5deff;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #1b263b8a;
+	border: none !important;
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #415a779e;
+	border: none !important;
+}
+
+li.breadcrumb-item a {
+	color: #c5deff;
+}
+
+.breadcrumb-item.active {
+	color: #e0e1dd;
+}
+
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677";
+	color: #778da9;
+	font-size: 14px !important;
+	position: absolute;
+	right: 6%;
+	z-index: 100;
+}
+
+
+
+/* MAIN */
+#main {
+	background-color: #778da966;
+	flex: 1;
+	max-width: 100%;
+	margin-bottom: -1px;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+	background-color: transparent;
+	font-size: 0;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	font-size: 0;
+}
+
+i.fas.fa-home.mr-2::before {
+	content: "\f2dc";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #ededed;
+	text-align: center !important;
+}
+
+.fa-user:before {
+	content: "\f1b0";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #ededed;
+	text-align: center !important;
+}
+
+img {
+	filter: grayscale(60%) !important;
+}
+
+/* SIDEBAR */
+#sidebar {
+	display: none !important;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	background-color: #4a4e69a6;
+	border-radius: 100px;
+	border: none;
+	padding-bottom: 10px;
+	text-align: center;
+	backdrop-filter: blur(25px);
+}
+
+.alert-danger {
+	background: none;
+	border: dotted 3px #e5989b;
+	border-radius: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 10px !important;
+}
+
+.alert-danger a {
+	color: #e0e1dd !important;
+}
+
+.alert-info {
+	background-color: #ccb7ae63;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	padding-bottom: 10px;
+	backdrop-filter: blur(25px);
+}
+
+.table {
+	border: none;
+}
+
+/* LEAD AND FEATURED WOLF */
+th.pt-1.pb-1 {
+	background-color: #22223bc4;
+	font-size: 30px !important;
+	border-radius: 10px;
+	padding: 40px;
+	backdrop-filter: blur(5px);
+}
+
+tr {
+	background: none !important;
+	border: none;
+}
+
+td.row {
+	background-color: #52d6e400;
+	padding-bottom: 30px;
+}
+
+td a {
+	color: #d2d2df;
+}
+
+.fa-circle:before {
+	color: #a3ffdd;
+}
+
+div.col-xl-3.col-sm-7.text-center {
+	margin-top: 30px !important;
+	background-color: transparent !important;
+	padding: 0 !important;
+}
+
+.border-none .card-img-top,
+.table .form-row img {
+	border-radius: 80px;
+	border: solid 4px #ededed;
+}
+
+div.card.mb-3 a {
+	opacity: 85%;
+}
+
+div.card.mb-3 a:hover {
+	opacity: 100%;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.border-none .card {
+	background-color: transparent !important;
+}
+
+.card-body.pt-1.pb-1 {
+	display: none;
+}
+
+.table th a {
+	color: #d2d2df;
+}
+
+.col-xl-3 {
+	max-width: 100% !important;
+}
+
+.featured-wolf img {
+	width: 180px !important;
+	height: 180px !important;
+	border-radius: 100px;
+	border: solid 4px #ededed;
+	opacity: 85%;
+}
+
+.featured-wolf img:hover {
+	opacity: 100%;
+	transition: opacity 0.5s ease-in-out;
+}
+
+#lblFeaturedWolfTitle {
+	font-size: 25px;
+	color: #ededed;
+	font-weight: lighter;
+}
+
+.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	font-size: 20px;
+	color: #d2d2df;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+	display: none;
+}
+
+.col-xl-6 {
+	padding-top: 20px;
+}
+
+td.b {
+	text-align: right !important;
+}
+
+.col-xl-6.col-sm-12.order-xl-9.order-12 td {
+	text-align: center;
+}
+
+table.striped {
+	background-color: #0e154557;
+	border-radius: 15px;
+	backdrop-filter: blur(5px);
+}
+
+/* DEN CARDS */
+/* DYNASTY: OPHIUCHUS
+OVERVIEW: ORION FAMILY
+BREEDING: VIRGO
+PUPSITTING: URSA MINOR
+NESTING: URSA MAJOR
+SOCIALIZING: CYGNUS */
+#denCards .card {
+	background-color: transparent;
+	backdrop-filter: blur(2px);
+	border-radius: 150px !important;
+}
+
+div#denCards.form-row img.card-img-top {
+	height: 220px;
+}
+
+#denCards .card-header {
+	background: none;
+	backdrop-filter: none;
+	border: none;
+	font-size: 25px;
+	font-weight: lighter !important;
+}
+
+img[src$="packdynasty.png"] {
+	content: url('https://i.postimg.cc/VLjpzRzF/ophiuchus-cons.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+img[src$="packoverview.png"] {
+	content: url('https://i.postimg.cc/SN0H05bs/orion-cons.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+img[src$="breeding.png"] {
+	content: url('https://i.postimg.cc/6qZS2Vnt/virgo-cons.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+img[src$="pupsitting.png"] {
+	content: url('https://i.postimg.cc/MZfgFw4N/ursaminor-cons.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+img[src$="nesting.png"] {
+	content: url('https://i.postimg.cc/ZR225s9w/ursamajor-con.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+img[src$="socializing.png"] {
+	content: url('https://i.postimg.cc/0Qbhx1N6/cygnus-cons.jpg')!important;
+	border-radius: 150px;
+	opacity: 0.7;
+}
+
+/* TABLE ROWS */
+th.top {
+	border-radius: 15px !important;
+	background-color: #0d1b2ade;
+	color: #c5deff;
+	font-weight: bold !important;
+	font-size: 30px;
+	text-align: center;
+	backdrop-filter: blur(10px);
+}
+
+th.top a {
+	font-size: 15px;
+}
+
+td a {
+	color: #c5deff;
+}
+
+tbody form tr {
+	border: solid
+}
+
+tr.subheader.font-weight-bold {
+	background: none !important;
+	color: #e0e1dd;
+}
+
+form .table.table-striped {
+	backdrop-filter: blur(200px);
+	border-radius: 15px !important;
+	color: white;
+	margin-top: 60px;
+}
+
+.table td.bottom {
+	background-color: #0d1b2ade;
+	border-radius: 20px;
+}
+
+.table .form-control {
+	border-radius: 50px;
+	border: none;
+	background-color: #4a4e69 !important;
+}
+
+.btn-success {
+	background-color: #415a77;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn-success:hover {
+	background-color: #6288b3;
+}
+
+
+
+
+
+
+
+/*--------------------------------------*/
+/* HOTLINKS */
+@media (min-width: 1090px) {
+	.hotlink {
+		background-color: rgba(45, 75, 160, 0.4) !important;
+		border: 1px solid rgb(205, 245, 255)!important;
+		box-shadow: 0 0 5px rgb(90, 190, 250) !important;
+		color: rgb(205, 245, 255)!important;
+		padding: 5px!important;
+		position: fixed!important;
+		text-align: center!important;
+		border-radius: 5px 5px 5px 0px!important;
+		left: 0px!important;
+		bottom: 0px!important;
+		width: 160px!important;
+		height: 35px!important;
+		transition: 0.5s!important;
+		z-index: 1;
+	}
+
+	.hotlink:hover {
+		height: 220px!important;
+	}
+}
+
+@media (max-width: 1090px) {
+	.hotlink {
+		display: none!important;
+	}
+}
+
+/* HTML TEXT */
+/*<div class="text-break" id="fraDenHTML">
+<div class="hotlink"><h4>Quick Links</h4><a href="https://www.wolvden.com/explore">Explore</a><br>
+<a href="https://www.wolvden.com/hunting">Hunting</a><br>
+<a href="https://www.wolvden.com/herbalist">Herbalist</a><br>
+<a href="https://www.wolvden.com/games">Games</a><br>
+<a href="https://www.wolvden.com/questing">Questing</a><br>
+<a href="https://www.wolvden.com/enclave">Enclave</a><br>
+<a href="https://www.wolvden.com/trading-center">Trading Center</a><br>
+<a href="https://www.wolvden.com/custom-decors">Custom Decors</a></div><br>
+</div>*/
