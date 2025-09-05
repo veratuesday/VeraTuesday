@@ -38,10 +38,48 @@ h1 {
 	font-size: 90px;
 	text-align: center;
 	color: #c5deff;
-	text-shadow: 0 0 5px #dbffff82, /* Small, tight shadow for the inner glow */
-	0 0 5px #dbffff33, /* Slightly larger shadow for a wider glow */
+	text-shadow: 0 0 5px #dbffff82,
+	0 0 5px #dbffff33,
 	0 0 20px #dbffff70;
-	/* Even larger shadow for the outer diffusion */
+}
+
+.biography-box {
+	width: 100%;
+	max-height: 250px;
+	overflow-y: auto;
+	transition: max-height 1s ease-in-out;
+	border: none;
+	border-radius: 10px;
+	padding: 50px;
+	background-color: #7194a68c;
+	font-family: 'Brafesuit';
+	color: #fff;
+	backdrop-filter: blur(30px);
+}
+
+.biography-box:hover {
+	max-height: 500px;
+	/* Expand the height on hover. Use a value larger than your content. */
+}
+
+.biography-box::-webkit-scrollbar {
+	width: 10px;
+	margin-left: 10px;
+}
+
+.biography-box::-webkit-scrollbar-track {
+	background: #f1f1f100;
+}
+
+.biography-box::-webkit-scrollbar-thumb {
+	background: #c0daf994;
+	border-radius: 100px;
+	margin: 20px;
+	max-height: 30px;
+}
+
+.biography-box::-webkit-scrollbar-thumb:hover {
+	background: #44556d;
 }
 
 /* TEXT */
@@ -311,12 +349,6 @@ table.striped {
 }
 
 /* DEN CARDS */
-/* DYNASTY: OPHIUCHUS
-OVERVIEW: ORION FAMILY
-BREEDING: VIRGO
-PUPSITTING: URSA MINOR
-NESTING: URSA MAJOR
-SOCIALIZING: CYGNUS */
 #denCards .card {
 	background-color: transparent;
 	backdrop-filter: blur(2px);
@@ -474,6 +506,8 @@ td a {
 tr.subheader.font-weight-bold {
 	background: none !important;
 	color: #fff;
+	font-size: 18px;
+	font-weight: lighter !important;
 }
 
 form .table.table-striped {
@@ -712,4 +746,32 @@ span.copyright a {
 <a href="https://www.wolvden.com/enclave">Enclave</a><br>
 <a href="https://www.wolvden.com/trading-center">Trading Center</a><br>
 <a href="https://www.wolvden.com/custom-decors">Custom Decors</a></div><br>
+</div>
+    <div class="biography-box">
+  	<h2>My Biography</h2>
+	  <p>This is a long biography text that will require scrolling to be fully visible. 
+	     You can add more content here to demonstrate the scrollbar functionality. 
+	     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+	     sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>*/
