@@ -270,7 +270,7 @@ div.col-xl-3.col-sm-7.text-center {
 	padding: 0 !important;
 }
 
-.border-none .card-img-top,
+td.row .border-none .card-img-top,
 .table .form-row img {
 	border-radius: 80px;
 	border: solid 4px #ededed;
@@ -488,7 +488,7 @@ img[alt="Socializing"] + .card-header b::before {
 th.top {
 	border-radius: 15px !important;
 	background-color: #0d1b2ade;
-	color: #c5deff;
+	color: #ffd9c4;
 	font-weight: bold !important;
 	font-size: 30px;
 	text-align: center;
@@ -497,6 +497,11 @@ th.top {
 
 th.top a {
 	font-size: 15px;
+	color: #ffb4a2;
+}
+
+.fa-pen:before {
+	color: #e5989b;
 }
 
 td a {
@@ -529,13 +534,13 @@ form .table.table-striped {
 }
 
 .btn-success {
-	background-color: #415a77;
+	background-color: #b5838d;
 	border: none;
 	border-radius: 10px;
 }
 
 .btn-success:hover {
-	background-color: #6288b3;
+	background-color: #e5989b;
 }
 
 /* WOLVES */
@@ -549,11 +554,56 @@ form .table.table-striped {
 	margin: 3px;
 }
 
+.bg-light,
+.btn-light {
+	border-radius: 20px;
+	background-color: #565264c4 !important;
+	border: solid 3px #ffffff4a;
+}
+
+.text-light {
+	background: none !important;
+	padding-top: 5px !important;
+}
+
+small.b {
+	font-size: 20px;
+	font-weight: lighter !important;
+}
+
+.rounded-bottom,
+.rounded-left {
+	border-radius: 100px !important;
+	padding: 0 !important;
+	height: 150px;
+	width: 150px;
+	border: double 8px #ffffffb8 !important;
+}
+
+.pl-3,
+.px-3 {
+	height: 130px !important;
+	width: 130px !important;
+}
+
 .p-2 {
 	height: 50px;
 	width: 50px;
 	padding: 0 !important;
 	margin: 5px 5px 5px 5px;
+}
+
+.badge {
+	border-radius: 100px;
+	background: #d3d3ee42;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+td.row .border-none .card-img-top,
+.table .form-row img {
+	bordeR: none;
+	margin: 5px;
 }
 
 .progress {
@@ -579,7 +629,7 @@ form .table.table-striped {
 }
 
 .bg-info {
-	background-color: #6d6875 !important;
+	background-color: #706986 !important;
 }
 
 .table div.progress-bar.bg-success {
@@ -603,7 +653,7 @@ form .table.table-striped {
 #main h4,
 #main h5,
 #main h6 {
-	color: #c5deff;
+	color: #bacadf;
 }
 
 .text-danger {
