@@ -301,7 +301,7 @@ td.b {
 }
 
 table.striped {
-	background-color: #0e154557;
+	background-color: #6d687587;
 	border-radius: 15px;
 	backdrop-filter: blur(5px);
 }
@@ -321,6 +321,7 @@ SOCIALIZING: CYGNUS */
 
 div#denCards.form-row img.card-img-top {
 	height: 220px;
+	transition: opacity 0.35s ease-in-out;
 }
 
 #denCards .card-header {
@@ -392,13 +393,13 @@ tbody form tr {
 
 tr.subheader.font-weight-bold {
 	background: none !important;
-	color: #e0e1dd;
+	color: #fff;
 }
 
 form .table.table-striped {
 	backdrop-filter: blur(200px);
 	border-radius: 15px !important;
-	color: white;
+	color: #fff;
 	margin-top: 60px;
 }
 
@@ -423,9 +424,146 @@ form .table.table-striped {
 	background-color: #6288b3;
 }
 
+/* WOLVES */
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	border: double 4px #ffffff7d !important;
+	border-radius: 100px;
+	margin: 3px;
+}
 
+.p-2 {
+	height: 50px;
+	width: 50px;
+	padding: 0 !important;
+	margin: 5px 5px 5px 5px;
+}
 
+.progress {
+	background-color: #ffd9c4 !important;
+}
 
+.bg-warning,
+.bg-warning .btn-link,
+.bg-warning .card-title {
+	background-color: #ffb4a2 !important;
+}
+
+.bg-success {
+	background-color: #e5989b !important;
+}
+
+.bg-primary {
+	background-color: #e5989b !important;
+}
+
+.bg-danger {
+	background-color: #b5838d !important;
+}
+
+.bg-info {
+	background-color: #6d6875 !important;
+}
+
+.table div.progress-bar.bg-success {
+	background-color: #ffb4a2 !important;
+}
+
+/* CAVE MATS */
+#main .card {
+	background: none;
+}
+
+#main .card.mb-3 .card-body {
+	background-color: #a6808cb8 !important;
+	border-radius: 100px;
+	border: none;
+}
+
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+	color: #c5deff;
+}
+
+.text-danger {
+	color: #ffb4a2 !important;
+}
+
+/* DEN OPTIONS */
+input.form-control,
+input.form-control:focus,
+select.form-control,
+select.form-control:focus,
+textarea.form-control,
+textarea.form-control:focus {
+	background-color: #22223bd1;
+	border: none;
+	color: #ededed;
+	border-radius: 100px;
+}
+
+.custom-control hr {
+	display: none;
+}
+
+select.form-control[multiple],
+select.form-control[size],
+textarea.form-control {
+	border-radius: 0 0 0 20px !important;
+}
+
+.bg-bar-input {
+	background-color: #22223b;
+	border: none;
+	border-radius: 0 20px 0 0;
+}
+
+.btn.btn-htmlinput {
+	background-color: #4a4e69;
+	border: none;
+}
+
+.btn-danger {
+	background-color: #a6808c;
+	border: none;
+}
+
+.text-td-bottom {
+	color: #faf5d4;
+}
+
+.btn-info {
+	color: #faf5d4 !important;
+	background-color: #43668c;
+	border-radius: 10px;
+}
+
+.btn-warning {
+	border-radius: 10px;
+}
+
+p.text-center i {
+	color: #faf5d4 !important;
+}
+
+.justify-content-center {
+	background-color: #3a0706;
+}
+
+span.copyright a {
+	color: #faf5d4 !important;
+}
+
+#footer nav .nav-item .nav-link {
+	color: #faf5d4;
+}
 
 
 
