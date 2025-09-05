@@ -373,6 +373,85 @@ img[src$="socializing.png"] {
 	opacity: 0.7;
 }
 
+img[alt="Pack Dynasty"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Dynasty"] + .card-header b::before {
+	content: "Pack Dynasty\A-Constellation Ophiuchus-\ARebirth and the Underworld" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
+}
+
+img[alt="Pack Overview"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pack Overview"] + .card-header b::before {
+	content: "Pack Overview\A-The Orion Family-\A A cluster of familial stars" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Breeding"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Breeding"] + .card-header b::before {
+	content: "Breeding\A-Constellation Virgo-\A Fertility and harvest" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Pupsitting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Pupsitting"] + .card-header b::before {
+	content: "Pupsitting\A-Constellation Ursa Minor-\ALittle Cub" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Nesting"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Nesting"] + .card-header b::before {
+	content: "Nesting\A-Constellation Ursa Major-\AMother Bear" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+img[alt="Socializing"] + .card-header b {
+	font-size: 0;
+}
+
+img[alt="Socializing"] + .card-header b::before {
+	content: "Socializing\A-Constellation Cygnus-\A Devotion and Loyalty" !important;
+	white-space: pre-wrap;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
 /* TABLE ROWS */
 th.top {
 	border-radius: 15px !important;
