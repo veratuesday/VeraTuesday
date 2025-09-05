@@ -38,6 +38,10 @@ h1 {
 	font-size: 90px;
 	text-align: center;
 	color: #c5deff;
+	text-shadow: 0 0 5px #dbffff82, /* Small, tight shadow for the inner glow */
+	0 0 5px #dbffff33, /* Slightly larger shadow for a wider glow */
+	0 0 20px #dbffff70;
+	/* Even larger shadow for the outer diffusion */
 }
 
 /* TEXT */
@@ -96,7 +100,7 @@ li.breadcrumb-item a {
 
 .breadcrumb.col-lg-9.ml-auto.text-break::after {
 	content: "CSS by #181677";
-	color: #778da9;
+	color: #b4d5ffd1;
 	font-size: 14px !important;
 	position: absolute;
 	right: 6%;
@@ -301,9 +305,9 @@ td.b {
 }
 
 table.striped {
-	background-color: #6d687587;
+	background-color: #867f9191;
 	border-radius: 15px;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(100px);
 }
 
 /* DEN CARDS */
@@ -322,6 +326,7 @@ SOCIALIZING: CYGNUS */
 div#denCards.form-row img.card-img-top {
 	height: 220px;
 	transition: opacity 0.35s ease-in-out;
+	filter: none !important;
 }
 
 #denCards .card-header {
@@ -385,10 +390,6 @@ th.top a {
 
 td a {
 	color: #c5deff;
-}
-
-tbody form tr {
-	border: solid
 }
 
 tr.subheader.font-weight-bold {
@@ -496,6 +497,17 @@ form .table.table-striped {
 	color: #ffb4a2 !important;
 }
 
+hr.flowers {
+	background: none;
+	content: url('https://i.postimg.cc/QC8P6T0q/pngwing-comjhv.png');
+	width: 75%;
+	height: 200px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	opacity: 20%;
+	filter: grayscale(100%);
+}
+
 /* DEN OPTIONS */
 input.form-control,
 input.form-control:focus,
@@ -536,38 +548,51 @@ textarea.form-control {
 }
 
 .text-td-bottom {
-	color: #faf5d4;
+	color: #ededed;
+}
+
+.text-center.mt-4 .btn.btn-success.btn-lg {
+	background-color: #8d7989;
 }
 
 .btn-info {
-	color: #faf5d4 !important;
-	background-color: #43668c;
+	color: #ededed !important;
+	background-color: #4a4e69;
+	border: none !important;
 	border-radius: 10px;
+}
+
+.card-header:first-child {
+	border: none;
+	background: none;
 }
 
 .btn-warning {
 	border-radius: 10px;
+	background-color: #95b1d5;
+	border: none;
 }
 
 p.text-center i {
-	color: #faf5d4 !important;
+	color: #ededed !important;
 }
 
 .justify-content-center {
-	background-color: #3a0706;
+	background-color: #0d1b2a87;
+}
+
+#footer {
+	background: none;
 }
 
 span.copyright a {
-	color: #faf5d4 !important;
+	color: #ededed !important;
 }
 
 #footer nav .nav-item .nav-link {
-	color: #faf5d4;
+	color: #ededed;
 }
 
-
-
-/*--------------------------------------*/
 /* HOTLINKS */
 @media (min-width: 1090px) {
 	.hotlink {
