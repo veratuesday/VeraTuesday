@@ -148,6 +148,10 @@ li.breadcrumb-item a {
 
 
 /* MAIN */
+body {
+	background-color: white;
+}
+
 #main {
 	background-color: #778da966;
 	flex: 1;
@@ -261,7 +265,7 @@ td a {
 }
 
 .fa-circle:before {
-	color: #a3ffdd;
+	color: #a3ffdd9c;
 }
 
 div.col-xl-3.col-sm-7.text-center {
@@ -270,19 +274,63 @@ div.col-xl-3.col-sm-7.text-center {
 	padding: 0 !important;
 }
 
-td.row .border-none .card-img-top,
-.table .form-row img {
-	border-radius: 80px;
-	border: solid 4px #ededed;
+img[alt="Wolf Headshot"] {
+	border-radius: 100px !important;
+	border: none;
+	filter: grayscale(80%) !important;
+	transition: filter 0.5s ease-in-out;
 }
 
-div.card.mb-3 a {
-	opacity: 85%;
+#main .table .card.mb-3 a:before {
+	content: '';
+	background-image: url('https://i.postimg.cc/h4xSkbCC/d36c5c5ab3953a633dfc2d5a84c142f6.jpg');
+	background-size: 100% auto;
+	display: inline-block;
+	width: 390px;
+	height: 400px;
+	top: -35%;
+	left: -38%;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1 !important;
+	mix-blend-mode: screen;
+	filter: grayscale(100%);
+	transform: scale(-1, 1);
+}
+#main .table .card.mb-3 a {
+	position: relative;
+}
+#main .featured-wolf a:first-of-type {
+	position: relative;
+}
+#main .featured-wolf a:first-of-type:before {
+	z-index: 100;
+	content: '';
+	background-image: url('https://i.postimg.cc/02jGyF75/0252efaa60269658b25efc07f55031e4.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	top: -66px;
+	left: 4px;
+	position: absolute;
+	pointer-events: none;
+	mix-blend-mode: screen;
+}
+#main .table:first-of-type td.row {
+	padding-top: 40px !important;
+}
+#main .featured-wolf img {
+	margin-top: 30px !important;
+}
+#main .featured-wolf a:nth-of-type(2) {
+	display: none !important;
 }
 
-div.card.mb-3 a:hover {
-	opacity: 100%;
-	transition: opacity 0.5s ease-in-out;
+img[alt="Wolf Headshot"]:hover {
+	filter: none !important;
+	transition: filter 0.5s ease-in-out;
 }
 
 .border-none .card {
@@ -305,13 +353,14 @@ div.card.mb-3 a:hover {
 	width: 180px !important;
 	height: 180px !important;
 	border-radius: 100px;
-	border: solid 4px #ededed;
-	opacity: 85%;
+	border: none;
+	filter: grayscale(80%) !important;
+	transition: opacity 0.5s ease-in-out;
 }
 
 .featured-wolf img:hover {
-	opacity: 100%;
-	transition: opacity 0.5s ease-in-out;
+	filter: none !important;
+	transition: filter 0.5s ease-in-out;
 }
 
 #lblFeaturedWolfTitle {
