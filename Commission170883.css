@@ -32,6 +32,10 @@ body {
 }
 
 /* CURSOR */
+* {
+	cursor: url('https://i.postimg.cc/tgf92FZH/Image-To-Stl-com-cursor-11.png'), progress !important;
+}
+
 /* HEADER */
 h1 {
 	font-family: 'Plymouthrock';
@@ -258,7 +262,7 @@ tr {
 
 td.row {
 	background-color: #52d6e400;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
 }
 
 td a {
@@ -456,6 +460,7 @@ div#denCards.form-row img.card-img-top {
 	border: none;
 	font-size: 25px;
 	font-weight: lighter !important;
+	height: 90px;
 }
 
 img[src$="packdynasty.png"] {
@@ -499,9 +504,21 @@ img[alt="Pack Dynasty"] + .card-header b {
 }
 
 img[alt="Pack Dynasty"] + .card-header b::before {
-	content: "Pack Dynasty\A\A\A\A\A-Constellation Ophiuchus-\ARebirth and the Underworld" !important;
+	content: "Pack Dynasty" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Pack Dynasty"] + .card-header b::after {
+	content: "-Constellation Ophiuchus-\ARebirth and the Underworld" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
@@ -513,12 +530,25 @@ img[alt="Pack Overview"] + .card-header b {
 }
 
 img[alt="Pack Overview"] + .card-header b::before {
-	content: "Pack Overview\A\A\A\A\A\-The Orion Family-\A A cluster of familial stars" !important;
+	content: "Pack Overview" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Pack Overview"] + .card-header b::after {
+	content: "-The Orion Family-\A A cluster of familial stars" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
 }
 
 img[alt="Breeding"] + .card-header b {
@@ -526,12 +556,25 @@ img[alt="Breeding"] + .card-header b {
 }
 
 img[alt="Breeding"] + .card-header b::before {
-	content: "Breeding\A\A\A\A\A-Constellation Virgo-\A Fertility and harvest" !important;
+	content: "Breeding" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Breeding"] + .card-header b::after {
+	content: "-Constellation Virgo-\A Fertility and harvest" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
 }
 
 img[alt="Pupsitting"] + .card-header b {
@@ -539,12 +582,25 @@ img[alt="Pupsitting"] + .card-header b {
 }
 
 img[alt="Pupsitting"] + .card-header b::before {
-	content: "Pupsitting\A\A\A\A\A-Constellation Ursa Minor-\ALittle Cub" !important;
+	content: "Pupsitting" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Pupsitting"] + .card-header b::after {
+	content: "-Constellation Ursa Minor-\ALittle Cub" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
 }
 
 img[alt="Nesting"] + .card-header b {
@@ -552,12 +608,25 @@ img[alt="Nesting"] + .card-header b {
 }
 
 img[alt="Nesting"] + .card-header b::before {
-	content: "Nesting\A\A\A\A\A-Constellation Ursa Major-\AMother Bear" !important;
+	content: "Nesting" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Nesting"] + .card-header b::after {
+	content: "-Constellation Ursa Major-\AMother Bear" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
 }
 
 img[alt="Socializing"] + .card-header b {
@@ -565,12 +634,25 @@ img[alt="Socializing"] + .card-header b {
 }
 
 img[alt="Socializing"] + .card-header b::before {
-	content: "Socializing\A\A\A\A\A-Constellation Cygnus-\A Devotion and Loyalty" !important;
+	content: "Socializing" !important;
 	white-space: pre-wrap;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 120px;
+}
+
+img[alt="Socializing"] + .card-header b::after {
+	content: "-Constellation Cygnus-\A Devotion and Loyalty" !important;
+	white-space: pre-wrap;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: white;
 }
 
 /* TABLE ROWS */
@@ -757,8 +839,18 @@ hr.flowers {
 	height: 120px !important;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
-	opacity: 20%;
+	opacity: 50%;
 	filter: grayscale(100%);
+}
+
+.btn-primary {
+	background-color: #b5838d;
+	border-radius: 10px;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #e5989b;
 }
 
 /* DEN OPTIONS */
@@ -876,8 +968,238 @@ span.copyright a {
 	}
 }
 
+/* ---------- HTML CSS (TOP BOXES) ---------- */
+h6.box-title {
+	color: #11202d !important;
+}
+
+.cont {
+	position: relative;
+	height: 300px;
+	max-height: 300px
+}
+
+.bxx1 {
+	right: 51%
+}
+.bxx2 {
+	left: 51%
+}
+
+.bxx1,
+.bxx2 {
+	position: absolute;
+	width: calc(49% - 40px);
+	height: calc(100% - 80px);
+	top: 40px;
+	margin: auto;
+	padding: 15px;
+	line-height: 15px
+}
+.bxx1::before {
+	width: 125px;
+	left: -40px;
+	top: -20px;
+	border-top: 1px solid #000
+}
+.bxx1::after {
+	height: 125px;
+	left: -20px;
+	top: -40px;
+	border-left: 1px solid #000
+}
+.bxx1::before,
+.bxx1::after {
+	position: absolute;
+	content: "";
+	border-color: inherit!important
+}
+.bxx2::before {
+	width: 125px;
+	right: -40px;
+	bottom: -20px;
+	border-top: 1px solid #000
+}
+.bxx2::after {
+	height: 125px;
+	right: -20px;
+	bottom: -40px;
+	border-left: 1px solid #000
+}
+.bxx2::before,
+.bxx2::after {
+	position: absolute;
+	content: "";
+	border-color: inherit!important
+}
+.bxx1::before,
+.bxx1::after,
+.bxx2::before,
+.bxx2::after {
+	transition: .5s ease
+}
+.bxx1:hover::before {
+	left: -20px
+}
+.bxx1:hover::after {
+	top: -20px
+}
+.bxx2:hover::before {
+	right: -20px
+}
+.bxx2:hover::after {
+	bottom: -20px
+}
+.cntrmoon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: calc(50% - 90px);
+	width: 170px;
+	height: 180px
+}
+.cntrmoon img {
+	clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+	width: 100%;
+	height: 100%;
+	object-fit: cover
+}
+@media only screen and (max-width: 992px) {
+	.cntrmoon {
+		display: none
+	}
+	.cntnr,
+	.cntnr2 {
+		width: 100%!important
+	}
+}
+.cntnr {
+	padding-left: 15px
+}
+.cntnrcntnt {
+	direction: ltr;
+	width: 100%!important;
+	float: left
+}
+.flp {
+	direction: rtl
+}
+.cntnr2 {
+	padding-right: 15px;
+	float: right;
+	text-align: right
+}
+.cntnr,
+.cntnr2 {
+	height: 100%;
+	width: 75%;
+	overflow-y: auto
+}
+.cntnr::-webkit-scrollbar,
+.cntnr2::-webkit-scrollbar {
+	width: 5px
+}
+.cntnr::-webkit-scrollbar-track,
+.cntnr2::-webkit-scrollbar-track {
+	border: 1px solid lightgray
+}
+.cntnr::-webkit-scrollbar-thumb,
+.cntnr2::-webkit-scrollbar-thumb {
+	background: lightgray
+}
+.quot {
+	position: absolute;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	max-width: 140px;
+	transition: .5s ease;
+	opacity: 0;
+	padding: 5px 10px
+}
+.cntrmoon:hover .quot {
+	opacity: 1;
+	bottom: -5px
+}
+.cont p {
+	margin-bottom: 5px!important
+}
+.cont p:last-of-type {
+	margin-bottom: 0!important
+}
+.cont h6 {
+	margin-bottom: 10px!important
+}
+
+/* General container */
+.cont {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+/* Box 1 */
+.bxx1 {
+	font: 11px Consolas;
+	border: 3px double #b6dbee78;
+	background: #91b0c6;
+	padding: 10px;
+}
+
+/* Box 2 */
+.bxx2 {
+	font: 11px Consolas;
+	border: 3px double #b6dbee78;
+	background: #91b0c6;
+	padding: 10px;
+}
+
+/* Shared header style */
+.box-title {
+	color: #D89667;
+	font: 31px 'Brafesuit';
+	margin: 0 0 10px 0;
+}
+
+
+.cntrmoon img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Caption */
+.quot {
+	border: 1px solid #000;
+	font: 11px Consolas;
+	color: #FFFFFF;
+	background: rgba(0, 0, 0, 0.75);
+	margin-top: 5px;
+	padding: 5px;
+}
+/* SNOW */
+.snow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: url("https://files.catbox.moe/0x297x.webp") repeat;
+	background-size: cover;
+	opacity: .25;
+	mix-blend-mode: screen;
+	animation: drift 120s linear infinite;
+	/* slow drifting */
+	z-index: 999;
+}
+
 /* HTML TEXT */
-/*<div class="text-break" id="fraDenHTML">
+/*<div class="snow"></div>
+<div class="text-break" id="fraDenHTML">
 <div class="hotlink"><h4>Quick Links</h4><a href="https://www.wolvden.com/explore">Explore</a><br>
 <a href="https://www.wolvden.com/hunting">Hunting</a><br>
 <a href="https://www.wolvden.com/herbalist">Herbalist</a><br>
@@ -888,30 +1210,86 @@ span.copyright a {
 <a href="https://www.wolvden.com/custom-decors">Custom Decors</a></div><br>
 </div>
     <div class="biography-box">
-  	<h2>My Biography</h2>
-	  <p>This is a long biography text that will require scrolling to be fully visible. 
-	     You can add more content here to demonstrate the scrollbar functionality. 
-	     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-	     sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-	     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-	     sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-	     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-	     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ <div class="cont">
+
+  <!-- First box -->
+  <div class="bxx1">
+    <div class="cntnr flp">
+      <div class="cntnrcntnt">
+        <h6 class="box-title"> short title here... </h6>
+        <p>This is a paragraph. Feel free to add more content. Remember to wrap chunks of text in paragraphs.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second box -->
+  <div class="bxx2">
+    <div class="cntnr2">
+      <h6 class="box-title"> ...short title here </h6>
+      <p>This is a paragraph. Feel free to add more content. Remember to wrap chunks of text in paragraphs.</p>
+    </div>
+  </div>
+
+  <!-- Moon with caption -->
+  <div class="cntrmoon">
+    <img src="https://files.catbox.moe/bf8dv8.png" alt="">
+    <div class="quot">quick caption here</div>
+  </div>
+
+</div>
+<!-- END OF BOX CODE -->
+
+<!-- BEGINNING OF LAYOUT CODE -->
+<div class="col-4 ml-3 mt-3 p-0" style="border:0px dashed lightgray;float:left;text-align:center;">
+ 
+<!-- ⇓ Here you can put a wolf headshot, artwork, whatever. -->
+<img src="https://files.catbox.moe/w9wjof.png">
+ 
+<p class="mt-4 mb-4 p-1" style="text-align:center; border-top:3px double #778DA9; border-bottom:3px double #778DA9; font-family:Cambria;">
+<span style="font-size:20px; color:#e0e1dd;">◆</span><br>
+<!-- A side quote can go here. -->
+<span style="font-size:12px; color:#778DA9;"><i>This is a side quote. You could rattle the stars. You could do anything, if only you dared. And deep down, you know it, too. That's what scares you most.</i></span>
+<br><span style="font-size:20px; color:#e0e1dd;">◆</span>
+</p>
+ 
+<!-- ⇓ Random Wolvden items pertaining to your subject go here. Or, well, other things, like more artwork! -->
+<img src="https://static.wolvden.com/images/items/trophies/pelt_lynx.png">
+<img src="https://static.wolvden.com/images/items/trophies/bearpaw_polar.png">
+<img src="https://static.wolvden.com/images/items/trophies/ear_deer.png">
+ 
+<!-- Please leave the credit intact. -->
+<p class="mt-2" style="font:10px Consolas; color:#778DA9;"><i> 181677 </i></p>
+</div> <div class="col-7 ml-3 mt-3" style="border:0px dashed lightgray;float:left; font: 12px Cambria; text-align:justify; line-height:15px;">
+ 
+<!-- Title header. -->
+<h2 class="pl-3 mb-1" style="border-left: 4px solid #eae5d5; color:#11202d; font-family:Century Gothic; font-size: 50px; text-align:left; white-space:nowrap; padding-top: 30px;">
+WOAH A HEADER
+</h2>
+<!-- Subheader here. -->
+<p class="pl-4" style="font-size:12px; color:#e0e1dd;"><i>
+slightly lengthier subheader here
+</i></p>
+ 
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 
+<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+ 
+<!-- Minor header. Replicate this wherever you want using copy/paste. -->
+<p style="border-top:1px dotted #e0e1dd; text-align:left; font:15px Century Gothic; text-align:right; color:#778DA9;">
+FANCY SUBHEADER
+</p>
+ 
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+ 
+<!-- Bulleted list. Replicate this wherever you want using copy/paste, or you can remove this section entirely. -->
+<ul style="list-style-image: url(https://static.wolvden.com/images/layout/icons/icon-weather-wind.png);">
+<li>this is a list item</li>
+<li>feel free to add or remove</li>
+<li>bullet points by copy/pasting</li>
+<li>or get rid of them entirely</li>
+</ul>
+ 
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+ 
+</div>
 </div>*/
