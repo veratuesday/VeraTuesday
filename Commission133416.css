@@ -80,6 +80,10 @@ h1 {
 	box-shadow: 0 0 10px #fff;
 }
 
+div.w-50.pl-2.small.d-flex.flex-column.justify-content-center {
+	background: none;
+}
+
 img[alt='Wolf Headshot'] {
 	border-radius: 100px;
 	border: solid 3px #fff;
@@ -438,6 +442,13 @@ tr.subheader.font-weight-bold {
 	background-color: #85eaff59;
 	border-radius: 100px;
 	border: solid 2px #ffffff80;
+	padding-left: 35px;
+}
+
+.btn-primary {
+	background-color: #597e9a;
+	border-radius: 15px;
+	border: none;
 }
 
 /* DEN OPTIONS */
