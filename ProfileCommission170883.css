@@ -963,6 +963,14 @@ span.text-success {
 	backdrop-filter: blur(10px);
 }
 
+
+
+div.form-row .p-2 {
+	width: 120px !important;
+	padding: 0 !important;
+	margin: 0;
+}
+
 /* HOTLINKS */
 @media (min-width: 1090px) {
 	.hotlink {
