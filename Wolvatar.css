@@ -573,8 +573,8 @@ img[alt="Socializing"] + .card-header b::before {
 hr.flowers {
 	background: none;
 	content: url('https://i.postimg.cc/L5YfwZbk/image.png');
-	height: 150px !important;
-	width: 600px !important;
+	height: 140px !important;
+	width: 550px !important;
 	opacity: .75;
 	margin-top: 0 !important;
 	margin-bottom: 0 !important;
@@ -591,6 +591,12 @@ hr.flowers {
 
 #footer {
 	background-color: rgba(7, 25, 43, .4);
+}
+
+.btn-primary {
+	background-color: #088dc0;
+	border-radius: 15px;
+	border: none;
 }
 
 /*PROFILE*/
