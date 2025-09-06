@@ -422,9 +422,9 @@ nav.navbar-main,
 }
 
 .breadcrumb.col-lg-9.ml-auto.text-break::after {
-	content: "CSS by #181677 & #181724";
+	content: "CSS by #181677\A & #181724";
 	color: #03cce0;
-	font-size: 14px !important;
+	font-size: 12px !important;
 	position: absolute;
 	right: 6%;
 	z-index: 100;
