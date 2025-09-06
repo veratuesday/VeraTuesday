@@ -50,7 +50,8 @@ h1 {
 	transition: max-height 1s ease-in-out;
 	border: none;
 	border-radius: 10px;
-	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
 	background-color: #7194a68c;
 	font-family: 'Brafesuit';
 	color: #fff;
@@ -257,7 +258,7 @@ tr {
 
 td.row {
 	background-color: #52d6e400;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 td a {
@@ -271,7 +272,7 @@ td a {
 div.col-xl-3.col-sm-7.text-center {
 	margin-top: 30px !important;
 	background-color: transparent !important;
-	padding: 0 !important;
+	padding: 0px !important;
 }
 
 img[alt="Wolf Headshot"] {
@@ -303,26 +304,29 @@ img[alt="Wolf Headshot"] {
 #main .featured-wolf a:first-of-type {
 	position: relative;
 }
+
 #main .featured-wolf a:first-of-type:before {
-	z-index: 100;
+	z-index: 1;
 	content: '';
-	background-image: url('https://i.postimg.cc/02jGyF75/0252efaa60269658b25efc07f55031e4.jpg');
+	background-image: url('https://i.postimg.cc/h4xSkbCC/d36c5c5ab3953a633dfc2d5a84c142f6.jpg');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
-	top: -66px;
-	left: 4px;
+	width: 390px;
+	height: 400px;
+	top: -169px;
+	left: -113px;
 	position: absolute;
 	pointer-events: none;
 	mix-blend-mode: screen;
+	filter: grayscale(100%);
 }
+
 #main .table:first-of-type td.row {
 	padding-top: 40px !important;
 }
 #main .featured-wolf img {
-	margin-top: 30px !important;
+	margin-top: 0px !important;
 }
 #main .featured-wolf a:nth-of-type(2) {
 	display: none !important;
@@ -350,8 +354,8 @@ img[alt="Wolf Headshot"]:hover {
 }
 
 .featured-wolf img {
-	width: 180px !important;
-	height: 180px !important;
+	width: 200px !important;
+	height: 200px !important;
 	border-radius: 100px;
 	border: none;
 	filter: grayscale(80%) !important;
@@ -360,18 +364,54 @@ img[alt="Wolf Headshot"]:hover {
 
 .featured-wolf img:hover {
 	filter: none !important;
-	transition: filter 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
 
 #lblFeaturedWolfTitle {
-	font-size: 25px;
-	color: #ededed;
-	font-weight: lighter;
+	display: none;
+}
+
+.featured-wolf br,
+.btn-group-sm > .btn,
+.featured-wolf {
+	font-size: 0
+}
+.featured-wolf a img {
+	width: 200px!important
+}
+th.pt-1.pb-1 {
+	font-size: 0!important
+}
+
+.featured-wolf br,
+.btn-group-sm > .btn,
+.featured-wolf {
+	padding-top: 30px;
+}
+
+#lblPackLeaderTitle::after {
+	content: "For Stud Frostbite";
+	color: rgb(250, 220, 235);
+	font-family: French Notez !important;
+	font-size: 25px !important;
+	float: right
+}
+#lblPackLeaderTitle::before {
+	content: "Empress Glacier";
+	color: rgb(250, 220, 235);
+	font-family: French Notez !important;
+	font-size: 25px !important;
+	float: left
+}
+
+#main .featured-wolf a:nth-of-type(2) {
+	display: flow !important;
 }
 
 .col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
-	font-size: 20px;
-	color: #d2d2df;
+	font-size: 0px !important;
+	color: #d2d2df !important;
+	visibility: visible;
 }
 
 .btn-group-sm > .btn,
@@ -401,7 +441,7 @@ table.striped {
 #denCards .card {
 	background-color: transparent;
 	backdrop-filter: blur(2px);
-	border-radius: 150px !important;
+	border-radius: 200px !important;
 }
 
 div#denCards.form-row img.card-img-top {
@@ -420,37 +460,37 @@ div#denCards.form-row img.card-img-top {
 
 img[src$="packdynasty.png"] {
 	content: url('https://i.postimg.cc/VLjpzRzF/ophiuchus-cons.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
 img[src$="packoverview.png"] {
 	content: url('https://i.postimg.cc/SN0H05bs/orion-cons.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
 img[src$="breeding.png"] {
 	content: url('https://i.postimg.cc/6qZS2Vnt/virgo-cons.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
 img[src$="pupsitting.png"] {
 	content: url('https://i.postimg.cc/MZfgFw4N/ursaminor-cons.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
 img[src$="nesting.png"] {
 	content: url('https://i.postimg.cc/ZR225s9w/ursamajor-con.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
 img[src$="socializing.png"] {
 	content: url('https://i.postimg.cc/0Qbhx1N6/cygnus-cons.jpg')!important;
-	border-radius: 150px;
+	border-radius: 50px;
 	opacity: 0.7;
 }
 
@@ -459,7 +499,7 @@ img[alt="Pack Dynasty"] + .card-header b {
 }
 
 img[alt="Pack Dynasty"] + .card-header b::before {
-	content: "Pack Dynasty\A-Constellation Ophiuchus-\ARebirth and the Underworld" !important;
+	content: "Pack Dynasty\A\A\A\A\A-Constellation Ophiuchus-\ARebirth and the Underworld" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -473,7 +513,7 @@ img[alt="Pack Overview"] + .card-header b {
 }
 
 img[alt="Pack Overview"] + .card-header b::before {
-	content: "Pack Overview\A-The Orion Family-\A A cluster of familial stars" !important;
+	content: "Pack Overview\A\A\A\A\A\-The Orion Family-\A A cluster of familial stars" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -486,7 +526,7 @@ img[alt="Breeding"] + .card-header b {
 }
 
 img[alt="Breeding"] + .card-header b::before {
-	content: "Breeding\A-Constellation Virgo-\A Fertility and harvest" !important;
+	content: "Breeding\A\A\A\A\A-Constellation Virgo-\A Fertility and harvest" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -499,7 +539,7 @@ img[alt="Pupsitting"] + .card-header b {
 }
 
 img[alt="Pupsitting"] + .card-header b::before {
-	content: "Pupsitting\A-Constellation Ursa Minor-\ALittle Cub" !important;
+	content: "Pupsitting\A\A\A\A\A-Constellation Ursa Minor-\ALittle Cub" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -512,7 +552,7 @@ img[alt="Nesting"] + .card-header b {
 }
 
 img[alt="Nesting"] + .card-header b::before {
-	content: "Nesting\A-Constellation Ursa Major-\AMother Bear" !important;
+	content: "Nesting\A\A\A\A\A-Constellation Ursa Major-\AMother Bear" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -525,7 +565,7 @@ img[alt="Socializing"] + .card-header b {
 }
 
 img[alt="Socializing"] + .card-header b::before {
-	content: "Socializing\A-Constellation Cygnus-\A Devotion and Loyalty" !important;
+	content: "Socializing\A\A\A\A\A-Constellation Cygnus-\A Devotion and Loyalty" !important;
 	white-space: pre-wrap;
 	font-size: 18px;
 	text-align: center;
@@ -624,15 +664,15 @@ small.b {
 .rounded-left {
 	border-radius: 100px !important;
 	padding: 0 !important;
-	height: 150px;
-	width: 150px;
+	height: 130px;
+	width: 130px;
 	border: double 8px #ffffffb8 !important;
 }
 
 .pl-3,
 .px-3 {
-	height: 130px !important;
-	width: 130px !important;
+	height: 110px !important;
+	width: 110px !important;
 }
 
 .p-2 {
@@ -694,6 +734,7 @@ td.row .border-none .card-img-top,
 	background-color: #a6808cb8 !important;
 	border-radius: 100px;
 	border: none;
+	padding-left: 40px !important;
 }
 
 #main h1,
@@ -712,8 +753,8 @@ td.row .border-none .card-img-top,
 hr.flowers {
 	background: none;
 	content: url('https://i.postimg.cc/QC8P6T0q/pngwing-comjhv.png');
-	width: 75%;
-	height: 200px !important;
+	width: 450px;
+	height: 120px !important;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
 	opacity: 20%;
