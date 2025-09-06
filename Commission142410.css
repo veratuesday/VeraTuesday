@@ -12,6 +12,10 @@ body {
 	cursor: url('https://i.postimg.cc/RCc3MCy1/Image-To-Stl-com-cursor-10.png'), progress !important;
 }
 
+a:hover {
+	cursor: url('https://i.postimg.cc/156xrtst/Image-To-Stl-com-cursor-12.png'), progress !important;
+}
+
 /* HEADING */
 h1 {
 	font-family: 'Libre Baskerville';
