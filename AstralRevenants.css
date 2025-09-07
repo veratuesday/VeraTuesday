@@ -1,0 +1,882 @@
+/* FONTS */
+@font-face {
+	font-family: 'Angel Wish';
+	src: url('https://veratuesday.github.io/VeraTuesday/Angelwish.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+/* BG IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/6pxbhfp2/wallpaperflare-com-wallpaper.jpg') !important;
+}
+
+/* HEADER */
+h1 {
+	font-family: 'Angel Wish';
+	font-size: 145px;
+	text-align: center;
+	text-shadow: 0px 0px 10px #f00;
+	color: #f7faf0;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 120px;
+	}
+}
+
+/* TEXT */
+* {
+	font-family: 'Fondamento';
+}
+
+a {
+	font-family: 'Fondamento';
+	transition: text-shadow 0.35s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 5px #ca0f0f,
+	0 0 5px #000,
+	0 0 5px #000;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none !important;
+}
+
+#header.container .navbar.navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #00000061;
+	font-family: 'Angel Wish' !important;
+}
+
+#header .navbar-main .nav-link {
+	font-family: 'Angel Wish' !important;
+	font-size: 30px;
+	color: #f7faf0bf;
+	margin-left: 5px;
+	transition: color 0.35s ease;
+}
+
+#header .navbar-main .nav-link:hover {
+	color: #f7faf0 !important;
+	text-shadow: none;
+}
+
+
+#header .navbar-main .nav-link .fa {
+	display: none;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #00000061;
+	border: none !important;
+	font-size: 18px;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+	font-size: 16px;
+}
+
+#header .navbar-status a,
+.navbar-text {
+	font-weight: bold;
+	color: #771c2b;
+}
+
+#header .navbar-status a:hover {
+	color: #99162b;
+}
+
+.icon-beetle-silver,
+.icon-silver-cone {
+	opacity: 50%;
+}
+
+.icon-beetle-gold,
+.icon-gold-cone {
+	opacity: 50%;
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #00000061;
+	border: none !important;
+}
+
+#header .breadcrumb-nav .breadcrumb {
+	max-width: 99%;
+	margin-left: 5px !important;
+}
+
+li.breadcrumb-item a {
+	font-size: 16px !important;
+	font-weight: bold;
+	color: #771c2b;
+}
+
+.breadcrumb-item.active {
+	font-size: 16px !important;
+	font-weight: bold;
+	color: #f7faf0;
+}
+
+/* MAIN */
+#main {
+	background-color: #00000061;
+	flex: 1;
+	max-width: 100%;
+	margin-bottom: -1px;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+	background-color: transparent;
+	font-size: 0;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	font-size: 0;
+}
+
+i.fas.fa-home.mr-2::before {
+	content: "\f67f";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #ff000054;
+	text-align: center !important;
+}
+
+.fa-user:before {
+	content: "\f720";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #ff000054;
+	text-align: center !important;
+}
+
+/* SIDEBAR */
+#sidebar {
+	display: none;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	background-color: #91000038;
+	border-radius: 100px;
+	border: none;
+	padding-bottom: 10px;
+	text-align: center;
+	backdrop-filter: blur(25px);
+}
+
+.alert-danger {
+	background-color: #3a000030;
+	border: double 6px #ff000a75;
+	border-radius: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 10px !important;
+}
+
+.alert-danger a {
+	color: #f7faf0 !important;
+}
+
+.alert-info {
+	background-color: #9900197a;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	padding-bottom: 10px;
+	backdrop-filter: blur(25px);
+}
+
+.table {
+	border: none;
+}
+
+/* LEAD AND FEATURED */
+tr {
+	border-radius: 100px !important;
+	background: none !important;
+}
+
+td.row {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	margin-bottom: 55px;
+}
+
+th.pt-1.pb-1 {
+	background-color: transparent;
+	font-size: 0px !important;
+	padding-left: 100px;
+	padding-right: 80px;
+	border-radius: 15px !important;
+}
+
+
+
+span#lblPackLeaderTitle {
+	font-family: 'Angel Wish';
+	font-weight: lighter;
+}
+
+
+
+div.card.mb-3 {
+	background: none !important;
+}
+
+img[alt="Wolf Headshot"] {
+	border-radius: 100px !important;
+	border: solid 3px #cac8ca;
+	filter: grayscale(100%) !important;
+	transition: filter 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+	img[alt="Wolf Headshot"] {
+		right: -10%;
+		position: relative;
+	}
+}
+
+img[alt="Wolf Headshot"]:hover {
+	filter: none !important;
+	transition: filter 1s ease-in-out;
+}
+
+#main .table .card.mb-3 a:before {
+	content: '';
+	background-image: url('https://i.postimg.cc/bwSK7mtY/image-3.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 480px;
+	height: 700px;
+	top: -74%;
+	left: -71%;
+	position: absolute;
+	pointer-events: none;
+	z-index: -1 !important;
+	mix-blend-mode: lighten;
+	filter: grayscale(100%);
+	opacity: 75%;
+}
+
+@media (max-width: 768px) {
+	#main .table .card.mb-3 a:before {
+		top: -74%;
+		left: -61%;
+		position: absolute;
+	}
+}
+
+div.col-xl-3.col-sm-7.text-center {
+	background-color: transparent !important;
+	margin-right: 50px !important;
+	margin-top: 0px !important;
+}
+
+#lblPackLeaderTitle::before {
+	content: "Emperor Volca";
+	color: #f7faf0;
+	font-family: Angel Wish !important;
+	font-size: 40px !important;
+	float: left;
+}
+
+div.col-xl-6.col-sm-12.order-xl-9.order-12 {
+	max-width: 350px !important;
+	backdrop-filter: blur(30px);
+	border: solid 3px #f7faf06e;
+	border-radius: 15px;
+	margin-top: 50px;
+	box-shadow: 0 0 20px 1px rgba(255, 255, 255, .38);
+}
+
+div.col-xl-6.col-sm-12.order-xl-9.order-12 td.b {
+	text-align: left;
+	color: #f7faf0;
+}
+
+div.col-xl-6.col-sm-12.order-xl-9.order-12 td {
+	text-align: right;
+	color: #f7faf0;
+}
+
+.fa-circle:before {
+	color: #f7faf0;
+	font-size: 10px;
+}
+
+td a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #a8001d;
+}
+
+.fa-question-circle:before {
+	display: none;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf {
+	height: 223.97px !important;
+	margin-top: 100px;
+	margin-left: 50px !important;
+}
+
+div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a {
+	font-size: 0;
+}
+
+.order-xl-12 {
+	margin-left: 50px !important;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+	display: none !important;
+}
+
+.featured-wolf img {
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 100px;
+	border: solid 3px #f3f2f3;
+	filter: grayscale(100%) !important;
+	transition: filter 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+	.featured-wolf img {
+		top: -0%;
+		left: 20%;
+		position: absolute;
+	}
+}
+
+.featured-wolf img:hover {
+	filter: none !important;
+	transition: filter 1s ease-in-out;
+}
+
+#main .featured-wolf a:first-of-type:before {
+	z-index: -1;
+	content: '';
+	background-image: url('https://i.postimg.cc/t4yBkyjj/image-9.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 450px;
+	height: 600px;
+	top: -120%;
+	left: -30%;
+	position: absolute;
+	pointer-events: none;
+	mix-blend-mode: screen;
+	filter: grayscale(100%);
+	opacity: 80%;
+}
+
+@media (max-width: 768px) {
+	#main .featured-wolf a:first-of-type:before {
+		top: -120%;
+		left: -8%;
+		position: absolute;
+	}
+}
+
+#lblFeaturedWolfTitle {
+	display: none;
+}
+
+.featured-wolf br,
+.btn-group-sm > .btn,
+.featured-wolf {
+	font-size: 0 !important;
+}
+
+#lblPackLeaderTitle::after {
+	content: "Champion Albedo";
+	color: #f7faf0;
+	font-family: Angel Wish !important;
+	font-size: 40px !important;
+	float: right;
+}
+
+/* DEN CARDS */
+#denCards .card {
+	background: none;
+	border-radius: 200px !important;
+}
+
+#denCards .card-header {
+	background: none;
+	backdrop-filter: none;
+	border: none;
+}
+
+#denCards .card-header b {
+	font-family: 'Angel Wish' !important;
+	font-weight: lighter !important;
+	font-size: 40px;
+}
+
+@media (max-width: 768px) {
+	div#denCards.form-row .col-md-4.col-6.center a {
+		height: 120px !important;
+	}
+}
+
+img[src$="packdynasty.png"] {
+	content: url('https://i.postimg.cc/7hfVCY03/1-1.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="packdynasty.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="packoverview.png"] {
+	content: url('https://i.postimg.cc/3Rr9TZwb/2-1.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="packoverview.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="breeding.png"] {
+	content: url('https://i.postimg.cc/g0WNMpbp/3-1.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="breeding.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="pupsitting.png"] {
+	content: url('https://i.postimg.cc/g0H4Q7GZ/1-2.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="pupsitting.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="nesting.png"] {
+	content: url('https://i.postimg.cc/fLHCT0tW/2-2.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="nesting.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="socializing.png"] {
+	content: url('https://i.postimg.cc/CLRP5Js3/3-2.gif')!important;
+	border-radius: 50px;
+	height: 277.32px;
+	transition: filter 1s ease-in-out;
+}
+
+img[src$="socializing.png"]:hover {
+	filter: grayscale(100%);
+	transition: filter 1s ease-in-out;
+}
+
+/* TABLE ROWS */
+th.top {
+	z-index: -1;
+	border-radius: 100px;
+	;
+	border: none;
+	background-color: rgba(0, 0, 0, .6);
+	color: #f7faf0;
+	font-family: 'Angel Wish';
+	font-weight: lighter !important;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px 0px 10px #f00;
+	backdrop-filter: blur(10px);
+}
+
+th.top a {
+	font-size: 15px;
+	color: #a91722;
+}
+
+.table .subheader {
+	display: none;
+}
+
+tbody {
+	color: #f7faf0d4;
+}
+
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	border: solid 3px #2a0c19 !important;
+	border-radius: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	box-shadow: 0 0 20px 3px #901f30cc;
+}
+
+.p-2 {
+	padding: 0 !important;
+}
+
+td div.text-break {
+	margin-left: 20px !important;
+	margin-top: 10px;
+}
+
+div.text-break a {
+	font-size: 18px;
+}
+
+.progress {
+	background-color: transparent !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.bg-success {
+	background-color: #901f30 !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.bg-warning {
+	background-color: #901f30 !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.bg-primary {
+	background-color: #671926 !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.bg-danger {
+	background-color: #431424 !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.bg-info {
+	background-color: #2a0c19 !important;
+	border: none !important;
+	border-radius: 100px !important;
+}
+
+.table .bottom {
+	background-color: #000000e8;
+	border-radius: 100px;
+}
+
+.table .bottom .form-control {
+	background-color: #2d0617;
+	border: none;
+	border-radius: 100px;
+	color: #f7faf07d;
+}
+
+.table .bottom .btn-success {
+	background-color: #550015 !important;
+	border: none;
+	border-radius: 100px;
+	color: #f7faf0d1;
+}
+
+.table .bottom .btn-success:hover {
+	background: #f74c7666 !important;
+}
+
+/* WOLF CARDS */
+div.card-body.bg-light.p-0.text-center {
+	border: solid 7px black;
+	border-radius: 100px 100px 0 0 !important;
+}
+
+.bg-light,
+.btn-light {
+	background-color: rgba(0, 0, 0, .64) !important;
+	backdrop-filter: blur(8px);
+}
+
+.text-light {
+	background-color: transparent !important;
+	color: #8d000a !important;
+	margin-top: 5px;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+
+small.b {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+img.rounded-bottom {
+	border: solid 5px #000;
+	border-radius: 100px !important;
+	opacity: 50%;
+	filter: blur(1px);
+	transition: opacity 1s ease-in-out;
+	position: relative;
+	display: inline;
+}
+
+.pl-3,
+.px-3 {
+	padding: 0px !important;
+	height: 140px !important;
+	width: 140px !important;
+}
+
+img.rounded-bottom:hover {
+	opacity: 100%;
+	filter: none;
+	transition: filter, opacity 1s ease-in-out;
+}
+
+.badge-info {
+	background-color: transparent;
+	color: #f7faf0;
+}
+
+img[alt="Secured"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Pupsitter"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Breeding Cooldown"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Hunter"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Pregnant (4 rollovers)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Pregnant (3 rollovers)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Pregnant (2 rollovers)"] {
+	filter: grayscale(100%);
+}
+img[alt="Pregnant (1 rollover)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Not Nested"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Herbalist"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Level Up"] {
+	filter: grayscale(100%);
+}
+
+img[alt="No Pupsitter"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Trade"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Hungry"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Unhappy"] {
+	filter: grayscale(100%);
+}
+
+img[alt="Sick"] {
+	filter: grayscale(100%);
+}
+
+/* CAVE MATS */
+div.card.mb-3 .card-body {
+	padding-left: 300px;
+	padding-right: 50px;
+	opacity: 60%;
+}
+
+div.card.mb-3 .card-body .col {
+	max-width: 300px !important;
+}
+
+.col-md-1 {
+	max-width: 100% !important;
+	width: 90px !important;
+	filter: grayscale(50%);
+}
+
+.btn-primary {
+	background-color: #550015;
+	border: none;
+	border-radius: 15px;
+}
+
+.btn-primary:hover {
+	background-color: #f74c7666;
+}
+
+@media (max-width: 768px) {
+	div.card.mb-3 .card-body {
+		width: 350px;
+		padding: 10px;
+	}
+}
+
+hr.flowers {
+	background: none;
+	content: url('https://i.postimg.cc/L4ryCzVp/image-11.png');
+	width: 400px;
+	height: 100px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	opacity: 25%;
+	mix-blend-mode: screen;
+}
+
+
+/* DEN OPTIONS */
+.h2,
+h2 {
+	color: #f7faf0;
+	font-family: 'Angel Wish';
+	font-size: 40px;
+}
+
+div.floatright.b.mt-2 a {
+	color: #b50620 !important;
+}
+
+form#frmSaveDisplay .form-control {
+	color: #f7faf0;
+	background-color: #901f303b;
+	border: none;
+	border-radius: 100px;
+	backdrop-filter: blur(10px);
+}
+
+.bg-bar-input {
+	background-color: #1101098f;
+	backdrop-filter: blur(10px);
+	border: none;
+	border-radius: 0 20px 0 0;
+}
+
+.btn.btn-htmlinput {
+	background-color: #431424;
+	border: none;
+}
+
+.btn.btn-htmlinput:hover {
+	background-color: #43142499;
+}
+
+.btn-danger {
+	background-color: #901f30;
+	border: none;
+}
+
+textarea {
+	border-radius: 0 0 0 20px !important;
+}
+
+.btn-info {
+	background-color: #901f30;
+	border: none;
+}
+
+.btn-info:hover {
+	background-color: #901f308f;
+}
+
+.btn-primary,
+.btn-success {
+	background-color: #901f3078;
+	border: none;
+}
+
+.btn-primary,
+.btn-success:hover {
+	background-color: #901f3042;
+}
+
+.row.mt-3 .col-md-6 .card {
+	background-color: transparent !important;
+	border: none;
+}
+
+div.card.text-center .card-header {
+	border: none !important;
+}
+
+.btn-warning {
+	color: white;
+	background-color: #5e262e82;
+	border: none;
+}
+
+.btn-warning:hover {
+	color: white;
+	background-color: #731e2bab;
+}
+
+#footer.container {
+	background-color: #00000061;
+}
