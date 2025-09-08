@@ -746,6 +746,10 @@ img[alt="Sick"] {
 	filter: grayscale(100%);
 }
 
+img[alt="Nested"] {
+	filter: grayscale(100%);
+}
+
 /* CAVE MATS */
 div.card.mb-3 .card-body {
 	padding-left: 300px;
