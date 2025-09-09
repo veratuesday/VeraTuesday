@@ -613,6 +613,31 @@ hr.flowers {
 	margin-right: 40px;
 }
 
+#main .table .text-right:before {
+	content: '';
+	background-image: url('https://i.postimg.cc/9Fwbk3Tz/image-12.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat !important;
+	display: inline-block;
+	width: 125px;
+	height: 700px;
+	top: 8%;
+	left: 58%;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1 !important;
+	mix-blend-mode: lighten;
+	transform: rotate(50deg);
+}
+
+@media (max-width: 768px) {
+	#main .table .card.mb-3 a:before {
+		top: -74%;
+		left: -61%;
+		position: absolute;
+	}
+}
+
 .text-success {
 	color: #00e2ff !important;
 }
