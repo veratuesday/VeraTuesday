@@ -621,8 +621,8 @@ hr.flowers {
 	display: inline-block;
 	width: 125px;
 	height: 700px;
-	top: 8%;
-	left: 58%;
+	top: 46%;
+	left: 57%;
 	position: absolute;
 	pointer-events: none;
 	z-index: 1 !important;
@@ -631,9 +631,9 @@ hr.flowers {
 }
 
 @media (max-width: 768px) {
-	#main .table .card.mb-3 a:before {
-		top: -74%;
-		left: -61%;
+	#main .table .text-right:before {
+		top: 42%;
+		left: 24%;
 		position: absolute;
 	}
 }
