@@ -44,6 +44,10 @@ h4 {
 	cursor: url('https://i.postimg.cc/3rbq7WvJ/Toruk-Cursor.png'), progress !important;
 }
 
+a:hover {
+	cursor: url('https://i.postimg.cc/6pZTGcZ8/Image-To-Stl-com-cursor-13.png'), progress !important;
+}
+
 /* ---------- BODY ---------- */
 body {
 	background: url("https://i.postimg.cc/rm32CKRR/38-Mtns-Pano-Right-Side-v01.png");
