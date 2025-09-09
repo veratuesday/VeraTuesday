@@ -81,11 +81,61 @@ div.col-xl-3.col-sm-7.text-center {
 	border: double 8px #00e2ffa8;
 }
 
+#main .table .card.mb-3 a:before {
+	content: '';
+	background-image: url('https://i.postimg.cc/T3n7H8mf/latest.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 150px;
+	height: 700px;
+	top: -210%;
+	left: -60%;
+	position: absolute;
+	pointer-events: none;
+	z-index: 1 !important;
+	mix-blend-mode: lighten;
+	opacity: 100%;
+	transform: rotate(135deg);
+}
+
+@media (max-width: 768px) {
+	#main .table .card.mb-3 a:before {
+		top: -175%;
+		left: -35%;
+		position: absolute;
+	}
+}
+
 .featured-wolf img {
 	border-radius: 70px;
 	border: double 8px #00e2ffa8;
 	width: 172.25px !important;
 	height: 172.25px;
+}
+
+#main .featured-wolf a:first-of-type:before {
+	z-index: 1;
+	content: '';
+	background-image: url('https://i.postimg.cc/pXq3JMD7/360.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 225px;
+	height: 600px;
+	top: 19%;
+	left: 10%;
+	position: absolute;
+	pointer-events: none;
+	opacity: 100%;
+}
+
+@media (max-width: 768px) {
+	#main .featured-wolf a:first-of-type:before {
+		top: 19%;
+		left: 32%;
+		position: absolute;
+	}
 }
 
 .featured-wolf b {
