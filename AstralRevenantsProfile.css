@@ -1,0 +1,377 @@
+/* FONTS */
+@font-face {
+	font-family: 'Angel Wish';
+	src: url('https://veratuesday.github.io/VeraTuesday/Angelwish.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+/* BG IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/gJMGvSjZ/wallpaperflare-com-wallpaper-11.jpg') !important;
+}
+
+/* HEADER */
+h1 {
+	font-family: 'Angel Wish';
+	font-size: 145px;
+	text-align: center;
+	text-shadow: 0px 0px 13px #d1ebf4;
+	color: #f7faf0;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 120px;
+	}
+}
+
+/* TEXT */
+* {
+	font-family: 'Fondamento';
+}
+
+a {
+	font-family: 'Fondamento';
+	transition: text-shadow 0.35s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 5px #a3ecff,
+	0 0 5px #a3ecff,
+	0 0 5px #a3ecff;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none !important;
+}
+
+#header.container .navbar.navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #b2e5ff14;
+	backdrop-filter: blur(7px);
+	font-family: 'Angel Wish' !important;
+}
+
+#header .navbar-main .nav-link {
+	font-family: 'Angel Wish' !important;
+	font-size: 30px;
+	color: #f7faf0bf;
+	margin-left: 5px;
+	transition: color 0.35s ease;
+}
+
+#header .navbar-main .nav-link:hover {
+	color: #f7faf0 !important;
+	text-shadow: none;
+}
+
+
+#header .navbar-main .nav-link .fa {
+	display: none;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #b2e5ff14;
+	backdrop-filter: blur(6px);
+	border: none !important;
+	font-size: 18px;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+	font-size: 16px;
+	padding: 5px !important;
+	color: #c0c5c0 !important;
+}
+
+#header .navbar-status a,
+.navbar-text {
+	font-weight: bold;
+	color: #60869d;
+}
+
+#header .navbar-status a:hover {
+	color: #b5def5;
+}
+
+.icon-beetle-silver,
+.icon-silver-cone {
+	opacity: 50%;
+}
+
+.icon-beetle-gold,
+.icon-gold-cone {
+	opacity: 50%;
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #b2e5ff14;
+	backdrop-filter: blur(6px);
+	border: none !important;
+}
+
+#header .breadcrumb-nav .breadcrumb {
+	max-width: 99%;
+	margin-left: 5px !important;
+}
+
+li.breadcrumb-item a {
+	font-size: 16px !important;
+	font-weight: bold;
+	color: #60869d;
+}
+
+.breadcrumb-item.active {
+	font-size: 16px !important;
+	color: #c0c5c0 !important;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	background-color: #00579138;
+	border-radius: 100px;
+	border: none;
+	padding-bottom: 10px;
+	text-align: center;
+	backdrop-filter: blur(25px);
+}
+
+.alert-danger {
+	background-color: #000b3a30;
+	border: double 6px #0048ff75;
+	border-radius: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 10px !important;
+}
+
+.alert-danger a {
+	color: #f7faf0 !important;
+}
+
+.alert-info {
+	background-color: #2600997a;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	padding-bottom: 10px;
+	backdrop-filter: blur(25px);
+}
+
+/* SIDEBAR */
+#sidebar {
+	display: none !important;
+}
+
+/* MAIN */
+#main {
+	background-color: #b2e5ff14;
+	backdrop-filter: blur(6px);
+	flex: 1;
+	max-width: 100%;
+	margin-bottom: -1px;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+	background-color: transparent;
+	font-size: 0;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	font-size: 0;
+}
+
+i.fas.fa-home.mr-2::before {
+	content: "\f67f";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #e8eee8a6;
+	text-align: center !important;
+}
+
+.fa-user:before {
+	content: "\f720";
+	font-family: "Font Awesome 5 Free";
+	font-size: 30px !important;
+	color: #e8eee8a6;
+	text-align: center !important;
+}
+
+/* TABLES */
+.table {
+	border: none;
+}
+
+.table th {
+	background-color: #08121fe6;
+	border-radius: 100px;
+	padding-left: 30px !important;
+	padding-right: 20px;
+	color: #bcc0bb;
+}
+
+.table .left {
+	background: none;
+	color: white;
+	text-align: right;
+}
+
+td.right a {
+	color: #77a6c3;
+	;
+}
+
+.text-success {
+	color: #98c9ce;
+}
+
+td.right.text-right {
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+img.user-tag {
+	border-radius: 20px;
+	border: double 8px #f7faf0cc;
+	filter: grayscale(50%);
+	transition: filter 0.75s ease;
+}
+
+img.user-tag:hover {
+	filter: none;
+	transition: filter 0.75s ease;
+}
+
+div.form-row img {
+	margin-left: 50px;
+	border: solid 3px #a2b2c2;
+	border-radius: 100px;
+	filter: grayscale(100%);
+	transition: filter 0.75s ease;
+}
+
+div.form-row img:hover {
+	filter: none;
+	transition: filter 0.75s ease;
+}
+
+div.form-row .fa-user:before {
+	font-size: 17px !important;
+}
+
+.group-banner img {
+	border-radius: 20px;
+	filter: grayscale(100%);
+}
+
+.alert-info {
+	color: #131d2c;
+	background-color: #ffffff45;
+	border: solid 2px #fff;
+	border-radius: 100px;
+}
+
+.font-weight-bold {
+	background-color: #13233b;
+	border-radius: 100px;
+}
+
+input.form-control,
+input.form-control:focus,
+select.form-control,
+select.form-control:focus:focus {
+	background-color: #60869d8c;
+	border: none;
+	border-radius: 100px;
+}
+
+.border,
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+	background-color: #13233b !important;
+	border: none !important;
+	border-radius: 30px;
+}
+
+.btn-primary,
+.btn-success {
+	background-color: #60869d;
+	border: none;
+}
+
+.btn-primary,
+.btn-success:hover {
+	background-color: #39536b;
+}
+
+#main .card {
+	background: none;
+}
+
+div.row.mb-1 {
+	border: none;
+}
+
+.bg-bar-input {
+	background-color: #091321;
+	border: none;
+	border-radius: 0 15px 0 0;
+}
+
+.btn.btn-htmlinput {
+	background-color: #13233b;
+	border: none;
+}
+
+.btn-danger {
+	background-color: #60869d;
+	border: none;
+}
+
+select.form-control[multiple],
+select.form-control[size],
+textarea.form-control {
+	background-color: #13233b;
+	border-radius: 0 0 0 15px;
+}
+
+.btn-info {
+	background-color: #224c91;
+	border: none;
+}
+
+.progress {
+	background-color: #eef6ff2e !important;
+	border-radius: 100px;
+}
+
+.bg-success {
+	background-color: #7dabc9 !important;
+}
+
+.justify-content-center {
+	background-color: #b2e5ff14;
+	backdrop-filter: blur(6px);
+}
+
+#footer {
+	background: none;
+}
+
+#uimid {
+	background: none !important;
+}
