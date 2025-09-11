@@ -433,6 +433,31 @@ tr.subheader.font-weight-bold {
 	background-color: #4b697c !important;
 }
 
+/* WOLF CARDS */
+.bg-light {
+	border: none !important;
+	border-radius: 30px !important;
+	background-color: #247a95e6 !important;
+}
+
+.text-truncate {
+	background: none !important;
+}
+
+.bg-light img.rounded-bottom {
+	border: double 5px #b8c8d1 !important;
+	border-radius: 100px !important;
+}
+
+.bg-light img {
+	border: none !important;
+}
+
+.pl-3,
+.px-3 {
+	padding: 0 !important;
+}
+
 /* CAVE MATS */
 #main .card {
 	background: none;
