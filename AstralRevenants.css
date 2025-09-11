@@ -699,6 +699,10 @@ img[alt="Hunter"] {
 	filter: grayscale(100%);
 }
 
+img[alt="Mentor"] {
+	filter: grayscale(100%);
+}
+
 img[alt="Pregnant (4 rollovers)"] {
 	filter: grayscale(100%);
 }
@@ -738,7 +742,7 @@ img[alt="Hungry"] {
 	filter: grayscale(100%);
 }
 
-img[alt="Unhappy"] {
+img[alt="Will Leave!"] {
 	filter: grayscale(100%);
 }
 
@@ -747,6 +751,22 @@ img[alt="Sick"] {
 }
 
 img[alt="Nested"] {
+	filter: grayscale(100%);
+}
+
+img[alt="In Heat (4 rollovers)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="In Heat (3 rollovers)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="In Heat (2 rollovers)"] {
+	filter: grayscale(100%);
+}
+
+img[alt="In Heat (1 rollover)"] {
 	filter: grayscale(100%);
 }
 
@@ -885,7 +905,7 @@ div.card.text-center .card-header {
 	background-color: #00000061;
 }
 
-* STARS */
+/* STARS */
 .stars {
 	position: fixed;
 	top: 0;
