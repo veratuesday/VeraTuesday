@@ -460,6 +460,22 @@ tr {
 	background-color: #cba156 !important;
 }
 
+/* WOLF CARDS */
+.bg-light img.rounded-bottom {
+	border: solid 2px #e9c077 !important;
+	border-radius: 100px;
+	margin: 3px;
+}
+
+.pl-3,
+.px-3 {
+	padding: 0 !important;
+}
+
+.bg-light img {
+	border: none !important;
+}
+
 /* CAVE MATS */
 #main .card {
 	background: none;
