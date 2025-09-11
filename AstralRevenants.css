@@ -80,6 +80,7 @@ a:hover {
 .btn-group-vertical > .btn,
 .btn-group > .btn {
 	font-size: 16px;
+	padding: 5px !important;
 }
 
 #header .navbar-status a,
@@ -439,10 +440,44 @@ div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a
 }
 
 @media (max-width: 768px) {
-	div#denCards.form-row .col-md-4.col-6.center a {
-		height: 120px !important;
+	div#denCards.form-row {
+		display: grid !important;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin: 0 auto;
+		gap: 5px !important;
 	}
 }
+
+
+@media (max-width: 768px) {
+
+	.col-6 {
+		max-width: 100% !important;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#denCards .card {
+		height: 110px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#denCards .card-img-top {
+		border-radius: 10px !important;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#denCards .card-header b {
+		font-size: 25px !important;
+	}
+}
+
 
 img[src$="packdynasty.png"] {
 	content: url('https://i.postimg.cc/7hfVCY03/1-1.gif')!important;
@@ -533,7 +568,7 @@ th.top {
 }
 
 th.top a {
-	font-size: 15px;
+	font-size: 10px;
 	color: #a91722;
 }
 
@@ -668,8 +703,8 @@ img.rounded-bottom {
 .pl-3,
 .px-3 {
 	padding: 0px !important;
-	height: 140px !important;
-	width: 140px !important;
+	height: 120px !important;
+	width: 120px !important;
 }
 
 img.rounded-bottom:hover {
