@@ -251,7 +251,7 @@ img[alt="Wolf Headshot"] {
 
 @media (max-width: 768px) {
 	img[alt="Wolf Headshot"] {
-		right: -10%;
+		right: -15%;
 		position: relative;
 	}
 }
@@ -282,7 +282,7 @@ img[alt="Wolf Headshot"]:hover {
 @media (max-width: 768px) {
 	#main .table .card.mb-3 a:before {
 		top: -74%;
-		left: -61%;
+		left: -55%;
 		position: absolute;
 	}
 }
@@ -397,7 +397,7 @@ div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a
 @media (max-width: 768px) {
 	#main .featured-wolf a:first-of-type:before {
 		top: -120%;
-		left: -8%;
+		left: -10%;
 		position: absolute;
 	}
 }
