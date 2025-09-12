@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
 
+/* CURSOR */
+* {
+	cursor: url('https://i.postimg.cc/XvWmCQ7k/Image-To-Stl-com-cursor-2.png'), progress !important;
+}
+
 /* BG IMAGE */
 body {
 	background-image: url('https://i.postimg.cc/6pxbhfp2/wallpaperflare-com-wallpaper.jpg') !important;
@@ -956,6 +961,3 @@ div.card.text-center .card-header {
 	/* slow drifting */
 	z-index: -1;
 }
-
-/* HTML TEXT */
-/*<div class="stars"></div>*/
