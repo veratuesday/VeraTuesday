@@ -11,6 +11,11 @@ body {
 	background-image: url('https://i.postimg.cc/gJMGvSjZ/wallpaperflare-com-wallpaper-11.jpg') !important;
 }
 
+/* CURSOR */
+* {
+	cursor: url('https://i.postimg.cc/yNhSG7Rc/Image-To-Stl-com-cursor-3.png'), progress !important;
+}
+
 /* HEADER */
 h1 {
 	font-family: 'Angel Wish';
@@ -49,8 +54,7 @@ a:hover {
 }
 
 #header.container .navbar.navbar.navbar-main.navbar-dark.navbar-expand-lg {
-	background-color: #b2e5ff14;
-	backdrop-filter: blur(7px);
+	background-color: #b2e5ff21;
 	font-family: 'Angel Wish' !important;
 }
 
@@ -73,8 +77,7 @@ a:hover {
 }
 
 #header.container .navbar.navbar-status.navbar-expand {
-	background-color: #b2e5ff14;
-	backdrop-filter: blur(6px);
+	background-color: #b2e5ff26;
 	border: none !important;
 	font-size: 18px;
 }
@@ -107,8 +110,7 @@ a:hover {
 }
 
 #header.container .breadcrumb-nav {
-	background-color: #b2e5ff14;
-	backdrop-filter: blur(6px);
+	background-color: #b2e5ff2b;
 	border: none !important;
 }
 
@@ -166,8 +168,7 @@ li.breadcrumb-item a {
 
 /* MAIN */
 #main {
-	background-color: #b2e5ff14;
-	backdrop-filter: blur(6px);
+	background-color: #b2e5ff30;
 	flex: 1;
 	max-width: 100%;
 	margin-bottom: -1px;
@@ -370,8 +371,4 @@ textarea.form-control {
 
 #footer {
 	background: none;
-}
-
-#uimid {
-	background: none !important;
 }
