@@ -36,11 +36,7 @@ body {
 	cursor: url('https://i.postimg.cc/tgf92FZH/Image-To-Stl-com-cursor-11.png'), progress !important;
 }
 
-/* CURSOR */
-* {
-	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
-}
-
+/* SCROLLBAR */
 ::-webkit-scrollbar {
 	width: 10px;
 }
