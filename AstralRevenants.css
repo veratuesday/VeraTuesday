@@ -16,6 +16,24 @@ body {
 	background-image: url('https://i.postimg.cc/6pxbhfp2/wallpaperflare-com-wallpaper.jpg') !important;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #d7000000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #66111b;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #971b29;
+}
+
 /* HEADER */
 h1 {
 	font-family: 'Angel Wish';
