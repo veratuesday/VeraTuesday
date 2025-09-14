@@ -16,6 +16,24 @@ a:hover {
 	cursor: url('https://i.postimg.cc/156xrtst/Image-To-Stl-com-cursor-12.png'), progress !important;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #80430d;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #3a0706;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #5d1412;
+}
+
 /* HEADING */
 h1 {
 	font-family: 'Libre Baskerville';
