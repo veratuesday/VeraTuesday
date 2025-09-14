@@ -12,11 +12,7 @@ body {
 	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
 }
 
-/* CURSOR */
-* {
-	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
-}
-
+/* SCROLLVAR */
 ::-webkit-scrollbar {
 	width: 10px;
 }
