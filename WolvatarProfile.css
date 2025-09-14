@@ -48,6 +48,24 @@ a:hover {
 	cursor: url('https://i.postimg.cc/6pZTGcZ8/Image-To-Stl-com-cursor-13.png'), progress !important;
 }
 
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1d363f;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #44645f;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #59756f;
+}
+
 /* ---------- BODY ---------- */
 body {
 	background: url("https://i.postimg.cc/rm32CKRR/38-Mtns-Pano-Right-Side-v01.png");
