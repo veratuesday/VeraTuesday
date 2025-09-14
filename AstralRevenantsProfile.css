@@ -16,6 +16,25 @@ body {
 	cursor: url('https://i.postimg.cc/yNhSG7Rc/Image-To-Stl-com-cursor-3.png'), progress !important;
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #041b35;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #355c8d;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #88c0df;
+}
+
+
 /* HEADER */
 h1 {
 	font-family: 'Angel Wish';
