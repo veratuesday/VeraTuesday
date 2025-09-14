@@ -36,6 +36,24 @@ body {
 	cursor: url('https://i.postimg.cc/tgf92FZH/Image-To-Stl-com-cursor-11.png'), progress !important;
 }
 
+/* scrollbar*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #101d2e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #35394f;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #696e83;
+}
+
 /* HEADER */
 h1 {
 	font-family: 'Plymouthrock';
