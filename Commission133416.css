@@ -12,6 +12,28 @@ body {
 	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
 }
 
+/* CURSOR */
+* {
+	cursor: url('https://i.ibb.co/LDwTcyxd/Image-To-Stl-com-cursor-8.png'), progress !important;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #02293a;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #04395d;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #1d5b78;
+}
+
 /* HEADING */
 h1 {
 	font-family: 'Rock Salt', cursive;
