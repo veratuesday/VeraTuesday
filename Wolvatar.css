@@ -48,6 +48,24 @@ a:hover {
 	cursor: url('https://i.postimg.cc/kGDgMv9X/Image-To-Stl-com-cursor-14.png'), progress !important;
 }
 
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #11294b;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #6258aa;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #7076e8;
+}
+
 /* ---------- BODY ---------- */
 body {
 	background: url("https://images2.imgbox.com/01/4f/kwQEjWj1_o.jpg");
