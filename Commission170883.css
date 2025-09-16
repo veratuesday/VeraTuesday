@@ -957,24 +957,24 @@ span.copyright a {
 /* HOTLINKS */
 @media (min-width: 1090px) {
 	.hotlink {
-		background-color: rgba(45, 75, 160, 0.4) !important;
-		border: 1px solid rgb(205, 245, 255)!important;
-		box-shadow: 0 0 5px rgb(90, 190, 250) !important;
+		background-color: #6381967d !important;
+		border: none !important;
 		color: rgb(205, 245, 255)!important;
 		padding: 5px!important;
 		position: fixed!important;
 		text-align: center!important;
-		border-radius: 5px 5px 5px 0px!important;
-		left: 0px!important;
+		border-radius: 40px 40px 0px 0px!important;
+		left: 70px!important;
 		bottom: 0px!important;
-		width: 160px!important;
+		width: 130px!important;
 		height: 35px!important;
 		transition: 0.5s!important;
 		z-index: 1;
+		font-size: 17px;
 	}
 
 	.hotlink:hover {
-		height: 220px!important;
+		height: 280px!important;
 	}
 }
 
