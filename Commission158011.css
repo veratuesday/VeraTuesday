@@ -1,0 +1,351 @@
+/* FONTS */
+@font-face {
+	font-family: 'Antro Vectra';
+	src: url('https://veratuesday.github.io/VeraTuesday/Antro_Vectra.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Antro Vectra Bolder';
+	src: url('https://veratuesday.github.io/VeraTuesday/Antro_Vectra_Bolder.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Apple Garamond';
+	src: url('https://veratuesday.github.io/VeraTuesday/AppleGaramond.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Apple Garamond Light';
+	src: url('https://veratuesday.github.io/VeraTuesday/AppleGaramond-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Apple Garamond Bold';
+	src: url('https://veratuesday.github.io/VeraTuesday/AppleGaramond-Bold.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+/* CURSOR */
+* {
+	cursor: url(''), progress !important;
+}
+
+/* BG IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/dt5C3VXw/vecteezy-the-nebula-is-shown-in-this-image-60202759.jpg') !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #070b0e;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #164156;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #957a59;
+}
+
+/* HEADER */
+h1 {
+	font-family: 'Antro Vectra Bolder';
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #ff7b00;
+	color: #fffaf2;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 100px;
+	}
+}
+
+/* TEXT */
+* {
+	font-family: 'Apple Garamond';
+}
+
+a {
+	font-family: 'Apple Garamond';
+	transition: text-shadow 0.35s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 5px #ffea98,
+	0 0 5px #ffea98,
+	0 0 5px #ffea98;
+}
+
+/* NAVBAR */
+#header.container {
+	background: none !important;
+}
+
+#header.container .navbar.navbar.navbar-main.navbar-dark.navbar-expand-lg {
+	background-color: #001118db;
+}
+
+#header .navbar-main .nav-link {
+	font-family: 'Apple Garamond' !important;
+	font-size: 30px;
+	color: #fff0d9;
+	transition: color 0.35s ease;
+}
+
+#header .navbar-main .nav-link:hover {
+	color: #fffaf2 !important;
+	text-shadow: none;
+	text-shadow: 0 0 5px #ffea98,
+	0 0 5px #ffea98,
+	0 0 5px #ffea98;
+	transition: text-shadow 0.35s ease;
+}
+
+
+#header .navbar-main .nav-link .fa {
+	display: none;
+}
+
+#header.container .navbar.navbar-status.navbar-expand {
+	background-color: #001118db;
+	border: none !important;
+	font-size: 18px;
+}
+
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+	font-size: 20px;
+	padding: 5px !important;
+}
+
+#header .navbar-status a,
+.navbar-text {
+	font-weight: bold;
+	color: #fff0d9;
+}
+
+#header .navbar-status a:hover {
+	color: #fffaf2;
+}
+
+#header.container .breadcrumb-nav {
+	background-color: #001118db;
+	border: none !important;
+}
+
+#header .breadcrumb-nav .breadcrumb {
+	max-width: 100%;
+	margin-left: 5px !important;
+}
+
+li.breadcrumb-item a {
+	font-size: 16px !important;
+	font-weight: bold;
+	color: #c9a87c;
+}
+
+.breadcrumb-item.active {
+	font-size: 16px !important;
+	font-weight: bold;
+	color: #f7faf0;
+}
+
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677";
+	color: #c9a87ccf;
+	font-size: 18px !important;
+	position: absolute;
+	right: 6%;
+	z-index: 100;
+}
+
+/* MAIN */
+#main {
+	background-color: #001118db;
+	flex: 1;
+	max-width: 100%;
+	margin-bottom: -1px;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+.nav.nav-tabs {
+	border: none;
+	display: flex !important;
+	justify-content: center !important;
+	background-color: transparent;
+	font-size: 20px;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+	color: #fff5d9;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	color: #fff5d9;
+}
+
+i.fas.fa-home.mr-2::before {
+	content: "\e020";
+	font-family: "Font Awesome 5 Free";
+	font-size: 22px !important;
+	color: #ffebb5;
+}
+
+.fa-user:before {
+	content: "\f762";
+	font-family: "Font Awesome 5 Free";
+	font-size: 25px !important;
+	color: #ffebb5;
+}
+
+/* ALERTS AND BUTTONS */
+.alert-success {
+	background-color: #3c5a6c47;
+	border-radius: 100px;
+	border: none;
+	padding-bottom: 10px;
+	text-align: center;
+	backdrop-filter: blur(25px);
+}
+
+.alert-danger {
+	background-color: #ae8f6640;
+	border: solid 3px #ae8f6657;
+	border-radius: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 10px !important;
+}
+
+.alert-danger a {
+	color: #fffaf2 !important;
+}
+
+.alert-info {
+	background-color: #4495ba63;
+	text-align: center;
+	border: none;
+	border-radius: 100px;
+	padding-bottom: 10px;
+	backdrop-filter: blur(25px);
+}
+
+.table {
+	border: none;
+}
+
+/* SIDEBAR */
+#sidebar {
+	background-color: #001118db;
+}
+
+#sidebar .card-body {
+	border: solid 3px #fffadc;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #ffdf9d;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: #fdf6c836;
+	backdrop-filter: blur(10px);
+}
+
+#sidebar #card-user a img {
+	border: solid 3px #00e2ffc4;
+}
+
+.px-3 .card-title {
+	margin-left: 10px !important;
+}
+
+.fa-plus:before {
+	margin-right: 15px;
+}
+
+.fa-minus:before {
+	margin-right: 15px;
+}
+
+.s-chat-sidebar #chatMessageList,
+.s-chat-sidebar #chatMessageContainer {
+	height: 380px;
+	border-color: #ccc;
+	color: white;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: rgba(7, 25, 43, .7);
+}
+
+.s-chat-message:nth-child(even) {
+	background: rgba(3, 134, 181, .2);
+	color: white;
+}
+
+.s-chat-sidebar #label_currentChannel {
+	background: rgba(7, 25, 43, .7);
+	color: white;
+}
+
+#fra_chatContainer #txtChatInput {
+	background: rgba(7, 25, 43, .7);
+	color: white;
+	border: 1px solid #ccc;
+}
+
+#sidebar .progress-energy,
+.bg-warning {
+	background-color: #7e7fdc !important;
+}
+
+#sidebar .bg-danger,
+.bg-primary {
+	background-color: #c0a1ee !important;
+}
+
+#sidebar .bg-info,
+.bg-danger {
+	background-color: #2abdc7 !important;
+}
+
+#sidebar .bg-success,
+.bg-info {
+	background-color: #2851c4 !important;
+}
+
+#sidebar .multi-column {
+	padding-top: 15px;
+}
+
+#sidebar .card {
+	background-color: rgba(0, 23, 34, .56);
+	border-radius: 5px;
+	border: none;
+}
+
+.card-body .w-50:first-child div {
+	border: none !important;
+}
+
+.w-50 > a img {
+	transition: .5s ease;
+	border-radius: 20px;
+	border: 2px solid #ffffff5c;
+}
+
+.w-50 div a img {
+	border-radius: 10px;
+	border: 2px solid #ffffff5c;
+}
