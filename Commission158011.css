@@ -1,4 +1,4 @@
-	/* FONTS */
+/* FONTS */
 	@font-face {
 		font-family: 'Antro Vectra';
 		src: url('https://veratuesday.github.io/VeraTuesday/Antro_Vectra.otf') format('opentype');
@@ -28,7 +28,7 @@
 
 	/* CURSOR */
 	* {
-		cursor: url(''), progress !important;
+		cursor: url('https://i.postimg.cc/wTKKRCt1/Image-To-Stl-com-cursor-5.png'), progress !important;
 	}
 
 	/* BG IMAGE */
@@ -177,6 +177,12 @@
 
 	.breadcrumb-item.active {
 		color: #ffebb5 !important;
+	}
+
+	@media (max-width: 768px) {
+		#header .breadcrumb-nav .breadcrumb {
+			margin-left: 0 !important;
+		}
 	}
 
 	/* MAIN */
@@ -592,7 +598,7 @@
 
 	@media (max-width: 768px) {
 		.order-xl-9 {
-			margin-left: 33px !important;
+			margin-left: 55px !important;
 			-ms-flex-order: 12 !important;
 		}
 	}
