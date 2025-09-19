@@ -16,6 +16,15 @@ a:hover {
 	cursor: url('https://i.postimg.cc/156xrtst/Image-To-Stl-com-cursor-12.png'), progress !important;
 }
 
+/* HEADING */
+h1 {
+	font-family: 'Libre Baskerville';
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	color: #faf5d4;
+}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -32,15 +41,6 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
 	background: #5d1412;
-}
-
-/* HEADING */
-h1 {
-	font-family: 'Libre Baskerville';
-	font-weight: bold;
-	font-size: 60px;
-	text-align: center;
-	color: #faf5d4;
 }
 
 /* TEXT */
@@ -73,6 +73,12 @@ h1 {
 
 li.breadcrumb-item a {
 	color: #faf5d4 !important;
+}
+
+div.dropdown-menu.show,
+a.dropdown-item {
+	border: none !important;
+	background-color: #3a0706 !important;
 }
 
 li.breadcrumb-item.active {
@@ -263,6 +269,8 @@ strong {
 .table {
 	background: none !important;
 	border: none !important;
+	-moz-background: none !important;
+	-moz-border: none;
 }
 
 
@@ -281,6 +289,8 @@ th.pt-1.pb-1 {
 .table.table-striped.border-none.mt-3.mb-0 tr {
 	background: none !important;
 	border: none;
+	-moz-background: none !important;
+	-moz-border: none;
 }
 
 td.row {
@@ -386,7 +396,12 @@ th.top {
 	font-size: 17px;
 }
 
-tr.subheader.font-weight-bold {
+.floatright,
+.pull-right btn {
+	width: 10px !important;
+}
+
+.subheader {
 	background-color: #5d1412 !important;
 }
 
