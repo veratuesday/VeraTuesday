@@ -325,6 +325,12 @@ div.col-xl-3.col-sm-7.text-center {
 	margin-left: 90px;
 }
 
+@media (max-width: 768px) {
+	#lblPackLeaderTitle::before {
+		margin-left: 60px;
+	}
+}
+
 div.col-xl-6.col-sm-12.order-xl-9.order-12 {
 	max-width: 350px !important;
 	backdrop-filter: blur(30px);
