@@ -872,14 +872,20 @@ div.card.mb-3 .card-body .col {
 hr.flowers {
 	background: none;
 	content: url('https://i.postimg.cc/L4ryCzVp/image-11.png');
-	width: 400px;
-	height: 100px !important;
+	width: 800px;
+	height: 200px !important;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
 	opacity: 25%;
 	mix-blend-mode: screen;
 }
 
+@media (max-width: 768px) {
+	hr.flowers {
+		width: 400px;
+		height: 120px !important;
+	}
+}
 
 /* DEN OPTIONS */
 .h2,
