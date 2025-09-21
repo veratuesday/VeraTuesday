@@ -1,10 +1,10 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
-
 @font-face {
 	font-family: 'Angel Wish';
 	src: url('https://veratuesday.github.io/VeraTuesday/Angelwish.ttf') format('truetype');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
 
 /* CURSOR */
 * {
@@ -248,8 +248,7 @@ td.row {
 th.pt-1.pb-1 {
 	background-color: transparent;
 	font-size: 0px !important;
-	padding-left: 100px;
-	padding-right: 80px;
+	padding: 0;
 	border-radius: 15px !important;
 }
 
@@ -318,11 +317,12 @@ div.col-xl-3.col-sm-7.text-center {
 }
 
 #lblPackLeaderTitle::before {
-	content: "Emperor Volca";
+	content: "Sovereign Volca";
 	color: #f7faf0;
 	font-family: Angel Wish !important;
 	font-size: 40px !important;
 	float: left;
+	margin-left: 90px;
 }
 
 div.col-xl-6.col-sm-12.order-xl-9.order-12 {
@@ -437,11 +437,12 @@ div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf a
 }
 
 #lblPackLeaderTitle::after {
-	content: "Champion Albedo";
+	content: "Prophet's Flesh Altair";
 	color: #f7faf0;
 	font-family: Angel Wish !important;
 	font-size: 40px !important;
 	float: right;
+	margin-right: 45px !important;
 }
 
 /* DEN CARDS */
@@ -980,5 +981,5 @@ div.card.text-center .card-header {
 	z-index: -1;
 }
 
-/* HTML */
+/* HTML TEXT */
 /*<div class="stars"></div>*/
