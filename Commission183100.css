@@ -1,0 +1,65 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+@font-face {
+	font-family: 'Quake';
+	src: url('https://veratuesday.github.io/VeraTuesday/dpquake_.ttf') format('truetype');
+}
+
+/* CURSOR */
+* {
+	cursor: url(''), progress !important;
+}
+
+/* BG IMAGE */
+body {
+	background-image: url('https://i.postimg.cc/MZLpYBP9/1340782-final.png');
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #d8e1e3;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #465b6a;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #212835;
+}
+
+/* HEADER */
+h1 {
+	font-family: 'Quake' !important;
+	font-size: 120px;
+	text-align: center;
+	text-shadow: 0px 0px 10px #f00;
+	color: #f7faf0;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 120px;
+	}
+}
+
+/* TEXT */
+* {
+	font-family: 'Alan Sans';
+}
+
+a {
+	font-family: 'Alan Sans' !important;
+	transition: text-shadow 0.35s ease;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 0px 0px 10px #f00;
+}
