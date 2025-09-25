@@ -46,7 +46,7 @@
 
 		@media (max-width: 768px) {
 			h1 {
-				font-size: 80px;
+				font-size: 65px;
 			}
 		}
 
@@ -140,15 +140,24 @@
 			color: #d6a93a;
 		}
 
-		/* MAIN */
-		div#main.col-lg-9.order-lg-2 {
-			padding-left: 0;
+		.breadcrumb.col-lg-9.ml-auto.text-break::after {
+			content: "CSS by #181677";
+			color: #4a90a79c;
+			font-size: 18px !important;
+			position: absolute;
+			right: 5%;
+			z-index: 100;
 		}
 
 		@media (max-width: 768px) {
-			div#main.col-lg-9.order-lg-2 {
-				padding-left: 15px;
+			.breadcrumb.col-lg-9.ml-auto.text-break::after {
+				right: 8%;
 			}
+		}
+
+		/* MAIN */
+		div#main.col-lg-9.order-lg-2 {
+			padding-top: 0;
 		}
 
 		#main {
@@ -158,6 +167,7 @@
 			padding-bottom: 20px;
 			position: relative;
 			z-index: 2;
+			max-width: 1140px !important;
 		}
 
 		#main h1 {
@@ -168,18 +178,17 @@
 			content: "";
 			display: inline-block;
 			background-image: url('https://i.postimg.cc/cCkwVXPX/vecteezy-glowing-cracks-in-dark-rock-surface-51552083.jpg') !important;
-			width: 850px;
+			width: 1110px;
 			height: 100%;
 			position: absolute;
 			filter: opacity(30%) brightness(60%);
 			mix-blend-mode: difference;
 			z-index: -2;
-			padding-left: 0 !important;
 		}
 
 		@media (max-width: 768px) {
 			#main::before {
-				width: 510px;
+				width: 450px;
 			}
 		}
 
@@ -274,6 +283,10 @@
 
 		/* SIDEBAR */
 		#sidebar {
+			display: none;
+		}
+
+		/*#sidebar {
 			background-color: #0b0b0b;
 			z-index: 0;
 		}
@@ -384,8 +397,7 @@
 
 		#sidebar .bg-success {
 			background-color: #1b0002 !important;
-		}
-
+		}*/
 		/* LEAD AND FEATURED */
 		table.table.table-striped.border-none.mt-3.mb-0 tr {
 			background-color: #1f1f1f00 !important;
@@ -400,11 +412,12 @@
 			border-radius: 30px 30px 0 0;
 			background-color: #16161600 !important;
 			padding-top: 10px !important;
-			padding-left: 5px;
+			padding-left: 40px !important;
 		}
 
 		th.pt-1.pb-1 a {
 			font-size: 30px !important;
+			color: #4a90a7;
 			transition: color 1s ease-in-out;
 		}
 
@@ -428,13 +441,13 @@
 			content: "Thanatyr";
 			font-size: 30px !important;
 			font-family: 'Germania One', sans-serif;
-			padding: 10px;
+			padding: 5px;
 			color: #e0e0e0 !important;
 		}
 
 		@media (max-width: 768px) {
 			th.pt-1.pb-1 {
-				text-align: center !important;
+				padding-left: 130px !important;
 			}
 		}
 
@@ -444,26 +457,26 @@
 
 		#main .table .card.mb-3 a:before {
 			content: '';
-			background-image: url('https://i.postimg.cc/Hswz7NsG/New-Project-6.png');
+			background-image: url('https://i.postimg.cc/bNh6KJ1n/New-Project-6.png');
 			background-size: 100% auto;
 			background-repeat: no-repeat;
 			display: inline-block;
-			width: 165px;
+			width: 350px;
 			height: 700px;
-			top: -93%;
-			left: 50%;
+			top: -57%;
+			left: -38%;
 			position: absolute;
 			pointer-events: none;
-			z-index: 3 !important;
+			z-index: -3 !important;
 			mix-blend-mode: screen;
 			opacity: 75%;
 		}
 
 		@media (max-width: 768px) {
 			#main .table .card.mb-3 a:before {
-				top: -93%;
-				left: 49%;
-				width: 180px;
+				top: -65%;
+				left: -39%;
+				width: 360px;
 				height: 700px;
 				position: absolute;
 				opacity: 50%;
@@ -524,7 +537,7 @@
 		}
 
 		.featured-wolf img {
-			width: 179.75px !important;
+			width: 200px !important;
 			border-radius: 100px;
 			border: solid 3px #e0e0e0c2;
 		}
@@ -551,10 +564,10 @@
 			background-size: 100% auto;
 			background-repeat: no-repeat;
 			display: inline-block;
-			width: 270px;
+			width: 300px;
 			height: 600px;
-			top: -7%;
-			left: -28%;
+			top: -10%;
+			left: -16%;
 			position: absolute;
 			pointer-events: none;
 			mix-blend-mode: lighten;
@@ -564,9 +577,9 @@
 
 		@media (max-width: 768px) {
 			#main .featured-wolf a:first-of-type:before {
-				top: -8%;
-				left: 16%;
-				width: 270px;
+				top: -9%;
+				left: 11%;
+				width: 300px;
 				height: 600px;
 				position: absolute;
 			}
@@ -634,7 +647,7 @@
 		img[src$="packdynasty.png"] {
 			content: url('https://i.postimg.cc/PqTqK2D8/1-1-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -647,7 +660,7 @@
 		img[src$="packoverview.png"] {
 			content: url('https://i.postimg.cc/90KMp2PW/2-1-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -660,7 +673,7 @@
 		img[src$="breeding.png"] {
 			content: url('https://i.postimg.cc/mZ5tRYv0/3-1-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -673,7 +686,7 @@
 		img[src$="pupsitting.png"] {
 			content: url('https://i.postimg.cc/wvW31L7R/1-2-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -686,7 +699,7 @@
 		img[src$="nesting.png"] {
 			content: url('https://i.postimg.cc/yxkxcxZQ/2-2-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -699,7 +712,7 @@
 		img[src$="socializing.png"] {
 			content: url('https://i.postimg.cc/28yh78Yf/3-2-1.gif')!important;
 			border-radius: 10px;
-			height: 150px;
+			height: 200px;
 			filter: grayscale(0%) brightness(75%);
 			transition: filter 1s ease-in-out;
 		}
@@ -725,7 +738,7 @@
 			content: '';
 			display: inline-block;
 			background-image: url('https://i.postimg.cc/7LzLNhmb/568-5681996-spatter-png.png') !important;
-			width: 840px;
+			width: 1110px;
 			height: 76px;
 			border-radius: 70px 70px 0 0;
 			background-size: cover;
@@ -925,9 +938,9 @@
 			content: url('https://i.postimg.cc/8z24d5Pc/download.jpg');
 			width: 700px;
 			height: 350px !important;
-			margin-top: -100px !important;
+			margin-top: -120px !important;
 			margin-bottom: 0px !important;
-			margin-right: 100px;
+			margin-right: 210px;
 			mix-blend-mode: multiply;
 			opacity: 95%;
 		}
@@ -937,6 +950,7 @@
 				width: 400px;
 				height: 190px !important;
 				margin-right: 40px;
+				margin-top: -70px !important;
 			}
 		}
 
