@@ -137,6 +137,21 @@ li.breadcrumb-item a {
 	color: #fffeee;
 }
 
+.breadcrumb.col-lg-9.ml-auto.text-break::after {
+	content: "CSS by #181677";
+	color: #d12f19;
+	font-size: 18px !important;
+	position: absolute;
+	right: 5%;
+	z-index: 100;
+}
+
+@media (max-width: 768px) {
+	.breadcrumb.col-lg-9.ml-auto.text-break::after {
+		right: 8%;
+	}
+}
+
 /* MAIN */
 #main {
 	background-color: #121212db;
