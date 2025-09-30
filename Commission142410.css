@@ -653,3 +653,7 @@ div.container-fluid.p-0 a {
 .card-body {
 	background: none !important;
 }
+
+th.top div.floatright {
+	width: 120px !important;
+}
