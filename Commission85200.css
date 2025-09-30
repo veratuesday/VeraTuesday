@@ -524,6 +524,10 @@
 		font-family: 'Rochester' !important;
 		font-weight: lighter !important;
 		font-size: 40px;
+		text-shadow: -1px -1px 0 #03083a,
+		1px -1px 0 #03083a,
+		-1px 1px 0 #03083a,
+		1px 1px 0 #03083a;
 	}
 
 	@media (max-width: 768px) {
@@ -567,14 +571,14 @@
 
 
 	img[src$="packdynasty.png"] {
-		content: url('https://i.postimg.cc/CKfGsBJ1/1-1-2.gif')!important;
+		content: url('https://i.ibb.co/wFB5yrtX/1-1-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
 	}
 
 	img[src$="packoverview.png"] {
-		content: url('https://i.postimg.cc/vm6rtgXR/2-1-2.gif')!important;
+		content: url('https://i.ibb.co/HpgLnTzy/2-1-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
@@ -582,7 +586,7 @@
 
 
 	img[src$="breeding.png"] {
-		content: url('https://i.postimg.cc/Cx2C8HCT/3-1-2.gif')!important;
+		content: url('https://i.ibb.co/svBKqyhL/3-1-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
@@ -590,7 +594,7 @@
 
 
 	img[src$="pupsitting.png"] {
-		content: url('https://i.postimg.cc/Qdzg7kg3/1-2-2.gif')!important;
+		content: url('https://i.ibb.co/gLt21CBP/1-2-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
@@ -598,7 +602,7 @@
 
 
 	img[src$="nesting.png"] {
-		content: url('https://i.postimg.cc/Vkh9tBqh/2-2-2.gif')!important;
+		content: url('https://i.ibb.co/hRD8wmqv/2-2-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
@@ -606,7 +610,7 @@
 
 
 	img[src$="socializing.png"] {
-		content: url('https://i.postimg.cc/x18yqFzK/3-2-2.gif')!important;
+		content: url('https://i.ibb.co/ksDdLdz0/3-2-2.gif')!important;
 		border-radius: 20px;
 		height: 200px;
 		transition: opacity 1s ease-in-out;
