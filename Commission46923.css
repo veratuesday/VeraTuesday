@@ -1,4 +1,4 @@
-	/* FONTS */
+/* FONTS */
 	@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 	@font-face {
@@ -8,7 +8,7 @@
 
 	/* CURSOR */
 	* {
-		cursor: url(''), progress !important;
+		cursor: url('https://i.postimg.cc/cJhq6GQ0/Image-To-Stl-com-cursor-24.png'), progress !important;
 	}
 
 	/* BG IMAGE */
@@ -330,22 +330,26 @@
 
 	#sidebar .bg-warning {
 		background: none !important;
-		background-image: linear-gradient(to right, #cd9e6f, #a56a4900) !important;
+		background-image: linear-gradient(to right, #cd9e6f) !important;
+		border-radius: 100px !important;
 	}
 
 	#sidebar .bg-danger {
 		background: none !important;
-		background-image: linear-gradient(to right, #978158, #766b4400) !important;
+		background-image: linear-gradient(to right, #978158) !important;
+		border-radius: 100px !important;
 	}
 
 	#sidebar .bg-info {
 		background: none !important;
-		background-image: linear-gradient(to right, #59573e, #766b4400) !important;
+		background-image: linear-gradient(to right, #59573e) !important;
+		border-radius: 100px !important;
 	}
 
 	#sidebar .bg-success {
 		background: none !important;
-		background-image: linear-gradient(to right, #373923, #766b4400) !important;
+		background-image: linear-gradient(to right, #373923) !important;
+		border-radius: 100px !important;
 	}
 
 	/* LEAD AND FEATURED WOLF */
@@ -544,6 +548,10 @@
 		}
 	}
 
+	form table.table-striped div.text-break a {
+		color: #f7faf0;
+	}
+
 	form table.table-striped tr.font-weight-bold,
 	form table.table-striped td.subheader {
 		background: none !important;
@@ -565,27 +573,32 @@
 
 	.bg-warning {
 		background: none !important;
-		background-image: linear-gradient(to right, #cd9e6f, #a56a4900) !important;
+		background-image: linear-gradient(to right, #cd9e6f) !important;
+		border-radius: 100px !important;
 	}
 
 	.bg-success {
 		background: none !important;
-		background-image: linear-gradient(to right, #cd9e6f, #a56a4900) !important;
+		background-image: linear-gradient(to right, #cd9e6f) !important;
+		border-radius: 100px !important;
 	}
 
 	.bg-primary {
 		background: none !important;
-		background-image: linear-gradient(to right, #978158, #766b4400) !important;
+		background-image: linear-gradient(to right, #978158) !important;
+		border-radius: 100px !important;
 	}
 
 	.bg-danger {
 		background: none !important;
-		background-image: linear-gradient(to right, #59573e, #766b4400) !important;
+		background-image: linear-gradient(to right, #59573e) !important;
+		border-radius: 100px !important;
 	}
 
 	.bg-info {
 		background: none !important;
-		background-image: linear-gradient(to right, #373923, #766b4400) !important;
+		background-image: linear-gradient(to right, #373923) !important;
+		border-radius: 100px !important;
 	}
 
 	form table.table-striped td.bottom {
@@ -707,6 +720,14 @@
 	}
 
 	/* PROFILE */
+	h1.mb-1 {
+		font-size: 100px;
+	}
+
+	h1.pl-3.mb-1 {
+		font-size: 50px;
+	}
+
 	table.table.mt-3 th.top {
 		background-color: #1c1410de;
 		border-radius: 100px;
