@@ -83,9 +83,9 @@
 
 	#header .navbar-main .nav-link {
 		font-family: 'Grenze' !important;
-		font-size: 30px;
+		font-size: 25px;
 		color: #f7faf0;
-		margin-left: 3px;
+		margin-left: 15px;
 		transition: color 1s ease;
 	}
 
@@ -254,6 +254,7 @@
 	#sidebar {
 		background: none;
 		padding-left: 0;
+		font-size: 18px !important;
 	}
 
 	@media (max-width: 768px) {
@@ -289,6 +290,7 @@
 
 	#sidebar div.card-body div small {
 		color: #d1c597;
+		font-size: 18px !important;
 	}
 
 	#sidebar div.card-body p.text-center.mb-0.mt-2 small {
@@ -353,6 +355,10 @@
 	}
 
 	/* LEAD AND FEATURED WOLF */
+	td.row {
+		justify-content: space-evenly;
+	}
+
 	table.table.table-striped.border-none.mt-3.mb-0 {
 		background: none !important;
 		background-image: linear-gradient(to bottom, #0e0d04ed, #3b3011b3, #322d1c00) !important;
@@ -367,6 +373,7 @@
 
 	th.pt-1.pb-1 {
 		font-size: 25px !important;
+		text-align: left !important;
 	}
 
 	@media (max-width: 768px) {
@@ -380,8 +387,9 @@
 		color: #d1c597;
 	}
 
-	.order-xl-9 {
-		margin-top: 50px;
+	div.col-xl-6.col-sm-12.order-xl-9.order-12 {
+		margin-top: 20px;
+		max-width: 350px !important;
 	}
 
 	.order-xl-9 td.b {
@@ -434,7 +442,7 @@
 
 	.col-sm-7 div.card.mb-3 {
 		background: none !important;
-		margin-top: 70px !important;
+		margin-top: 55px !important;
 		padding-right: 0 !important;
 	}
 
@@ -447,7 +455,7 @@
 	}
 
 	.featured-wolf img {
-		width: 179.75px !important;
+		width: 150px !important;
 		border-radius: 100px;
 		margin-top: 30px;
 		margin-bottom: 30px;
@@ -460,10 +468,10 @@
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 205px;
+		width: 170px;
 		height: 600px;
-		top: 4%;
-		left: 0%;
+		top: 7%;
+		left: 9%;
 		position: absolute;
 		pointer-events: none;
 		mix-blend-mode: lighten;
@@ -500,14 +508,18 @@
 	}
 
 	.col-md-4 {
-		margin-top: 80px;
-		margin-bottom: 20px;
+		margin-top: 50px;
+		margin-bottom: 10px;
 	}
 
 	.col-md-4 div.card-header {
+		display: flex;
 		font-size: 50px;
 		border-radius: 10px !important;
 		background-color: #0a0b05cc !important;
+		height: 60px;
+		justify-content: center;
+		align-items: center !important;
 	}
 
 	.col-md-4 div.card-header b {
@@ -517,8 +529,17 @@
 
 	/* STANDARD LISTING */
 	form table.table-striped {
+		margin-top: 0px;
 		background-image: linear-gradient(to bottom, #0e0a04ed, #3b2511b3, #0e0a04ed) !important;
 		border-radius: 10px;
+	}
+
+	form table.table-striped td {
+		font-size: 16px !important;
+	}
+
+	form table.table-striped td small {
+		font-size: 14px !important;
 	}
 
 	form table.table-striped th.top {
@@ -568,7 +589,6 @@
 	td.p-0 img.border-bottom {
 		border-radius: 100px;
 		margin: 3px;
-		filter: grayscale(50%);
 	}
 
 	.bg-warning {
