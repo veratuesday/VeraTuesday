@@ -1,4 +1,4 @@
-/* FONTS */
+	/* FONTS */
 	@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 	@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
@@ -678,4 +678,123 @@
 		padding: 0 !important;
 		width: 110px;
 		height: auto;
+	}
+
+	/* CAVE MATS */
+	div.card.mb-3 {
+		background: none !important;
+	}
+
+	div.card.mb-3 div.card-body {
+		background-color: #54005459;
+		border-radius: 20px;
+	}
+
+	button#submitBtn.btn.btn-primary {
+		background-color: #510080d1;
+		border-radius: 10px;
+		border: none;
+	}
+
+	hr.flowers {
+		background: none;
+		content: url('https://i.postimg.cc/8PZf0bKk/4b5092919fabcb0a6574f6e10c3d23a8.png');
+		width: 700px;
+		height: 100px !important;
+		opacity: 100%;
+	}
+
+	@media (max-width: 768px) {
+		hr.flowers {
+			width: 400px;
+			height: 75px !important;
+			margin-left: 45px;
+		}
+	}
+
+	/* DEN OPTIONS */
+	.bg-bar-input {
+		background-color: #140020d1;
+	}
+
+	.btn.btn-htmlinput {
+		background-color: #29043ffc;
+		border: none;
+	}
+
+	textarea#txtDenHTML.form-control {
+		background-color: #1b032adb !important;
+		border: none;
+		border-radius: 0;
+	}
+
+	.btn-info {
+		background-color: #800080a3;
+		border: none;
+		border-radius: 10px;
+	}
+
+	.col-md-6 div.card.text-center {
+		background: none !important;
+	}
+
+	.col-md-6 div.card.text-center div.card-header {
+		border: none;
+		background: none;
+	}
+
+	.btn-warning {
+		background-color: #331544;
+		border: none;
+		border-radius: 100px;
+		color: #fff;
+	}
+
+	.btn-warning:hover {
+		background-color: #823a7d;
+		color: white;
+	}
+
+	div#footer.container {
+		background-color: #23221b00;
+	}
+
+	/* PROFILE */
+	h1.mb-1 {
+		font-size: 40px;
+	}
+
+	div#fraProfileHTML.text-break {
+		text-align: center;
+	}
+
+	td.left.b {
+		background: none;
+	}
+	td.right a {
+		color: #c688fd;
+	}
+
+	td.right span.text-success {
+		color: #ad79c0 !important;
+	}
+
+	img.user-tag {
+		border: dashed 3px #8f55a7;
+		border-radius: 20px;
+	}
+
+	.font-weight-bold {
+		background-color: #250d28;
+		color: white;
+	}
+
+	textarea#txtProfileHTML.form-control {
+		background-color: #1b032adb !important;
+		border: none;
+		border-radius: 0;
+	}
+
+	td.bottom {
+		background: none !important;
 	}
