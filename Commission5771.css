@@ -1,4 +1,4 @@
-	/* FONTS */
+/* FONTS */
 	@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
 
 	@font-face {
@@ -259,7 +259,7 @@
 	.table {
 		border: none;
 	}
-	
+
 	/* SIDEBAR */
 	#sidebar {
 		background-color: transparent;
@@ -339,329 +339,333 @@
 	}
 
 	#sidebar {
-			background-color: #0b0b0b;
-			z-index: 0;
-			padding-left: 0;
+		background-color: #0b0b0b;
+		z-index: 0;
+		padding-left: 0;
 	}
 
-		#sidebar::before {
-			content: "";
-			display: inline-block;
-			background-image: url('https://i.postimg.cc/VsSVmLs8/marble-column-2-1851652-2.png') !important;
-			width: 255px;
-			height: 100%;
-			background-size: contain;
-			position: absolute;
-			filter: opacity(100%) contrast(105%);
-			mix-blend-mode: screen;
-			z-index: -1;
-			
-		}
+	#sidebar::before {
+		content: "";
+		display: inline-block;
+		background-image: url('https://i.postimg.cc/VsSVmLs8/marble-column-2-1851652-2.png') !important;
+		width: 255px;
+		height: 100%;
+		background-size: contain;
+		position: absolute;
+		filter: opacity(100%) contrast(105%);
+		mix-blend-mode: screen;
+		z-index: -1;
+	}
 
-		@media (max-width: 768px) {
-			#sidebar {
-				width: 520px;
-				margin-top: 0;
-				padding-left: 15px;
-			}
+	@media (max-width: 768px) {
+		#sidebar {
+			width: 520px;
+			margin-top: 0;
+			padding-left: 15px;
 		}
-	
+	}
+
 	.progress {
 		background-color: transparent;
 	}
-	
+
 	#sidebar .bg-warning {
 		background-color: rgba(0, 0, 0, 0) !important;
 		background-image: linear-gradient(to right, #cdd9f5, #02000000);
 	}
-	
+
 	#sidebar .bg-danger {
 		background-color: transparent !important;
 		background-image: linear-gradient(to right, #707ba2, #02000000);
 	}
-	
+
 	#sidebar .bg-info {
 		background-color: transparent !important;
 		background-image: linear-gradient(to right, #3a509b, #02000000);
 	}
-	
+
 	#sidebar .bg-success {
 		background-color: transparent !important;
 		background-image: linear-gradient(to right, #200e52, #02000000);
 	}
-	
+
 	/* LEAD AND FEATURED */
 	table.table.table-striped.border-none.mt-3.mb-0 tr {
-			background-color: #1f1f1f00 !important;
-			border-radius: 30px;
-		}
+		background-color: #1f1f1f00 !important;
+		border-radius: 30px;
+	}
 
-		table.table.table-striped.border-none.mt-3.mb-0 tr {
-			background: none;
-		}
+	table.table.table-striped.border-none.mt-3.mb-0 tr {
+		background: none;
+	}
 
+	th.pt-1.pb-1 {
+		border-radius: 30px 30px 0 0;
+		background-color: #16161600 !important;
+		padding-top: 10px !important;
+		padding-left: 0px !important;
+	}
+
+	th.pt-1.pb-1 a {
+		font-size: 25px !important;
+		color: #93869d;
+	}
+
+	div.card.mb-3 img {
+		border-radius: 100px;
+		z-index: 2 !important;
+		border: none;
+	}
+
+	div.card.mb-3 {
+		background: none !important;
+		margin-top: -10px !important;
+	}
+
+	th.pt-1.pb-1::before {
+		content: "Dominus";
+		font-size: 30px !important;
+		font-family: 'Grenze Gotisch', sans-serif;
+		font-weight: lighter;
+		padding: 5px;
+		color: #c8c3d9 !important;
+	}
+
+	@media (max-width: 768px) {
 		th.pt-1.pb-1 {
-			border-radius: 30px 30px 0 0;
-			background-color: #16161600 !important;
-			padding-top: 10px !important;
-			padding-left: 0px !important;
-		}
-
-		th.pt-1.pb-1 a {
-			font-size: 25px !important;
-			color: #93869d;
-		}
-
-		div.card.mb-3 img {
-			border-radius: 100px;
-			z-index: 2 !important;
-			border: none;
-		}
-
-		div.card.mb-3 {
-			background: none !important;
-			margin-top: -10px !important;
-		}
-
-		th.pt-1.pb-1::before {
-			content: "Dominus";
-			font-size: 30px !important;
-			font-family: 'Grenze Gotisch', sans-serif;
-			font-weight: lighter;
-			padding: 5px;
-			color: #c8c3d9 !important;
-		}
-
-		@media (max-width: 768px) {
-			th.pt-1.pb-1 {
-				padding-left: 130px !important;
-			}
-		}
-
-		div.card-body.pt-1.pb-1 {
-			display: none;
-		}
-
-		#main .table .card.mb-3 a:before {
-			content: '';
-			background-image: url('https://i.postimg.cc/0QXCM3vW/marble-column-2-1851652-3.png');
-			background-size: 100% auto;
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 210px;
-			height: 700px;
-			top: -9%;
-			left: -9%;
-			position: absolute;
-			pointer-events: none;
-			z-index: 3 !important;
-			mix-blend-mode: screen;
-			opacity: 100%;
-			filter: grayscale(100%);
-		}
-
-		@media (max-width: 768px) {
-			#main .table .card.mb-3 a:before {
-				top: -65%;
-				left: -39%;
-				width: 360px;
-				height: 700px;
-				position: absolute;
-				opacity: 50%;
-			}
-		}
-
-		.order-xl-9 {
-			max-width: 420px;
-			backdrop-filter: blur(30px);
-			border-radius: 15px;
-			margin-top: -40px;
-			margin-bottom: 50px;
-		}
-		rder-xl-9 table.striped tbody tr {
-			background: none !important;
-		}
-
-		.order-xl-9 table.striped tbody td {
 			text-align: center;
 		}
+	}
 
-		.order-xl-9 table.striped tbody td.b {
-			text-align: right;
-			width: 155px;
-		}
+	div.card-body.pt-1.pb-1 {
+		display: none;
+	}
 
-		i.fas.fa-circle {
-			color: #a1addc;
-		}
+	#main .table .card.mb-3 a:before {
+		content: '';
+		background-image: url('https://i.postimg.cc/0QXCM3vW/marble-column-2-1851652-3.png');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		display: inline-block;
+		width: 210px;
+		height: 700px;
+		top: -9%;
+		left: -9%;
+		position: absolute;
+		pointer-events: none;
+		z-index: 3 !important;
+		mix-blend-mode: screen;
+		opacity: 100%;
+		filter: grayscale(100%);
+	}
 
-		.order-xl-9 table.striped a {
-			color: #93869d;
-			transition: color 1s ease-in-out;
-		}
-
-
-
-		i.fas.fa-question-circle {
-			display: none;
-		}
-
-		button.btn.btn-link.btn-sm.text-danger {
-			display: none;
-		}
-
-		div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf {
-			margin-top: -55px;
-		}
-
-		@media (max-width: 768px) {
-			div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf {
-				margin-top: 50px;
-				margin-bottom: 10px
-			}
-		}
-
-		.featured-wolf img {
-			width: 200px !important;
-			border-radius: 100px;
-			border: none;
-			margin-bottom: 20px;
-		}
-
-		.featured-wolf::before {
-			content: "Umbros";
-			font-size: 30px;
-			color: #c8c3d9;
-		}
-
-		.featured-wolf a {
-			font-size: 30px;
-			color: #93869d !important;
-		}
-
-		#main .featured-wolf a:first-of-type:before {
-			z-index: 1;
-			content: '';
-			background-image: url('https://i.postimg.cc/0QXCM3vW/marble-column-2-1851652-3.png');
-			background-size: 100% auto;
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 210px;
-			height: 600px;
-			top: 10%;
-			left: -0%;
+	@media (max-width: 768px) {
+		#main .table .card.mb-3 a:before {
+			top: -8%;
+			left: -8%;
+			width: 230px;
+			height: 700px;
 			position: absolute;
-			pointer-events: none;
-			mix-blend-mode: screen;
-			opacity: 100%;
-			filter: grayscale(100%);
 		}
+	}
 
-		@media (max-width: 768px) {
-			#main .featured-wolf a:first-of-type:before {
-				top: -9%;
-				left: 11%;
-				width: 300px;
-				height: 600px;
-				position: absolute;
-			}
+	.order-xl-9 {
+		max-width: 420px;
+		backdrop-filter: blur(30px);
+		border-radius: 15px;
+		margin-top: -40px;
+		margin-bottom: 50px;
+	}
+
+	@media (max-width: 768px) {
+		.order-xl-9 {
+			margin-top: 20px;
 		}
-	
+	}
+
+	rder-xl-9 table.striped tbody tr {
+		background: none !important;
+	}
+
+	.order-xl-9 table.striped tbody td {
+		text-align: center;
+	}
+
+	.order-xl-9 table.striped tbody td.b {
+		text-align: right;
+		width: 155px;
+	}
+
+	i.fas.fa-circle {
+		color: #a1addc;
+	}
+
+	.order-xl-9 table.striped a {
+		color: #93869d;
+		transition: color 1s ease-in-out;
+	}
+
+
+
+	i.fas.fa-question-circle {
+		display: none;
+	}
+
+	button.btn.btn-link.btn-sm.text-danger {
+		display: none;
+	}
+
+	div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf {
+		margin-top: -55px;
+	}
+
+	@media (max-width: 768px) {
+		div.col-xl-3.col-sm-5.order-xl-12.order-4.text-center.text-break.featured-wolf {
+			margin-top: 50px;
+			margin-bottom: 10px
+		}
+	}
+
+	.featured-wolf img {
+		width: 200px !important;
+		border-radius: 100px;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+	.featured-wolf::before {
+		content: "Umbros";
+		font-size: 30px;
+		color: #c8c3d9;
+	}
+
+	.featured-wolf a {
+		font-size: 30px;
+		color: #93869d !important;
+	}
+
+	#main .featured-wolf a:first-of-type:before {
+		z-index: 1;
+		content: '';
+		background-image: url('https://i.postimg.cc/0QXCM3vW/marble-column-2-1851652-3.png');
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		display: inline-block;
+		width: 210px;
+		height: 600px;
+		top: 10%;
+		left: -0%;
+		position: absolute;
+		pointer-events: none;
+		mix-blend-mode: screen;
+		opacity: 100%;
+		filter: grayscale(100%);
+	}
+
+	@media (max-width: 768px) {
+		#main .featured-wolf a:first-of-type:before {
+			top: 9%;
+			left: 27%;
+			width: 230px;
+			height: 600px;
+			position: absolute;
+		}
+	}
+
 	/* DEN CARDS */
-#denCards .card {
-	background: none;
-	border-radius: 200px !important;
-}
-
-#denCards .card-header {
-	background: none;
-	backdrop-filter: none;
-	border: none;
-}
-
-#denCards .card-header b {
-	font-family: 'Swordskull' !important;
-	font-weight: lighter !important;
-	font-size: 40px;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-@media (max-width: 768px) {
-	div#denCards.form-row {
-		display: grid !important;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(2, 1fr);
-		margin: 0 auto;
-		gap: 5px !important;
-	}
-}
-
-
-@media (max-width: 768px) {
-
-	.col-6 {
-		max-width: 100% !important;
-	}
-}
-
-@media (max-width: 768px) {
-
 	#denCards .card {
-		height: 110px;
+		background: none;
+		border-radius: 200px !important;
 	}
-}
 
-@media (max-width: 768px) {
-
-	#denCards .card-img-top {
-		border-radius: 10px !important;
+	#denCards .card-header {
+		background: none;
+		backdrop-filter: none;
+		border: none;
 	}
-}
-
-@media (max-width: 768px) {
 
 	#denCards .card-header b {
-		font-size: 25px !important;
+		font-family: 'Swordskull' !important;
+		font-weight: lighter !important;
+		font-size: 40px;
+		text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 	}
-}
+
+	@media (max-width: 768px) {
+		div#denCards.form-row {
+			display: grid !important;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			margin: 0 auto;
+			gap: 5px !important;
+		}
+	}
 
 
-img[src$="packdynasty.png"] {
-	content: url('https://i.postimg.cc/PrL9zg6m/1-1.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+	@media (max-width: 768px) {
 
-img[src$="packoverview.png"] {
-	content: url('https://i.postimg.cc/026FdTtw/2-1.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+		.col-6 {
+			max-width: 100% !important;
+		}
+	}
 
-img[src$="breeding.png"] {
-	content: url('https://i.postimg.cc/7YCdMFBx/3-1.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+	@media (max-width: 768px) {
 
-img[src$="pupsitting.png"] {
-	content: url('https://i.postimg.cc/SQ1H9SGS/1-2.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+		#denCards .card {
+			height: 110px;
+		}
+	}
 
-img[src$="nesting.png"] {
-	content: url('https://i.postimg.cc/CLZXH3vZ/2-2.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+	@media (max-width: 768px) {
 
-img[src$="socializing.png"] {
-	content: url('https://i.postimg.cc/1R7bFmrB/3-2.gif')!important;
-	border-radius: 10px;
-	height: 200px;
-}
+		#denCards .card-img-top {
+			border-radius: 10px !important;
+		}
+	}
+
+	@media (max-width: 768px) {
+
+		#denCards .card-header b {
+			font-size: 25px !important;
+		}
+	}
+
+
+	img[src$="packdynasty.png"] {
+		content: url('https://i.postimg.cc/PrL9zg6m/1-1.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
+
+	img[src$="packoverview.png"] {
+		content: url('https://i.postimg.cc/026FdTtw/2-1.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
+
+	img[src$="breeding.png"] {
+		content: url('https://i.postimg.cc/7YCdMFBx/3-1.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
+
+	img[src$="pupsitting.png"] {
+		content: url('https://i.postimg.cc/SQ1H9SGS/1-2.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
+
+	img[src$="nesting.png"] {
+		content: url('https://i.postimg.cc/CLZXH3vZ/2-2.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
+
+	img[src$="socializing.png"] {
+		content: url('https://i.postimg.cc/1R7bFmrB/3-2.gif')!important;
+		border-radius: 10px;
+		height: 200px;
+	}
