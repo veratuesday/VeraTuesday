@@ -43,6 +43,7 @@
 		text-shadow: 0px 0px 8px #cc91ee;
 		color: #000;
 		padding-top: 20px;
+		z-index: -1 !important;
 	}
 
 	@media (max-width: 768px) {
@@ -176,11 +177,13 @@
 	}
 
 	/* MAIN */
+	div#main.col-lg-9.order-lg-2 {
+		z-index: -1 !important;
+	}
+
 	#main {
-		background-color: transparent;
-		flex: 1;
-		backdrop-filter: blur(20px);
-		background-image: linear-gradient(to bottom, #000000f0, #000004ed, #040213e0);
+		background-color: rgba(0, 0, 0, .82);
+		background-image: linear-gradient(to bottom, #000000f0, #000004ed, #040213e0) !important;
 	}
 
 	.nav.nav-tabs {
@@ -225,13 +228,14 @@
 
 	/* ALERTS AND BUTTONS */
 	.alert-success {
-		background-color: #6c685300;
+		background-color: #7697a866;
 		background-image: radial-gradient(circle, #21384473, #7697a866, #2138447d);
 		border-radius: 100px;
 		border: none;
 		padding-bottom: 10px;
 		text-align: center;
 		backdrop-filter: blur(25px);
+		z-index: -1;
 	}
 
 	.alert-danger {
@@ -247,13 +251,14 @@
 	}
 
 	.alert-info {
-		background-color: #27332500;
+		background-color: #3333351a;
 		background-image: radial-gradient(circle, #1e1e1ef0, #33333552, #3333351a);
 		text-align: center;
 		border: none;
 		border-radius: 100px;
 		padding-bottom: 10px;
 		backdrop-filter: blur(25px);
+		z-index: -1;
 	}
 
 	.table {
