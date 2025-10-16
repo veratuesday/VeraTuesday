@@ -279,6 +279,7 @@
 		backdrop-filter: blur(10px);
 		margin-top: 20px;
 		margin-left: 5px;
+		padding-left: 16px !important;
 	}
 
 	#sidebar div.card-body b {
@@ -358,10 +359,11 @@
 	}
 
 	@media (max-width: 768px) {
-		#sidebar {
-			width: 520px;
+		#sidebar::before {
+			width: 520px !important;
 			margin-top: 0;
 			padding-left: 15px;
+			opacity: 50%;
 		}
 	}
 
@@ -381,12 +383,18 @@
 
 	#sidebar .bg-info {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #3a509b, #02000000);
+		background-image: linear-gradient(to right, #384675, #02000000);
 	}
 
 	#sidebar .bg-success {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #200e52, #02000000);
+		background-image: linear-gradient(to right, #241943, #02000000);
+	}
+
+	button.btn.btn-danger.mb-3 {
+		background-color: #543167e3;
+		border: none;
+		border-radius: 10px;
 	}
 
 	/* LEAD AND FEATURED */
@@ -668,4 +676,283 @@
 		content: url('https://i.postimg.cc/1R7bFmrB/3-2.gif')!important;
 		border-radius: 10px;
 		height: 200px;
+	}
+
+	/* CARD LISTING */
+	form table.table.table-striped {
+		background-color: transparent !important;
+		background-image: radial-gradient(circle, #777272cf, #7772727d, #7772724a, #77727208, #77727200);
+		border-radius: 20px;
+	}
+
+	table.table.table-striped thead tr th.top {
+		background-color: transparent !important;
+		text-align: center;
+	}
+
+	table.table.table-striped thead tr th.top a.h4 {
+		font-size: 40px;
+		color: #c8c3d9;
+	}
+
+	table.table.table-striped tbody tr {
+		background-color: transparent !important;
+	}
+
+	button.collapseCave.btn.btn-info.btn-sm {
+		background-color: transparent;
+		border: none;
+		margin-top: 10px;
+	}
+
+	.bg-light {
+		background-color: #02000b80 !important;
+		border: solid 2px #78758680;
+		border-radius: 10px;
+	}
+
+	.text-truncate {
+		background: none !important;
+	}
+
+	.text-truncate small.b {
+		font-size: 16px;
+		color: #93869d;
+	}
+
+	.rounded-bottom {
+		border-radius: 100px !important;
+		width: 110px;
+	}
+
+	.pl-3,
+	.px-3 {
+		padding: 0 !important;
+		width: 100px;
+	}
+
+	td.bottom {
+		background: none !important;
+	}
+
+	.form-control {
+		background-color: #80808033 !important;
+		border: none;
+		border-radius: 100px;
+	}
+
+	button.btn.btn-success {
+		background-color: #8080808f;
+		border: none;
+		border-radius: 10px;
+	}
+
+	/* STANDARD LISTING */
+	.table .subheader {
+		background: none !important;
+	}
+
+	table.table.table-striped tbody tr:nth-of-type(odd) {
+		background-color: #000000bd !important;
+	}
+
+	table.table.table-striped tbody tr:nth-of-type(even) {
+		background-color: #0000005c !important;
+	}
+
+	td.p-0 img {
+		border-radius: 100px;
+		margin: 3px;
+	}
+
+	div.text-break a {
+		color: #93869d;
+	}
+
+	.bg-warning {
+		background-color: rgba(0, 0, 0, 0) !important;
+		background-image: linear-gradient(to right, #cdd9f5, #e5edff, #cdd9f5);
+	}
+
+	.bg-success {
+		background-color: rgba(0, 0, 0, 0) !important;
+		background-image: linear-gradient(to right, #cdd9f5, #e5edff, #cdd9f5);
+	}
+
+	.bg-primary {
+		background-color: transparent !important;
+		background-image: linear-gradient(to right, #707ba2, #92a0d2, #707ba2);
+	}
+
+	.bg-danger {
+		background-color: transparent !important;
+		background-image: linear-gradient(to right, #384675, #4f619f, #384675);
+	}
+
+	.bg-info {
+		background-color: transparent !important;
+		background-image: linear-gradient(to right, #241943, #40306e, #241943);
+	}
+
+	/* CAVE MATS */
+	div.card.mb-3 div.card-body {
+		background-color: #42454a1a;
+		border: solid 3px #42454a1a;
+		border-radius: 20px;
+	}
+
+	button#submitBtn.btn.btn-primary {
+		background-color: #80808059;
+		bordeR: none;
+		border-radius: 10px;
+	}
+
+	.col-md-1 img {
+		filter: grayscale(80%);
+	}
+
+	hr.flowers {
+		background: none;
+		content: url('https://i.postimg.cc/pTqfPM9p/New-Project-11.png');
+		width: 800px;
+		height: 140px !important;
+		mix-blend-mode: screen;
+		opacity: 25%;
+	}
+
+	@media (max-width: 768px) {
+		hr.flowers {
+			width: 475px;
+			height: 75px !important;
+		}
+	}
+
+	/* DEN OPTIONS */
+	.bg-bar-input {
+		background-color: #80808024;
+	}
+
+	.btn.btn-htmlinput {
+		background-color: #80808038;
+		border: none;
+	}
+
+	textarea#txtDenHTML.form-control {
+		border: none;
+		border-radius: 0 !important;
+	}
+
+	.btn-info {
+		background-color: #808080e3;
+		border-radius: 10px;
+	}
+
+	.btn-info:hover {
+		background-color: gray;
+	}
+
+	.col-md-6 div.card.text-center {
+		background: none !important;
+	}
+
+	.col-md-6 div.card.text-center div.card-header {
+		border: none;
+		background: none;
+	}
+
+	.btn-warning {
+		background-color: #291e30;
+		border: none;
+		border-radius: 100px;
+		color: #fff;
+	}
+
+	.btn-warning:hover {
+		background-color: #635a6c;
+		color: white;
+	}
+
+	#footer.container {
+		background-color: #040213e0;
+		backdrop-filter: blur(20px);
+		border-radius: 0 0 20px 20px;
+	}
+
+	/* PROFILE */
+	h1.mb-1 {
+		font-size: 100px;
+		text-shadow: 0px 0px 3px #cc91ee;
+	}
+
+	@media (max-width: 768px) {
+		h1.mb-1 {
+			font-size: 50px;
+		}
+	}
+
+	button.btn.btn-danger.float-right {
+		background-color: #543167e3;
+		border: none;
+		border-radius: 10px;
+	}
+
+	table.table.mt-3 th.top {
+		background: none;
+		font-size: 40px;
+		text-align: center;
+		color: #c8c3d9;
+	}
+
+	td.left.b {
+		background: none;
+		text-align: right;
+		width: 100px !important;
+	}
+
+	td.right a {
+		color: #93869d;
+	}
+
+	td.right span.text-success {
+		color: #c8c3d9 !important;
+	}
+
+	img.user-tag {
+		border-radius: 10px;
+	}
+
+	table.table th.top {
+		background: none;
+		font-size: 40px;
+		text-align: center;
+		color: #c8c3d9;
+	}
+
+	table.table th.top a {
+		font-size: 20px;
+		color: #93869d;
+	}
+
+	img.float-left.mr-2 {
+		border-radius: 100px;
+	}
+
+	table.table th {
+		background: none;
+		font-size: 40px;
+		text-align: center;
+		color: #c8c3d9;
+	}
+
+	.group-banner img {
+		border-radius: 10px;
+	}
+
+	.font-weight-bold {
+		background-color: #080310;
+	}
+
+	textarea#txtProfileHTML.form-control {
+		border: none;
+		border-radius: 0;
 	}
