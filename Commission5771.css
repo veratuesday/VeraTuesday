@@ -1,4 +1,4 @@
-/* FONTS */
+	/* FONTS */
 	@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
 
 	@font-face {
@@ -72,7 +72,6 @@
 	#header.container {
 		background-color: transparent;
 		background-image: linear-gradient(to bottom, #070522e0, #000004ed, #000000f0);
-		backdrop-filter: blur(20px);
 	}
 
 	#header.container .navbar.navbar.navbar-main.navbar-dark.navbar-expand-lg {
@@ -162,6 +161,7 @@
 		font-size: 18px !important;
 		position: absolute;
 		right: 4%;
+		z-index: 100;
 	}
 
 	@media (max-width: 768px) {
@@ -175,14 +175,11 @@
 	}
 
 	/* MAIN */
-	\ div.container {
-		z-index: -1;
-	}
-
 	#main {
 		background-color: rgba(0, 0, 0, .81);
 		background-image: linear-gradient(to bottom, #000000f0, #000004ed, #040213e0);
 	}
+
 
 	.nav.nav-tabs {
 		border: none;
@@ -341,6 +338,7 @@
 
 	#sidebar {
 		background-color: #0b0b0b;
+		z-index: 0;
 		padding-left: 0;
 	}
 
@@ -354,6 +352,7 @@
 		position: absolute;
 		filter: opacity(100%) contrast(105%);
 		mix-blend-mode: screen;
+		z-index: -1;
 	}
 
 	@media (max-width: 768px) {
@@ -460,7 +459,7 @@
 		left: -9%;
 		position: absolute;
 		pointer-events: none;
-		z-index: 1 !important;
+		z-index: 3 !important;
 		mix-blend-mode: screen;
 		opacity: 100%;
 		filter: grayscale(100%);
