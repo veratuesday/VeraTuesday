@@ -412,6 +412,7 @@
 		background-color: #16161600 !important;
 		padding-top: 10px !important;
 		padding-left: 0px !important;
+		text-align: left;
 	}
 
 	th.pt-1.pb-1 a {
@@ -481,7 +482,7 @@
 		max-width: 420px;
 		backdrop-filter: blur(30px);
 		border-radius: 15px;
-		margin-top: -40px;
+		margin-top: -10px;
 		margin-bottom: 50px;
 	}
 
