@@ -993,5 +993,175 @@ div.card.text-center .card-header {
 	z-index: -1;
 }
 
+.box-container {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        margin: 10px auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background: none;
+        transition: 0.6s;
+    }
+
+    .door {
+        position: absolute;
+        top: 30px;
+        width: 47.6%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.6s ease-in-out;
+        z-index: 0;
+    }
+
+    .left-door {
+        left: 0;
+        height: 100%;
+        background-image: url("https://i.postimg.cc/CxvfyzP7/anyrgb-com-01.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+        transform: scale(1.1);
+    }
+
+    .right-door {
+        right: 0;
+        height: 100%;
+        background-image: url("https://i.postimg.cc/yNk37s2B/anyrgb-com-02.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left center;
+        transform: scale(1.1);
+    }
+
+    .window {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        background-image: url("https://i.postimg.cc/fbb18gpm/window.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    }
+
+    .textbox {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) translateY(40px);
+        width: 64%;
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 0px;
+        padding: 10px;
+        opacity: 0;
+        transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+        z-index: 0;
+        
+        white-space: normal; 
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.6;      
+        text-align: justify; 
+    }
+
+    .textbox-title {
+        font: 20px bold;
+        color: blue;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .textbox-content {
+        font: 14px bold;
+        color: white;
+        margin: 5px;
+        padding-right: 5px;
+    }
+
+    .box-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .box-container:hover {
+        overflow-y: auto;
+    }
+
+    .box-container:hover .window {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .box-container:hover .left-door {
+        transform: translateX(-62%);
+    }
+
+    .box-container:hover .right-door {
+        transform: translateX(62%);
+    }
+
+    .box-container:hover .textbox {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+
+    .inner-content {
+        overflow-y: auto;
+        height: 100%;
+        transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+
+    .inner-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .box-container:hover .inner-content {
+        opacity: 1;
+        transform: translateY(0);
+        overflow-y: auto;
+    }
+
+    .box-container:not(:hover) .inner-content {
+        opacity: 0;
+        transform: translateY(-20px);
+        overflow-y: hidden;
+    }
+
+    .box-container {
+        scroll-behavior: smooth;
+    }
+    
+    /* HTML:
+
+<div class="text-break" id="fraDenHTML">
+<div class="box-container">
+  <div class="door left-door"></div>
+  <div class="door right-door"></div>
+  
+  <div class="inner-content">
+  <div class="window"></div>
+  
+  <div class="textbox">
+    <h2 class="textbox-title">Title goes here</h2>
+    <div class="textbox-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a purus ultricies, sagittis urna in, eleifend lorem. Ut suscipit elementum pharetra. Donec orci nibh, dapibus at fermentum eget, molestie sed ligula. Suspendisse ac magna et nibh molestie tincidunt ac quis magna. Suspendisse iaculis malesuada egestas. Morbi eleifend tincidunt odio, vitae gravida orci. Phasellus fringilla fermentum consequat. Proin eros dolor, porta et dui sit amet, tempus convallis ligula. In hac habitasse platea dictumst. Integer tincidunt maximus nisl, vitae maximus elit placerat non. Maecenas consequat gravida sapien, tincidunt pretium nisl iaculis at. Praesent nec nisi sapien. Sed non leo ac leo rhoncus tincidunt quis in magna. Nulla ut tincidunt tortor. Vestibulum rhoncus risus in purus mattis elementum. Donec at odio et enim vehicula varius.
+
+Duis eget tempor est. Donec ornare id est vel finibus. Duis hendrerit venenatis mattis. Aliquam tincidunt turpis massa, et pulvinar quam dictum nec. Etiam mollis massa a nunc maximus efficitur. Integer a magna neque. Nam dignissim mi suscipit, pulvinar nibh eu, pellentesque nibh. Maecenas placerat urna purus, nec porta erat rutrum non. Suspendisse in sem tincidunt sapien feugiat laoreet. Vivamus ac gravida felis, ut efficitur sapien. Ut gravida ultrices velit. Nullam sollicitudin blandit dui eget posuere. Quisque pharetra eros et mi dictum condimentum nec ut lectus. Morbi consectetur, risus sit amet lobortis dapibus, lorem ex consequat leo, vel blandit est leo eu risus. Aenean vehicula pulvinar consequat.
+
+Etiam a maximus dolor. Fusce tristique euismod lacus sed sagittis. Curabitur id facilisis lacus. Ut pellentesque venenatis leo. Nulla tristique in felis non luctus. Pellentesque porta euismod dui at maximus. Curabitur sed orci eu arcu porttitor congue. Sed eget mi eleifend, venenatis lorem a, maximus arcu. Suspendisse et nibh vel elit dignissim vehicula. Aenean vestibulum libero sed velit commodo feugiat. Sed auctor diam quis nunc tincidunt mattis.
+
+Sed nibh tortor, egestas non turpis tristique, faucibus sagittis eros. Nunc sem orci, maximus nec pharetra tincidunt, elementum sit amet risus. Etiam ac nisi leo. Donec condimentum mauris eu eros faucibus aliquam. Ut ac est magna. Suspendisse potenti. Integer sed varius ex. Donec consectetur eget purus in porta. Quisque a lectus vel nibh sagittis ullamcorper. Aenean pretium nunc vitae nunc tincidunt porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor at mi eu egestas. Duis dignissim congue lacus sed porta.
+
+Phasellus sit amet velit volutpat, facilisis ante vitae, porttitor lacus. Pellentesque vitae turpis varius, maximus enim sollicitudin, mattis felis. Suspendisse at nisl sagittis, scelerisque arcu efficitur, tempor eros. Maecenas metus leo, porttitor ac euismod in, consectetur id turpis. Phasellus non malesuada orci, sit amet suscipit nisi. Mauris ultricies mi quis faucibus scelerisque. Morbi ante est, lobortis in nunc vel, vulputate porttitor tellus. Integer ac metus sodales, pharetra ligula ac, vulputate ex. Aliquam ligula purus, congue et faucibus in, placerat sed neque.</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+    */
+
 /* HTML TEXT */
 /*<div class="stars"></div>*/
