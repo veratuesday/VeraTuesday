@@ -1087,7 +1087,7 @@ div.card.text-center .card-header {
     }
 
     .box-container:hover {
-        overflow-y: auto;
+        overflow: hidden;
     }
 
     .box-container:hover .window {
