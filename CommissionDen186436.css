@@ -1,5 +1,8 @@
-	/* FONTS */
-	@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+/* FONTS */
+	@font-face {
+		font-family: 'Heraldic Shadows';
+		src: url('https://veratuesday.github.io/VeraTuesday/Heraldic Shadows.otf') format('opentype');
+	}
 
 	@font-face {
 		font-family: 'Deathcrow';
@@ -54,14 +57,15 @@
 
 	/* TEXT */
 	* {
-		font-family: 'Cinzel Decorative';
-		font-weight: bold;
+		font-family: 'Heraldic Shadows';
+		font-weight: lighter;
+		font-size: 20px;
 	}
 
 	a {
-		font-family: 'Cinzel Decorative';
+		font-family: 'Heraldic Shadows';
 		transition: text-shadow 0.35s ease;
-		font-weight: bold !important;
+		font-weight: lighter;
 	}
 
 	a:hover {
@@ -94,7 +98,7 @@
 
 	#header .navbar-main .nav-link {
 		font-family: 'Deathcrow' !important;
-		font-size: 33px;
+		font-size: 32px;
 		font-weight: lighter;
 		color: #000;
 		text-shadow: 0px 0px 2px #fff;
@@ -311,7 +315,7 @@
 	}
 
 	th.pt-1.pb-1 a {
-		font-size: 28px !important;
+		font-size: 42px !important;
 		color: #858585 !important;
 		transition: color 1s ease-in-out;
 	}
@@ -348,10 +352,10 @@
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 300px;
+		width: 280px;
 		height: 700px;
-		top: -5%;
-		left: -36%;
+		top: -4%;
+		left: -30%;
 		position: absolute;
 		pointer-events: none;
 		z-index: 1 !important;
@@ -361,9 +365,9 @@
 
 	@media (max-width: 768px) {
 		#main .table .card.mb-3 a:before {
-			top: -5%;
-			left: -37%;
-			width: 300px;
+			top: -4%;
+			left: -29.5%;
+			width: 280px;
 			height: 700px;
 			position: absolute;
 			opacity: 50%;
@@ -379,13 +383,14 @@
 		margin-top: 100px;
 		margin-bottom: 150px;
 		padding-top: 0px;
-		height: 225px;
+		height: 300px;
 	}
 
 	@media (max-width: 768px) {
 		.order-xl-9 {
 			margin-top: 0;
 			margin-bottom: 0;
+			height: 325px;
 		}
 	}
 
@@ -446,12 +451,12 @@
 	}
 
 	span#lblFeaturedWolfTitle.b {
-		font-size: 28px;
+		font-size: 42px;
 		color: #858585;
 	}
 
 	.featured-wolf a {
-		font-size: 36px;
+		font-size: 42px;
 		color: #858585 !important;
 		transition: color 1s ease-in-out;
 	}
@@ -466,7 +471,7 @@
 		display: inline-block;
 		width: 254px;
 		height: 600px;
-		top: 5.5%;
+		top: 8.2%;
 		left: 14.6%;
 		position: absolute;
 		pointer-events: none;
@@ -476,8 +481,8 @@
 
 	@media (max-width: 768px) {
 		#main .featured-wolf a:first-of-type:before {
-			top: 9.5%;
-			left: 30.1%;
+			top: 13.8%;
+			left: 28%;
 			width: 254px;
 			height: 600px;
 			position: absolute;
