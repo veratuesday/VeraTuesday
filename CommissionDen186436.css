@@ -58,14 +58,14 @@
 	/* TEXT */
 	* {
 		font-family: 'Heraldic Shadows';
-		font-weight: lighter;
+		font-weight: lighter !important;
 		font-size: 20px;
 	}
 
 	a {
 		font-family: 'Heraldic Shadows';
 		transition: text-shadow 0.35s ease;
-		font-weight: lighter;
+		font-weight: lighter !important;
 	}
 
 	a:hover {
