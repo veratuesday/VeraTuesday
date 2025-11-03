@@ -1,7 +1,7 @@
 /* FONTS */
 	@font-face {
-		font-family: 'Heraldic Shadows';
-		src: url('https://veratuesday.github.io/VeraTuesday/Heraldic Shadows.otf') format('opentype');
+		font-family: 'Barklise';
+		src: url('https://veratuesday.github.io/VeraTuesday/Barklise-Regular.otf') format('opentype');
 	}
 
 	@font-face {
@@ -58,15 +58,13 @@
 
 	/* TEXT */
 	* {
-		font-family: 'Heraldic Shadows';
-		font-weight: lighter !important;
+		font-family: 'Barklise';
 		font-size: 20px;
 	}
 
 	a {
-		font-family: 'Heraldic Shadows';
+		font-family: 'Barklise';
 		transition: text-shadow 0.35s ease;
-		font-weight: lighter !important;
 	}
 
 	a:hover {
@@ -583,3 +581,146 @@
 
 	/* HTML TEXT */
 	/*<div class="overlay"></div>*/
+	/* HTML CODE*/
+	.box-container {
+		position: relative;
+		width: 100%;
+		height: 700px;
+		margin: 10px auto;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		background: none;
+		transition: 0.6s;
+	}
+
+	.door {
+		position: absolute;
+		top: 30px;
+		width: 47.6%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		transition: transform 0.6s ease-in-out;
+		z-index: 0;
+	}
+
+	.left-door {
+		left: 0;
+		height: 100%;
+		background-image: url("https://i.postimg.cc/qq79ktN0/left-gate-1.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right center;
+		opacity: 65%;
+		transform: scale(1.1);
+	}
+
+	.right-door {
+		right: 0;
+		height: 100%;
+		background-image: url("https://i.postimg.cc/D0zt2W8j/right-gate-2.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left center;
+		opacity: 65%;
+		transform: scale(1.1);
+	}
+
+	.textbox {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%) translateY(40px);
+		width: 65%;
+		background: none;
+		padding: 10px;
+		opacity: 0;
+		transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+		z-index: 0;
+
+		white-space: normal;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+		line-height: 1.6;
+		text-align: justify;
+	}
+
+	.textbox-title {
+		color: #ccc;
+		text-align: center;
+		margin: 5px;
+	}
+
+	.candles {
+		position: absolute;
+		top: 6%;
+		left: 36%;
+		transform: translate(-50%, -40%);
+		z-index: -1;
+		display: flex;
+		opacity: 0.6;
+		filter: grayscale(1);
+	}
+
+	.candles img {
+		width: 26%;
+	}
+
+
+	.textbox-content {
+		font: 14px bold;
+		color: #858585;
+		margin: 5px;
+		padding-right: 5px;
+	}
+
+	.box-container::-webkit-scrollbar {
+		display: none;
+	}
+
+	.box-container:hover {
+		overflow: hidden;
+	}
+
+	.box-container:hover .window {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	.box-container:hover .left-door {
+		transform: translateX(-62%);
+	}
+
+	.box-container:hover .right-door {
+		transform: translateX(62%);
+	}
+
+	.box-container:hover .textbox {
+		opacity: 1;
+		transform: translateX(-50%) translateY(0);
+	}
+
+	.inner-content {
+		overflow-y: auto;
+		height: 100%;
+		transition: opacity 0.4s ease, transform 0.4s ease;
+	}
+
+	.inner-content::-webkit-scrollbar {
+		display: none;
+	}
+
+	.box-container:hover .inner-content {
+		opacity: 1;
+		transform: translateY(0);
+		overflow-y: auto;
+	}
+
+	.box-container:not(:hover) .inner-content {
+		opacity: 0;
+		transform: translateY(-20px);
+		overflow-y: hidden;
+	}
+
+	.box-container {
+		scroll-behavior: smooth;
+	}
