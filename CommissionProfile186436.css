@@ -652,9 +652,9 @@
 
 	.candles {
 		position: absolute;
-		top: 6%;
-		left: 36%;
-		transform: translate(-50%, -40%);
+		top: 5%;
+		left:42.3%;
+		transform: translate(-50%, -50%);
 		z-index: -1;
 		display: flex;
 		opacity: 0.6;
@@ -670,6 +670,7 @@
 		font: 14px bold;
 		color: #858585;
 		margin: 5px;
+        margin-top: 30px;
 		padding-right: 5px;
 	}
 
