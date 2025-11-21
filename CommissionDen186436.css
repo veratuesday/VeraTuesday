@@ -974,7 +974,7 @@
 
 	.candles {
 		position: absolute;
-		top: 5%;
+		top: 5.1%;
 		left:42.3%;
 		transform: translate(-50%, -50%);
 		z-index: -1;
