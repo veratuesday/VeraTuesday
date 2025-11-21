@@ -951,6 +951,7 @@
 	.textbox {
 		position: relative;
 		left: 50%;
+		top: 40px;
 		transform: translateX(-50%) translateY(40px);
 		width: 65%;
 		background: none;
