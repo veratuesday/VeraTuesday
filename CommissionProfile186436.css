@@ -629,6 +629,7 @@
 	.textbox {
 		position: relative;
 		left: 50%;
+		top: 40px;
 		transform: translateX(-50%) translateY(40px);
 		width: 65%;
 		background: none;
@@ -652,7 +653,7 @@
 
 	.candles {
 		position: absolute;
-		top: 5%;
+		top: 5.1%;
 		left:42.3%;
 		transform: translate(-50%, -50%);
 		z-index: -1;
