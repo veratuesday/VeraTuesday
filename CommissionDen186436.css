@@ -346,14 +346,14 @@
 
 	#main .table .card.mb-3 a:before {
 		content: '';
-		background-image: url('https://i.postimg.cc/gJzggpZ6/50-Unique-Moon-Tattoo-Stencils-Perfect-for-Every-Style.png');
+		background-image: url('https://i.postimg.cc/brXX4vxv/50-Unique-Moon-Tattoo-Stencils-Perfect-for-Every-Style-(1).png');
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 280px;
+		width: 270px;
 		height: 700px;
 		top: -4%;
-		left: -30%;
+		left: -26.3%;
 		position: absolute;
 		pointer-events: none;
 		z-index: 1 !important;
@@ -951,7 +951,6 @@
 	.textbox {
 		position: relative;
 		left: 50%;
-		top: 40px;
 		transform: translateX(-50%) translateY(40px);
 		width: 65%;
 		background: none;
@@ -975,9 +974,9 @@
 
 	.candles {
 		position: absolute;
-		top: 5.1%;
-		left:42.3%;
-		transform: translate(-50%, -50%);
+		top: 6%;
+		left: 36%;
+		transform: translate(-50%, -40%);
 		z-index: -1;
 		display: flex;
 		opacity: 0.6;
@@ -993,7 +992,6 @@
 		font: 14px bold;
 		color: #858585;
 		margin: 5px;
-        margin-top: 30px;
 		padding-right: 5px;
 	}
 
