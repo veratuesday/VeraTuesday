@@ -877,6 +877,12 @@
 		min-width: 163px !important;
 	}
 
+	@media (max-width: 768px) {
+		div.col-4.col-md-2.mb-3 {
+			min-width: 160px !important;
+		}
+	}
+
 	.text-truncate {
 		background-color: transparent !important;
 		margin-top: 5px;
