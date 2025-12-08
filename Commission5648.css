@@ -879,7 +879,7 @@
 
 	@media (max-width: 768px) {
 		div.col-4.col-md-2.mb-3 {
-			min-width: 160px !important;
+			min-width: 20% !important;
 		}
 	}
 
