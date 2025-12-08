@@ -300,7 +300,6 @@ td.row {
 }
 
 div.col-xl-3.col-sm-7.text-center {
-	margin-top: 20px !important;
 	background-color: transparent !important;
 }
 
@@ -341,8 +340,7 @@ div.col-xl-3.col-sm-7.text-center {
 	color: #faf5d4;
 }
 
-.btn-group-sm > .btn,
-.btn-sm {
+button.btn.btn-link.btn-sm.text-danger {
 	display: none;
 }
 
@@ -391,14 +389,17 @@ th.top {
 	font-size: 20px
 }
 
+button.collapseCave.btn.btn-info.btn-sm {
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 0px 0px 3px #091a1d;
+}
+
 .table th.top a {
 	color: #e9c077 !important;
 	font-size: 17px;
-}
-
-.floatright,
-.pull-right btn {
-	width: 10px !important;
 }
 
 .subheader {
@@ -510,6 +511,37 @@ tr {
 }
 
 /* CAVE MATS */
+div.card.mb-3 {
+	margin-top: 20px !important;
+}
+
+.col-md-1 img {
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+button#submitBtn.btn.btn-primary {
+	background-color: #5254b975;
+	border: none;
+}
+
+div.card.m-0 {
+	background-color: rgba(1, 0, 32, 0) !important;
+}
+
+.border-0 {
+	color: #fff;
+}
+
+a.text-danger.small.ml-2 {
+	color: #d5ac6b !important;
+}
+
+button.btn.btn-info.btn-sm {
+	background-color: #3a0706;
+	border: none;
+}
+
 #main .card {
 	background: none;
 }
