@@ -1356,7 +1356,7 @@
 
     .hdr {
         padding: 10px 5px !important;
-        writing-mode: vertical-lr !important;
+        writing-mode: vertical-rl !important;
         color: #fff !important;
         font-weight: 700 !important;
         letter-spacing: 1px !important;
