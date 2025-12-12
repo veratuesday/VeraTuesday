@@ -1203,7 +1203,7 @@
 
     /* Container hidden by default */
     .key-figures-container {
-        display: none !important;
+        display: flex !important;
         flex-wrap: wrap !important;
         flex-direction: row !important;
         justify-content: center !important;
@@ -1211,11 +1211,6 @@
         margin: 20px 0 20px 0 !important;
         padding: 0 !important;
         width: 100% !important;
-    }
-
-    /* Show container on header hover */
-    .key-figures-wrapper:hover .key-figures-container {
-        display: flex !important;
     }
 
     /* KEY FIGURE CARDS */
