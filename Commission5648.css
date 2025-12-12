@@ -1183,11 +1183,6 @@
         margin: 0 !important;
     }
 
-    .key-figures-header:hover {
-        background: linear-gradient(to bottom, #0c0a27a8, #2a1d7b87, #8965d787) !important;
-        box-shadow: 0 0 20px rgba(202, 153, 255, 0.5) !important;
-    }
-
     .key-figures-title {
         font-size: 40px !important;
         font-weight: lighter !important;
