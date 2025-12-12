@@ -1196,7 +1196,6 @@
         font-family: 'Starlight', sans-serif !important;
     }
 
-    /* Container hidden by default */
     .key-figures-container {
         display: flex !important;
         flex-wrap: wrap !important;
@@ -1269,6 +1268,23 @@
         text-align: center !important;
         border-top: 1px solid #cbd4f9 !important;
         flex-shrink: 0 !important;
+    }
+
+    .figure-content::-webkit-scrollbar {
+        width: 6px !important;
+    }
+
+    .figure-content::-webkit-scrollbar-track {
+        background: rgba(15, 0, 39, 0.5) !important;
+    }
+
+    .figure-content::-webkit-scrollbar-thumb {
+        background: #8781f5 !important;
+        border-radius: 10px !important;
+    }
+
+    .figure-content::-webkit-scrollbar-thumb:hover {
+        background: #c290ff !important;
     }
 
     /* RESPONSIVE */
