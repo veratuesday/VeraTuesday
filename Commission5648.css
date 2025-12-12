@@ -1779,9 +1779,13 @@
         }
 
         .lore-illustration {
-            width: 95% !important;
+            width: 80% !important;
         }
 
+		.lore-text {
+			width: 450px !important;
+		)
+		
         .era-tab-button {
             padding: 12px 20px !important;
         }
