@@ -1270,19 +1270,6 @@
         flex-shrink: 0 !important;
     }
 
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-        .key-figure-card {
-            flex: 1 1 100% !important;
-            max-width: 300px !important;
-        }
-
-        .key-figures-container {
-            flex-direction: column !important;
-            align-items: center !important;
-        }
-    }
-
     /* ===== FEATURED WOLVES SLIDERS ===== */
     .featured-wolves-wrapper {
         margin: 20px 0 !important;
@@ -1431,28 +1418,6 @@
         box-shadow: 0 0 15px rgba(202, 153, 255, 0.8), inset 0 0 10px rgba(255, 255, 255, 0.2) !important;
     }
 
-
-    /* Responsive */
-    @media (max-width: 768px) {
-        .bx {
-            height: 180px !important;
-        }
-
-        .bghack img {
-            height: 180px !important;
-        }
-
-        .quot {
-            font-size: 20px !important;
-            bottom: 5px !important;
-            right: 5px !important;
-        }
-
-        .tb:first-of-type {
-            margin-left: 15px !important;
-        }
-    }
-
     /* ===== PACK ERAS (NEW DROPDOWN STYLE) ===== */
     .leader-eras-wrapper {
         margin: 20px 0 !important;
@@ -1492,7 +1457,6 @@
         position: relative !important;
     }
 
-    /* Era tab - always visible */
     .era-tab {
         position: static !important;
         display: inline-block !important;
@@ -1531,7 +1495,6 @@
         box-shadow: 0 0 15px rgba(202, 153, 255, 0.6) !important;
     }
 
-    /* Dropdown content - stays absolute but doesn't push */
     .era-dropdown {
         position: absolute !important;
         top: 100% !important;
@@ -1567,7 +1530,6 @@
         margin: 0 !important;
     }
 
-    /* Spacer that pushes content down when hovering any tab */
     .era-spacer {
         height: 0 !important;
         transition: height 0.3s ease !important;
@@ -1604,7 +1566,6 @@
         position: relative !important;
     }
 
-    /* Title above scroll */
     .scroll-title-header {
         text-align: center !important;
         margin-bottom: -30px !important;
@@ -1629,7 +1590,6 @@
         transition: all 0.5s ease !important;
     }
 
-    /* Top of scroll - stays fixed */
     .scroll-top {
         width: 100% !important;
         position: relative !important;
@@ -1644,7 +1604,6 @@
         filter: sepia(0.8) hue-rotate(220deg) saturate(1) !important;
     }
 
-    /* Middle content - expands on hover */
     .scroll-middle {
         background: none !important;
         max-height: 0 !important;
@@ -1674,7 +1633,6 @@
         max-height: 2500px !important;
     }
 
-    /* Bottom of scroll - moves down on hover */
     .scroll-bottom {
         width: 100% !important;
         position: relative !important;
@@ -1690,7 +1648,6 @@
         filter: sepia(0.8) hue-rotate(220deg) saturate(1) !important;
     }
 
-    /* Lore illustrations inside scroll */
     .lore-illustrations {
         display: flex !important;
         flex-direction: column !important;
@@ -1727,7 +1684,6 @@
         margin-right: auto !important;
     }
 
-    /* Hover hint */
     .scroll-hint {
         text-align: center !important;
         color: #e9baff !important;
@@ -1740,47 +1696,6 @@
 
     .scroll-container:hover .scroll-hint {
         opacity: 0 !important;
-    }
-
-
-
-    /* Responsive */
-    @media (max-width: 768px) {
-        .lore-scroll-wrapper {
-            max-width: 100% !important;
-        }
-        .scroll-title-header {
-            top: 100px !important;
-        }
-
-        .scroll-middle {
-            padding: 0 15px !important;
-        }
-
-        .scroll-container:hover .scroll-middle {
-            padding: 20px 15px !important;
-        }
-
-        .lore-illustration {
-            width: 70% !important;
-        }
-
-		.lore-text {
-			width: 350px !important;
-		)
-		
-        .era-tab-button {
-            padding: 12px 20px !important;
-        }
-
-        .era-icon {
-            width: 60px !important;
-            height: 60px !important;
-        }
-
-        .era-dropdown {
-            width: 240px !important;
-        }
     }
 
     /* ===== GALLERY SCROLLABLE ===== */
@@ -1833,7 +1748,6 @@
         align-items: center !important;
     }
 
-    /* Webkit scrollbar styling */
     .gallery-scroll::-webkit-scrollbar {
         height: 8px !important;
     }
@@ -1911,7 +1825,6 @@
         text-shadow: 0 0 5px #ca99ff !important;
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
         .gallery-scroll {
             padding: 15px !important;
@@ -1930,5 +1843,69 @@
 
         .item-desc a {
             font-size: 9px !important;
+        }
+		
+		.lore-scroll-wrapper {
+            max-width: 100% !important;
+        }
+		
+        .scroll-title-header {
+            top: 100px !important;
+        }
+
+        .scroll-middle {
+            padding: 0 15px !important;
+        }
+
+        .scroll-container:hover .scroll-middle {
+            padding: 20px 15px !important;
+        }
+
+        .lore-illustration {
+            width: 70% !important;
+        }
+
+		.lore-text {
+			width: 350px !important;
+		)
+		
+        .era-tab-button {
+            padding: 12px 20px !important;
+        }
+
+        .era-icon {
+            width: 60px !important;
+            height: 60px !important;
+        }
+
+        .era-dropdown {
+            width: 240px !important;
+        }
+		
+		.bx {
+            height: 180px !important;
+        }
+
+        .bghack img {
+            height: 180px !important;
+        }
+
+        .quot {
+            font-size: 20px !important;
+            bottom: 5px !important;
+            right: 5px !important;
+        }
+
+        .tb:first-of-type {
+            margin-left: 15px !important;
+        }
+		        .key-figure-card {
+            flex: 1 1 100% !important;
+            max-width: 300px !important;
+        }
+
+        .key-figures-container {
+            flex-direction: column !important;
+            align-items: center !important;
         }
     }
