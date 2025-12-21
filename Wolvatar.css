@@ -375,25 +375,25 @@
 
 	#sidebar .bg-warning {
 		background-color: rgba(0, 0, 0, 0) !important;
-		background-image: linear-gradient(to right, #dddfff00, #9af5ff);
+		background-image: linear-gradient(to right, #dddfff00, #7e7fdc);
 		border-radius: 100px;
 	}
 
 	#sidebar .bg-danger {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #a6aadb00, #2eddff);
+		background-image: linear-gradient(to right, #a6aadb00, #c0a1ee);
 		border-radius: 100px;
 	}
 
 	#sidebar .bg-info {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #5c5c5c00, #00a2e4);
+		background-image: linear-gradient(to right, #5c5c5c00, #2abdc7);
 		border-radius: 100px;
 	}
 
 	#sidebar .bg-success {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #28274400, #0079c6);
+		background-image: linear-gradient(to right, #28274400, #2851c4);
 		border-radius: 100px;
 	}
 
@@ -501,7 +501,7 @@
 		border-radius: 60px;
 		z-index: 2 !important;
 		margin-top: 10px;
-		border: solid 2px #39b8d5;
+		border: double 6px #39b8d5;
 	}
 
 	div.card.mb-3 {
@@ -618,7 +618,7 @@
 	.featured-wolf img {
 		width: 200px !important;
 		border-radius: 50px;
-		border: solid 2px #39b8d5;
+		border: double 6px #39b8d5;
 		margin-top: 15px;
 		margin-bottom: 0px;
 	}
@@ -893,9 +893,9 @@
 	}
 
 	table.table.table-striped th.top a.h4 {
-		font-family: 'Papyrus';
-		font-size: 40px;
-		font-weight: bold;
+		font-family: 'Toruksc';
+		font-size: 26px;
+		font-weight: lighter;
 		color: #e0f9ff;
 		text-shadow: 0px 0px 5px #00fffc;
 	}
@@ -947,31 +947,31 @@
 
 	.bg-warning {
 		background-color: rgba(0, 0, 0, 0) !important;
-		background-image: linear-gradient(to right, #dddfff00, #96eff8);
+		background-image: linear-gradient(to right, #dddfff00, #7e7fdc);
 		border-radius: 100px;
 	}
 
 	.bg-success {
 		background-color: rgba(0, 0, 0, 0) !important;
-		background-image: linear-gradient(to right, #dddfff00, #96eff8);
+		background-image: linear-gradient(to right, #dddfff00, #7e7fdc);
 		border-radius: 100px;
 	}
 
 	.bg-primary {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #a6aadb00, #2edbfd);
+		background-image: linear-gradient(to right, #a6aadb00, #c0a1ee);
 		border-radius: 100px;
 	}
 
 	.bg-danger {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #5c5c5c00, #00a1e3);
+		background-image: linear-gradient(to right, #5c5c5c00, #2abdc7);
 		border-radius: 100px;
 	}
 
 	.bg-info {
 		background-color: transparent !important;
-		background-image: linear-gradient(to right, #28274400, #0077c4);
+		background-image: linear-gradient(to right, #28274400, #2851c4);
 		border-radius: 100px;
 	}
 
@@ -995,7 +995,7 @@
 	/* CARD LISTING */
 	.bg-light {
 		background-color: #4f7ad200 !important;
-		background-image: linear-gradient(to bottom, #006b86d4, #005c86d9, #000227d6) !important;
+		background-image: linear-gradient(to bottom, #006b86b3, #005c86b0, #000227bd) !important;
 		border: solid 2px #038aac !important;
 		border-radius: 10px;
 		padding-bottom: 5px !important;
@@ -1019,8 +1019,8 @@
 
 	.rounded-bottom,
 	.rounded-left {
-		border: solid 2px #00fbff;
-		box-shadow: 0px 0px 8px #00ffe2;
+		border: double 6px #00fbff;
+		box-shadow: 0px 0px 8px #00ffe27d;
 		border-radius: 100px 100px 15px 15px !important;
 		margin-top: 5px;
 		margin-bottom: 5px;
@@ -1168,15 +1168,15 @@
 		width: 100%;
 		height: 100%;
 		pointer-events: none;
-		background: url("https://file.garden/aGGPJdaTrg8araFN/Wolvden/Particles%20for%20Wolvden.gif") repeat;
+		background: url("https://file.garden/aGGPJdaTrg8araFN/Wolvden/HTML%20and%20CSS%20Pictures/Particles%20for%20Wolvden.gif") repeat;
 		background-size: cover;
-		opacity: 0.67;
+		opacity: 1;
 		/* adjust fog thickness */
 		mix-blend-mode: screen;
 		/* makes black transparent */
 		animation: drift 120s linear infinite;
 		/* slow drifting */
-		z-index: 999;
+		z-index: -999;
 	}
 
 	/* FOG HTML */
