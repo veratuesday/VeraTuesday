@@ -1216,6 +1216,7 @@
         display: flex !important;
         flex-direction: column !important;
         width: 260px !important;
+		height: 350px !important;
         transition: all 0.3s ease !important;
         margin: 0 !important;
         padding: 0 !important;
