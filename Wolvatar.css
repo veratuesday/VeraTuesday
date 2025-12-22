@@ -29,6 +29,16 @@
 		background-size: cover !important;
 	}
 
+	@media (max-width: 768px) {
+		body,
+		th {
+			background: url('https://images2.imgbox.com/01/4f/kwQEjWj1_o.jpg') !important;
+			background-attachment: fixed !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+		}
+	}
+
 	/* SCROLLBAR */
 	::-webkit-scrollbar {
 		width: 10px;
@@ -303,6 +313,13 @@
 		padding-left: 0;
 	}
 
+	@media (max-width: 768px) {
+
+		#sidebar {
+			padding-left: 15px;
+		}
+	}
+
 	#sidebar div.card {
 		background: none;
 		border: none;
@@ -469,6 +486,13 @@
 
 	img[src$="melvinmouse.png"] {
 		content: url('https://i.ibb.co/zhg5kHd3/Woodsprite-Back-Bling-Fortnite.png')
+	}
+
+	@media (max-width: 768px) {
+
+		div#chatMessageContainer.chatContainer {
+			width: 100% !important;
+		}
 	}
 
 	/* LEAD AND FEATURED */
@@ -903,8 +927,7 @@
 	@media (max-width: 768px) {
 
 		table.table.table-striped th.top a.h4 {
-			font-size: 18px !important;
-			font-weight: bold;
+			font-size: 22px !important;
 		}
 	}
 
@@ -1001,13 +1024,6 @@
 		padding-bottom: 5px !important;
 	}
 
-	@media (max-width: 768px) {
-		.bg-light {
-			width: 150px;
-			height: auto !important;
-		}
-	}
-
 	.text-truncate {
 		background: none !important;
 		color: #bbf2ff !important;
@@ -1025,6 +1041,15 @@
 		margin-top: 5px;
 		margin-bottom: 5px;
 		width: 115px;
+	}
+
+	@media (max-width: 768px) {
+		.rounded-bottom,
+		.rounded-left,
+		img.rounded-bottom.pl-3.pr-3.pt-2.pb-1 {
+			width: 140px !important;
+			height: auto !important;
+		}
 	}
 
 	img.rounded-bottom.pl-3.pr-3.pt-2.pb-1 {
