@@ -306,14 +306,6 @@
 	#sidebar {
 		background-color: #00516b00;
 		border-radius: 10px 0 0 10px;
-		padding-left: 0;
-	}
-
-	@media (max-width: 768px) {
-
-		#sidebar {
-			padding-left: 15px;
-		}
 	}
 
 	#sidebar div.card {
@@ -322,8 +314,7 @@
 	}
 
 	#sidebar div.card-body {
-		background-color: #001b2275;
-		backdrop-filter: blur(5px);
+		background-color: #061218c7;
 		border: solid 2px #39b8d5;
 		border-radius: 10px;
 		box-shadow: 0 0 7px 2px #7be6ffab;
