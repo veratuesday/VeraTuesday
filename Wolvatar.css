@@ -1,12 +1,14 @@
-	:root {
+:root {
 		color-scheme: dark only !important;
 	}
 
 	@media (prefers-color-scheme: dark) {
-		* {
+		*,
+		a {
 			color: #fff !important;
 		}
 	}
+
 	/* FONTS */
 	@font-face {
 		font-family: "Toruksc";
@@ -34,7 +36,6 @@
 	/* BG IMAGE */
 	body {
 		background-image: url('https://images2.imgbox.com/01/4f/kwQEjWj1_o.jpg') !important;
-		background-size: auto !important;
 	}
 
 	/* SCROLLBAR */
@@ -1117,8 +1118,8 @@
 	.bg-bar-input {
 		background-color: #081b39eb;
 	}
-	
-	
+
+
 	div.alert.alert-warning {
 		background-color: #081b39eb !important;
 		border: none !important;
