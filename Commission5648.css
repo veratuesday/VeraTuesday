@@ -1,7 +1,3 @@
-:root {
-		color-scheme: dark only !important;
-	}
-
 	@media (prefers-color-scheme: dark) {
 		*,
 		a {
