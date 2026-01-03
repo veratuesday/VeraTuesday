@@ -1,4 +1,13 @@
-/* FONTS */
+	:root {
+		color-scheme: dark only !important;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		* {
+			color: #fff !important;
+		}
+	}
+	/* FONTS */
 	@font-face {
 		font-family: "Toruksc";
 		src: url("https://chef-duck.github.io/ducky/Toruksc.ttf") format("truetype");
@@ -25,7 +34,7 @@
 	/* BG IMAGE */
 	body {
 		background-image: url('https://images2.imgbox.com/01/4f/kwQEjWj1_o.jpg') !important;
-		background-size: cover !important;
+		background-size: auto !important;
 	}
 
 	/* SCROLLBAR */
@@ -65,6 +74,7 @@
 	* {
 		font-family: 'Toruksc';
 		font-weight: bold;
+		color: white !important;
 	}
 
 	a {
@@ -409,46 +419,42 @@
 		border-radius: 10px;
 	}
 
-	div#chatMessageContainer.chatContainer {
-		width: 230px !important;
-	}
-
 	img[alt="Wolf Headshot"] {
 		border-radius: 100px;
 		border: solid 3px #bbf2ff;
 	}
 
 	.s-chat-sidebar #label_currentChannel {
-		color: white;
-		background-color: #005b6d;
-		border: none;
+		color: white !important;
+		background-color: #005b6d !important;
+		border: none !important;
 	}
 
 	.s-chat-sidebar #fraChatChannelMenu,
 	#fra_chatContainer .channelMenu .channelSwitcher {
-		background-color: #003444;
-		border: none;
+		background-color: #003444 !important;
+		border: none !important;
 	}
 	div#chatMessageContainer.chatContainer {
-		border: none;
+		border: none !important;
 	}
 
 	.s-chat-sidebar #chatMessagePinned.s-chat-message__pinned,
 	#chatMessagePinned.s-chat-message__pinned .s-chat-message_content {
-		background-color: #068a93;
-		border: none;
+		background-color: #068a93 !important;
+		border: none !important;
 	}
 
 	.s-chat-message:nth-child(odd) {
-		background-color: #00262d;
+		background-color: #00262d !important;
 	}
 
 	.s-chat-message:nth-child(even) {
-		background-color: #001f24;
+		background-color: #001f24 !important;
 	}
 
 	a.s-chat__username {
-		color: #50909e;
+		color: #50909e !important;
 	}
 
 	div#chatMessageContainer.chatContainer span a {
@@ -456,32 +462,25 @@
 	}
 
 	#fra_chatContainer #txtChatInput {
-		background-color: #005b6d;
-		border: none;
+		background-color: #005b6d !important;
+		border: none !important;
 	}
 
 	input#btnChatSend.btn.btn-primary.btn-sm {
-		background-color: #39b8d5;
-		bordeR: none;
+		background-color: #39b8d5 !important;
+		bordeR: none !important;
 	}
 
 	.s-chat-sidebar .s-chat-error_screen {
-		background-color: #001a24;
+		background-color: #001a24 !important;
 	}
 
 	button.btn-chat-connect.btn.btn-info {
-		background-color: #39b8d5;
+		background-color: #39b8d5 !important;
 	}
 
 	img[src$="melvinmouse.png"] {
 		content: url('https://i.ibb.co/zhg5kHd3/Woodsprite-Back-Bling-Fortnite.png')
-	}
-
-	@media (max-width: 768px) {
-
-		div#chatMessageContainer.chatContainer {
-			width: 100% !important;
-		}
 	}
 
 	/* LEAD AND FEATURED */
@@ -1117,6 +1116,12 @@
 	/* DEN OPTIONS */
 	.bg-bar-input {
 		background-color: #081b39eb;
+	}
+	
+	
+	div.alert.alert-warning {
+		background-color: #081b39eb !important;
+		border: none !important;
 	}
 
 	.btn.btn-htmlinput {
