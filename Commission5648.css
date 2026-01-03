@@ -1,3 +1,14 @@
+:root {
+		color-scheme: dark only !important;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		*,
+		a {
+			color: #fff !important;
+		}
+	}
+
 /* FONTS */
 	@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 
