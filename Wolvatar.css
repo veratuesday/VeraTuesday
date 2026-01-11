@@ -1173,13 +1173,13 @@
 	}
 
 	/* FOG */
-	.fog {
+	.spores {
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		pointer-events: none;
-		background: url("https://file.garden/aGGPJdaTrg8araFN/Wolvden/HTML%20and%20CSS%20Pictures/Particles%20for%20Wolvden.gif") repeat;
+		background: url("https://i.postimg.cc/0QcM5Rhb/Particles-for-Wolvden.gif") repeat;
 		background-size: cover;
 		opacity: 1;
 		/* adjust fog thickness */
@@ -1191,4 +1191,4 @@
 	}
 
 	/* FOG HTML */
-	/*<div class="fog"></div>*/
+	/*<div class="spores"></div>*/
