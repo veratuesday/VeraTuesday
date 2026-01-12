@@ -1179,7 +1179,7 @@
 		width: 100%;
 		height: 100%;
 		pointer-events: none;
-		background: url("https://i.postimg.cc/0QcM5Rhb/Particles-for-Wolvden.gif") repeat;
+		background: url("https://i.postimg.cc/0QcM5Rhb/Particles-for-Wolvden.gif") repeat !important;
 		background-size: cover;
 		opacity: 1;
 		/* adjust fog thickness */
