@@ -338,15 +338,16 @@
 
 	#main .table .card.mb-3 a:before {
 		content: '';
-		background-image: url('https://i.postimg.cc/8cPymDF4/c03537499c71c7f632e1aa7fee209e52-(2).png');
+		background-image: url('https://i.postimg.cc/mZnkNqsF/New-Project-(19).png');
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 265px;
+		width: 280px;
 		height: 700px;
-		top: -27%;
-		left: -27.5%;
+		top: -20%;
+		left: -40%;
 		position: absolute;
+		mix-blend-mode: screen;
 		pointer-events: none;
 		z-index: 1 !important;
 		opacity: 100%;
@@ -371,18 +372,18 @@
 	#main .featured-wolf a:first-of-type:before {
 		z-index: 0;
 		content: '';
-		background-image: url('https://i.postimg.cc/0NTZFDz9/0ab8796aa5847355209a13b6cd318a4c-(1).png');
+		background-image: url('https://i.postimg.cc/440ybMgH/New-Project-(20).png');
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 220px;
+		width: 280px;
 		height: 600px;
-		top: 0%;
-		left: -4%;
+		top: -15%;
+		left: -10%;
 		position: absolute;
 		pointer-events: none;
+		mix-blend-mode: screen;
 		opacity: 100%;
-		transform: scaleX(-1);
 	}
 
 	@media (max-width: 768px) {
@@ -515,7 +516,7 @@
 	}
 
 	.table th.top a.h4 {
-		color: ##d3dff5 !important;
+		color: #d3dff5 !important;
 		font-size: 17px;
 		text-align: center !important;
 	}
