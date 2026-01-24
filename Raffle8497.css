@@ -1071,3 +1071,144 @@
 
 	/* HTML TEXT */
 	/*<div class="stars"></div>*/
+
+     .pip-hover-container {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .pip-hover-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .pip-moon-item {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 1 / 1;
+    }
+    
+    /* Top left */
+    .pip-moon-item:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    /* Top right */
+    .pip-moon-item:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    /* Bottom left */
+    .pip-moon-item:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    /* Bottom right */
+    .pip-moon-item:nth-child(4) {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    /* Center moon in middle */
+    .pip-moon-item:nth-child(5) {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        max-width: 300px;
+    }
+    
+    .pip-moon-item img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.3s ease;
+        position: relative;
+        z-index: 0;
+        border-radius: 50%;
+    }
+    
+    .pip-moon-item:hover img {
+        transform: scale(1.05);
+    }
+    
+    .pip-hover-box {
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: -12.75%;
+        width: 125%;
+        height: 90%;
+        background: #091521c4;
+        border: solid 1px #ccbd94;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 3px #ccbd948a;
+        padding: 5%;
+        z-index: 1;
+        box-sizing: border-box;
+        overflow: auto;
+        backdrop-filter: blur(10px);
+    }
+    
+    .pip-moon-item:hover .pip-hover-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .pip-hover-box h3 {
+        color: #ccbd94;
+        font-weight: bold;
+        font-family: 'Lancelot', serif;
+    }
+    
+    .pip-hover-box p {
+        margin-top: -20px;
+        line-height: 1.4;
+        color: #ffffffcf;
+        font-family: 'Lancelot', serif;
+    }
+    
+    .pip-hover-box::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    .pip-hover-box::-webkit-scrollbar-thumb {
+        background: none;
+        border-radius: 10px;
+    }
+    
+    .pip-hover-box::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    @media (max-width: 600px) {
+        .pip-hover-grid {
+            gap: 3%;
+        }
+        .pip-moon-item {
+            max-width: 150px;
+        }
+        .pip-moon-item:nth-child(5) {
+            max-width: 150px;
+        }
+    }
+    @media (max-width: 400px) {
+        .pip-moon-item {
+            max-width: 120px;
+        }
+        .pip-moon-item:nth-child(5) {
+            max-width: 120px;
+        }
+    }
