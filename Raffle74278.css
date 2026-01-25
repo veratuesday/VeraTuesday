@@ -471,9 +471,9 @@
 
 	@media (max-width: 768px) {
 		#main .table .card.mb-3 a:before {
-			top: -16%;
-			left: -19%;
-			width: 270px;
+			top: -15%;
+			left: -21%;
+			width: 300px;
 			height: 700px;
 			position: absolute;
 		}
@@ -582,9 +582,9 @@
 
 	@media (max-width: 768px) {
 		#main .featured-wolf a:first-of-type:before {
-			top: 6.5%;
-			left: 26%;
-			width: 270px;
+			top: 7%;
+			left: 23%;
+			width: 300px;
 			height: 600px;
 			position: absolute;
 		}
