@@ -454,18 +454,19 @@
 
 	#main .table .card.mb-3 a:before {
 		content: '';
-		background-image: url('https://i.postimg.cc/C5pGzwpQ/f84278eca2e87b607fc32502b2b6c303-(2).png');
+		background-image: url('https://i.postimg.cc/Dz2jR7YC/f84278eca2e87b607fc32502b2b6c303-(2)-(1).png');
 		display: inline-block;
 		background-size: contain;
 		background-repeat: no-repeat;
-		width: 240px;
+		width: 270px;
 		height: 500px;
-		top: -15.5%;
-		left: -18%;
+		top: -13%;
+		left: -24%;
 		position: absolute;
 		pointer-events: none;
 		z-index: 2 !important;
 		opacity: 100%;
+		transform: scaleX(-1);
 	}
 
 	@media (max-width: 768px) {
@@ -566,18 +567,17 @@
 	#main .featured-wolf a:first-of-type:before {
 		z-index: 1 !important;
 		content: '';
-		background-image: url('https://i.postimg.cc/C5pGzwpQ/f84278eca2e87b607fc32502b2b6c303-(2).png');
+		background-image: url('https://i.postimg.cc/Dz2jR7YC/f84278eca2e87b607fc32502b2b6c303-(2)-(1).png');
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		display: inline-block;
-		width: 240px;
+		width: 270px;
 		height: 600px;
-		top: 7.5%;
-		left: -5%;
+		top: 8.5%;
+		left: -15%;
 		position: absolute;
 		pointer-events: none;
 		opacity: 100%;
-		transform: scaleX(-1);
 	}
 
 	@media (max-width: 768px) {
@@ -645,7 +645,7 @@
 
 
 	img[src$="packdynasty.png"] {
-		content: url('https://i.postimg.cc/fRH2rSYv/1-1(1).gif')!important;
+		content: url('https://i.postimg.cc/MG9nmYQs/1-1(2).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
@@ -660,7 +660,7 @@
 	}
 
 	img[src$="packoverview.png"] {
-		content: url('https://i.postimg.cc/YC2DRzLm/2-1(1).gif')!important;
+		content: url('https://i.postimg.cc/GpLBDfHN/2-1(2).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
@@ -675,7 +675,7 @@
 	}
 
 	img[src$="breeding.png"] {
-		content: url('https://i.postimg.cc/9Qx8nwy4/3-1(1).gif')!important;
+		content: url('https://i.postimg.cc/BvS8FzXx/3-1(2).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
@@ -691,7 +691,7 @@
 
 
 	img[src$="pupsitting.png"] {
-		content: url('https://i.postimg.cc/kgj1pRWB/1-2(1).gif')!important;
+		content: url('https://i.postimg.cc/W4NDZyh6/1-2(2).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
@@ -706,7 +706,7 @@
 	}
 
 	img[src$="nesting.png"] {
-		content: url('https://i.postimg.cc/y86pjy3x/2-2(1).gif')!important;
+		content: url('https://i.postimg.cc/KYGKTWRk/2-2(2).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
@@ -721,7 +721,7 @@
 	}
 
 	img[src$="socializing.png"] {
-		content: url('https://i.postimg.cc/MKmr1FTF/3-2(2).gif')!important;
+		content: url('https://i.postimg.cc/d0s7CfLG/3-2(3).gif')!important;
 		border: none;
 		border-radius: 10px;
 		height: 175px;
