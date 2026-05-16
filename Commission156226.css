@@ -648,10 +648,11 @@
 
 	.rounded-bottom,
 	.rounded-left {
-		border-radius: 100px !important;
+		border-radius: 100px 100PX 10PX 10PX !important;
 		margin-top: 5px;
 		width: 110px;
 		filter: sepia(80%);
+		border: solid 3px #a88156;
 	}
 
 	img.rounded-bottom.pl-3.pr-3.pt-2.pb-1 {
