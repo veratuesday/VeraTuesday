@@ -384,9 +384,9 @@
 	}
 
 	div.card.mb-3 img {
-		border-radius: 100px;
+		border-radius: 100px 100px 20px 20px;
+		border: double 8px #f0f6e3;
 		z-index: 2 !important;
-		border: none;
 	}
 
 	div.card.mb-3 {
@@ -478,8 +478,8 @@
 
 	.featured-wolf img {
 		width: 200px !important;
-		border-radius: 100px;
-		border: none;
+		border-radius: 100px 100px 20px 20px;
+		border: double 8px #f0f6e3;
 	}
 
 	.featured-wolf a {
