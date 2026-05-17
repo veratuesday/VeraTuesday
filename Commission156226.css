@@ -558,7 +558,6 @@
 		border: double 3px #d7ad8d !important;
 		border-radius: 100px;
 		margin: 3px;
-		filter: sepia(80%);
 	}
 
 	img.border-bottom.p-2 {
@@ -651,7 +650,6 @@
 		border-radius: 100px 100PX 10PX 10PX !important;
 		margin-top: 5px;
 		width: 110px;
-		filter: sepia(80%);
 		border: solid 3px #a88156;
 	}
 
