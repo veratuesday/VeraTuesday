@@ -1,3 +1,8 @@
+@-moz-document domain("wolvden.com") {
+	:root {
+		color-scheme: dark only !important;
+	}
+
 	@media (prefers-color-scheme: dark) {
 		*,
 		a {
@@ -31,7 +36,7 @@
 
 	/* BG IMAGE */
 	body {
-		background-image: url('https://images2.imgbox.com/01/4f/kwQEjWj1_o.jpg') !important;
+		background-image: url('https://i.postimg.cc/Kj1yGvqK/922952-avatar-fantasy-action-adventure-sci-fi-futuristic-alien-aliens-warrior-fighting.jpg') !important;
 	}
 
 	/* SCROLLBAR */
@@ -1174,14 +1179,16 @@
 
 	/* SPORES */
 	.spores {
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
 		pointer-events: none;
-		background: url("https://i.postimg.cc/0QcM5Rhb/Particles-for-Wolvden.gif") repeat !important;
+		background: url("https://i.postimg.cc/0QcM5Rhb/Particles-for-Wolvden.gif");
 		background-size: cover;
-		opacity: 1;
+		background-position: top;
+		opacity: 1 !important;
 		/* adjust fog thickness */
 		mix-blend-mode: screen;
 		/* makes black transparent */
@@ -1192,3 +1199,5 @@
 
 	/* FOG HTML */
 	/*<div class="spores"></div>*/
+
+}
